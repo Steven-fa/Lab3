@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "scenario": "exceptions",
+  "correct_count": 2,
+  "tested_objects": 5,
+  "safe": true,
+  "joint_samples": 18069,
+  "joint_limit_violations": [],
+  "physics_monitor": {
+    "unsafe_contact_pairs": 0,
+    "pairs": []
+  },
+  "exception_kinds": [
+    "EMPTY",
+    "FAIL",
+    "UNKNOWN"
+  ],
+  "recovered_failure_count": 2,
+  "unreachable_handled": true,
+  "grasp_failure_handled": true,
+  "details": [
+    {
+      "grid": "1",
+      "name": "task3_object_1",
+      "class_id": "red_cube",
+      "initial_xy": [
+        -0.065,
+        0.085
+      ],
+      "fixture_yaw_rad": 1.8054186283164415,
+      "final_position": [
+        -0.16971053328810828,
+        0.06991899610913764,
+        0.019996749438284996
+      ],
+      "correct_bin": true
+    },
+    {
+      "grid": "2",
+      "name": "task3_object_2",
+      "class_id": "unknown",
+      "initial_xy": [
+        0.0,
+        0.1
+      ],
+      "fixture_yaw_rad": 1.1525719972156674,
+      "final_position": [
+        -7.1992335828599185e-06,
+        0.10002510356547487,
+        0.01999379184386976
+      ],
+      "correct_bin": false
+    },
+    {
+      "grid": "3",
+      "name": "task3_object_3",
+      "class_id": null,
+      "initial_xy": [
+        0.065,
+        0.085
+      ],
+      "fixture_yaw_rad": 0.4997253661148932,
+      "final_position": null,
+      "correct_bin": false
+    },
+    {
+      "grid": "4",
+      "name": "task3_object_4",
+      "class_id": "blue_cube",
+      "initial_xy": [
+        -0.065,
+        0.145
+      ],
+      "fixture_yaw_rad": 1.5739912041034716,
+      "final_position": [
+        0.16973794670660014,
+        0.0699024227442419,
+        0.01999036107873211
+      ],
+      "correct_bin": true
+    },
+    {
+      "grid": "5",
+      "name": "task3_object_5",
+      "class_id": "red_cube",
+      "initial_xy": [
+        0.0,
+        0.16
+      ],
+      "fixture_yaw_rad": 1.1525719972156674,
+      "final_position": [
+        -6.224666364850645e-06,
+        0.16002293013285313,
+        0.02000000016241873
+      ],
+      "correct_bin": false
+    },
+    {
+      "grid": "6",
+      "name": "task3_object_6",
+      "class_id": "blue_cube",
+      "initial_xy": [
+        0.065,
+        0.145
+      ],
+      "fixture_yaw_rad": 0.7311527903278632,
+      "final_position": [
+        0.06619109650000944,
+        0.14527484236908725,
+        0.0199922353606161
+      ],
+      "correct_bin": false
+    }
+  ],
+  "duration_wall_s": 238.73,
+  "evaluation_independent_of_detector": true,
+  "task_state": "DONE"
+}

@@ -1,0 +1,82 @@
+/**:
+  ros__parameters:
+    # All coordinates are in metres in the mechArm base frame.
+    frame_id: base
+
+    # Workbench. Its top surface is z = -0.005 m, just below the robot base.
+    table_id: workbench
+    table_position: [0.12, 0.00, -0.030]
+    table_size: [0.52, 0.52, 0.050]
+
+    # 50 g standard workpiece at fixed point A.
+    object_id: workpiece
+    object_position: [0.18, -0.10, 0.020]
+    object_size: [0.035, 0.035, 0.050]
+    # Match the reduced Gazebo gripping cross-section. The visible workpiece
+    # remains 35 mm wide, while the 25 mm proxy prevents finger penetration.
+    planning_object_size: [0.025, 0.025, 0.047]
+
+    # Blue placement region B (a visual marker, not a collision obstacle).
+    place_zone_position: [0.18, 0.10, -0.0045]
+    place_zone_radius: 0.055
+
+    # Desired workpiece-center poses. The task node derives gripper_base from
+    # these positions and the measured grasp-center offset below.
+    pick_position: [0.18, -0.10, 0.020]
+    # Side grasp: at A the fingers extend 55 mm outward (negative Y) from the
+    # wrist to the workpiece; B mirrors the same grasp about the base.
+    pick_orientation_rpy: [-1.57079633, 0.0, 0.0]
+    place_position: [0.18, 0.10, 0.020]
+    place_orientation_rpy: [-1.57079633, 0.0, 3.14159265]
+    # A side-on wrist orientation is reachable up to roughly 120 mm EE height.
+    safe_height: 0.090
+
+    # Automatic fixed-point pick-and-place task.
+    planning_group: arm
+    end_effector_link: gripper_base
+    robot_model_name: mecharm_270_m5
+    # Gazebo collapses the fixed gripper_base joint into link6.
+    gazebo_reference_link: link6
+    gazebo_reference_to_end_effector_position: [0.0, 0.0, 0.038]
+    gazebo_reference_to_end_effector_rpy: [1.579, 0.0, 0.0]
+    # Workpiece center in gripper_base coordinates when correctly held.
+    # Vendor mesh inspection shows that the fingertips extend about 55 mm
+    # along local -Z. Local +Y puts the workpiece centre 30 mm below the wrist.
+    grasp_center_offset: [0.0, 0.030, -0.055]
+    max_grasp_alignment_error: 0.020
+    initial_lift_distance: 0.040
+    gripper_open: 0.09
+    gripper_closed: -0.10
+    gripper_max_effort: 12.0
+    velocity_scaling: 0.10
+    acceleration_scaling: 0.10
+    planning_time: 8.0
+    planning_attempts: 10
+    position_tolerance: 0.008
+    orientation_tolerance: 0.10
+    startup_delay: 3.0
+    step_pause: 0.5
+
+    home_joint_names:
+      - joint1_to_base
+      - joint2_to_joint1
+      - joint3_to_joint2
+      - joint4_to_joint3
+      - joint5_to_joint4
+      - joint6_to_joint5
+    home_joint_positions: [0.0, 0.35, -0.70, 0.35, 0.0, 0.0]
+    touch_links:
+      - gripper_base
+      - gripper_left1
+      - gripper_left2
+      - gripper_left3
+      - gripper_right1
+      - gripper_right2
+      - gripper_right3
+    # Only these distal finger links may touch the support surface while the
+    # gripper enters/leaves the low side-grasp pose.
+    support_touch_links:
+      - gripper_left1
+      - gripper_left2
+      - gripper_right1
+      - gripper_right2

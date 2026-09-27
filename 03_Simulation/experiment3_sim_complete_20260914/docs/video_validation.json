@@ -1,0 +1,22 @@
+[
+  {
+    "run": "normal_front_arc_04",
+    "frames": 1367,
+    "fps": 8.0,
+    "duration_s": 170.88,
+    "width": 960,
+    "height": 800,
+    "first_and_last_frame_readable": true,
+    "bytes": 15846834
+  },
+  {
+    "run": "exceptions_front_arc_03",
+    "frames": 504,
+    "fps": 8.0,
+    "duration_s": 63.0,
+    "width": 960,
+    "height": 800,
+    "first_and_last_frame_readable": true,
+    "bytes": 5892979
+  }
+]

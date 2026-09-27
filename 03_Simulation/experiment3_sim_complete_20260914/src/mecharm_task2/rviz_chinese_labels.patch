@@ -1,0 +1,17 @@
+--- a/config/mecharm_display.rviz
++++ b/config/mecharm_display.rviz
+@@ -4,1 +4,1 @@
+-    Name: Displays
++    Name: 显示项目
+@@ -24,1 +24,1 @@
+-    Name: Views
++    Name: 视角
+@@ -37,1 +37,1 @@
+-      Name: Grid
++      Name: 网格
+@@ -81,1 +81,1 @@
+-      Name: TF
++      Name: 坐标系
+@@ -194,1 +194,1 @@
+-      Name: RobotModel
++      Name: 机械臂模型

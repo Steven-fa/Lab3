@@ -1,0 +1,169 @@
+[
+  {
+    "label": "六格完整流程_20260908_032515",
+    "raw_log_in_package": "04_Evidence/RawRuns/六格完整流程_20260908_032515/实验3_运行日志_20260908_032515.jsonl",
+    "controller_armed": true,
+    "transfer_count": 6,
+    "completed_count": 6,
+    "completed_grids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "transfers": [
+      {
+        "request_id": 1,
+        "grid_id": 1,
+        "class_name": "orange_bridge",
+        "group": "other",
+        "destination": "left",
+        "confidence": 0.7817512154579163,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260908_032542.yaml"
+      },
+      {
+        "request_id": 2,
+        "grid_id": 3,
+        "class_name": "yellow_cube",
+        "group": "cube",
+        "destination": "right",
+        "confidence": 0.9175488948822021,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260908_032654.yaml"
+      },
+      {
+        "request_id": 3,
+        "grid_id": 2,
+        "class_name": "yellow_cube",
+        "group": "cube",
+        "destination": "right",
+        "confidence": 0.9154934883117676,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260908_032817.yaml"
+      },
+      {
+        "request_id": 4,
+        "grid_id": 4,
+        "class_name": "blue_cube",
+        "group": "cube",
+        "destination": "right",
+        "confidence": 0.834675133228302,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260908_032945.yaml"
+      },
+      {
+        "request_id": 5,
+        "grid_id": 5,
+        "class_name": "orange_bridge",
+        "group": "other",
+        "destination": "left",
+        "confidence": 0.7858539819717407,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260908_033125.yaml"
+      },
+      {
+        "request_id": 6,
+        "grid_id": 6,
+        "class_name": "green_cube",
+        "group": "cube",
+        "destination": "right",
+        "confidence": 0.91746586561203,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260908_033246.yaml"
+      }
+    ],
+    "note": "motion_log_on_jetson is a preserved reference; the per-grid YAML file was not backed up locally"
+  },
+  {
+    "label": "v4验收_20260907_192601",
+    "raw_log_in_package": "04_Evidence/RawRuns/v4验收原始目录/task_20260907_192601.jsonl",
+    "controller_armed": true,
+    "transfer_count": 5,
+    "completed_count": 5,
+    "completed_grids": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "transfers": [
+      {
+        "request_id": 1,
+        "grid_id": 1,
+        "class_name": "green_cube",
+        "group": "cube",
+        "destination": "right",
+        "confidence": 0.9221068620681763,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_192628.yaml"
+      },
+      {
+        "request_id": 2,
+        "grid_id": 2,
+        "class_name": "yellow_cube",
+        "group": "cube",
+        "destination": "right",
+        "confidence": 0.9511067271232605,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_192743.yaml"
+      },
+      {
+        "request_id": 3,
+        "grid_id": 3,
+        "class_name": "orange_bridge",
+        "group": "other",
+        "destination": "left",
+        "confidence": 0.9425906538963318,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_192911.yaml"
+      },
+      {
+        "request_id": 4,
+        "grid_id": 5,
+        "class_name": "blue_cube",
+        "group": "cube",
+        "destination": "right",
+        "confidence": 0.8490273356437683,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_193018.yaml"
+      },
+      {
+        "request_id": 5,
+        "grid_id": 6,
+        "class_name": "orange_bridge",
+        "group": "other",
+        "destination": "left",
+        "confidence": 0.9032452702522278,
+        "worker_status": "COMPLETED",
+        "accepted": true,
+        "source_state_after": "EMPTY",
+        "motion_log_on_jetson": "/home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_193141.yaml"
+      }
+    ],
+    "note": "motion_log_on_jetson is a preserved reference; the per-grid YAML file was not backed up locally"
+  }
+]

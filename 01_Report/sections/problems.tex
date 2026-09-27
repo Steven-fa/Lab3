@@ -1,0 +1,12 @@
+\Needspace{0.58\textheight}
+\section{Main Problems and Solutions}
+\label{sec:problems}
+\lead{Recognition and grid stability.} A red/pink classifier reduced confusion between similar objects. Calibrated grid polygons and five-out-of-seven group voting stabilized cell selection.\src{vision,calibration,controller}
+
+\lead{Position and gripper errors.} We corrected taught poses and checked TCP and gripper feedback during transfer. Continued failure triggered recovery or shutdown.\src{teaching,motion,gripper}
+
+\lead{Task coordination.} A control lock, request IDs and worker feedback kept transfers in order, with only one motion request active at a time.\src{controller,integration}
+
+\lead{Empty and unknown cells.} Empty cells were skipped. A separate unknown-object test used occupancy comparison and an unsupported-class message to check that no movement request was issued.\src{unknown,controller}
+
+\lead{Simulation extension.} An unreachable bridge destination was repositioned, and constraint operations were moved to the Gazebo update thread to fix a release-stage crash. The task then passed 6/6. A MoveIt shutdown error after acceptance remains unresolved.\src{simbridge,simbridgerun}

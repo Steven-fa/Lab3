@@ -1,0 +1,4 @@
+本目录原acceptance_20260907_192601.avi与Physical_Video中的视觉识别录像完全相同。
+精简版只保留一份压缩视频，位置为：
+../../Physical_Video/acceptance_20260907_192601.mp4
+原始文字日志及其他文件保持不变。

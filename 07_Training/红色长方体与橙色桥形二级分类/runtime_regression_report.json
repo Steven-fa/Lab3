@@ -1,0 +1,12 @@
+{
+  "raw": {
+    "orange_bridge->orange_bridge": 16,
+    "red_cuboid->orange_bridge": 20
+  },
+  "refined": {
+    "orange_bridge->orange_bridge": 16,
+    "red_cuboid->red_cuboid": 20
+  },
+  "samples": 36,
+  "accuracy": 1.0
+}

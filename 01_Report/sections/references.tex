@@ -1,0 +1,73 @@
+\clearpage
+\addcontentsline{toc}{section}{References}
+\begin{thebibliography}{99}
+\small\raggedright
+\setlength{\baselineskip}{10.4pt}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\bibitem{requirements}
+Robot Integration Group Project I. \emph{Experiment 3 Desktop Object Classification and Sorting: Simulation and Physical Verification Requirements}. Laboratory handout and report-format requirements, in Chinese.
+
+\bibitem{defense}
+Group 15. \emph{Experiment 3 Desktop Object Classification and Sorting}. Defense presentation, 10 slides. Visual module: slides 4--5; motion and results: slides 6--9. The chart on slide 9 records the v3 baseline.
+
+\bibitem{lab2}
+Zhang Feixiang. \emph{Experiment 2 Fixed-Point Robotic Pick-and-Place}. Individual experiment report, 2026.
+
+\bibitem{vision}
+Project visual implementation. \file{detector_node.py}, \file{experiment3_vision_preview.py}, and \file{class_mapping.yaml}. Training context: the local \file{cube_detection} project, including its README and \file{scripts/build_dataset.py}.
+
+\bibitem{calibration}
+Project grid calibration. \file{experiment3_region_calibrator.py}, \file{regions.example.yaml}, and the region-configuration README.
+
+\bibitem{controller}
+Project task control. \file{experiment3_task_controller.py} and \file{experiment3_robot_worker.py}. ROS 2 implementation.
+
+\bibitem{teaching}
+Project teaching tools. \file{experiment3_pose_recorder.py}, \file{mecharm_real_recorder.py}, and \file{MANUAL_TEACHING_CN.md}.
+
+\bibitem{motion}
+Project physical motion. \file{experiment3_transfer_test.py}, \file{experiment3_grid_dry_run.py}, \file{experiment3_grid_grasp_test.py}, \file{experiment3_all_grid_sequence.py}, and \file{mecharm_recorded_task.py}.
+
+\bibitem{gripper}
+Project gripper configuration. \file{gripper_profiles.yaml}, \file{experiment3_gripper_profiles.py}, and \file{experiment3_gripper_profile_tester.py}.
+
+\bibitem{compensation}
+Project optional joint correction. \file{experiment3_directional_compensation.py}.
+
+\bibitem{integration}
+Project deployment and startup. \file{experiment3_real.launch.py}, the complete-system README, Windows deployment and synchronization scripts, and \file{start_experiment3_ros2_auto.cmd}.
+
+\bibitem{unknown}
+Project exception tests. \file{experiment3_unknown_exception_test.py}, \file{experiment3_physical_unknown_test.py}, and their corresponding \file{run_experiment3_*_test.sh} launch scripts.
+
+\bibitem{simulation}
+Project simulation and keyframe base. \file{experiment.launch.py}, \file{teaching.launch.py}, \file{task_executor.py}, \file{keyframe_player.py}, \file{task_points.yaml}, Gazebo world/model files, and the simulation README.
+
+\bibitem{classifiermetrics}
+Project saved classifier evaluation. \file{cube_detection/models/red_pink_classifier_v2_metrics.json}. Two-class test split with 26 pink and 42 red crops; reported Top-1 accuracy 94.12\%.
+\bibitem{simcomplete}
+Group 15. Baseline simulation source, \file{experiment3_sim_complete_20260914}: Launch, configuration, detector, controller, grasp bridge, motion and acceptance monitor.
+
+\bibitem{simruns}
+Group 15. Baseline records in \file{experiment3_sim_complete_20260914/results/normal_front_arc_04/} and \file{exceptions_front_arc_03/}: acceptance, logs and videos for normal sorting and designated exceptions.
+
+\bibitem{physicalarchive}
+Group 15. Combined Experiment 2/3 core-code archive, dated 2026-09-13. Physical code in \file{02_Physical/}, including ROS packages, detector models, class mapping, gripper profiles and deployment tools.
+
+\bibitem{simbridge}
+Group 15. Six-grid bridge extension, \file{experiment3_sim_bridge_20260921}: configuration, world generator, grasp plugin, detector, motion and retained development runs.
+
+\bibitem{simbridgerun}
+Group 15. Final bridge run, \file{experiment3_sim_bridge_20260921/results/bridge_20260921_222016/}: independent acceptance, configuration, geometry, per-job evidence and two camera videos.
+
+\bibitem{physicalvideo}
+Group 15. Physical video records in \file{04_Evidence/Physical_Video/}: visual-recognition demonstration \file{acceptance_20260907_192601.mp4} (compressed from the original AVI), and acceptance video \file{2eb7001d38fd861630d52918161ba8cf.mp4}. Original identities and encoding details: \file{VIDEO_COMPRESSION.md}.
+
+\bibitem{physicalrecords}
+Group 15. Physical task JSONL, console logs, and UNKNOWN-test images. Six-cycle task: 20260908\_032515; five-cycle v4 task: 20260907\_192601. Included in \file{04_Evidence/RawRuns/}; request association in \file{05_Records/task_index.json}.
+
+\bibitem{pairrefinement}
+Group 15. Red-cuboid/orange-bridge pair classifier v2, detector integration, and saved offline evaluation reports. Code and weights in \file{02_Physical/}; training and regression evidence in \file{07_Training/}. Crop test: 84/84; video regression: 36/36 evaluated detections.
+
+\end{thebibliography}

@@ -1,0 +1,580 @@
+{
+  "model": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_v4_red_negative_20260913\\cube6_red_focus_v4_video_negative_best.pt",
+  "dataset_root": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_hard_negative_20260912_140758\\dataset_v3",
+  "split": "test",
+  "counts": {
+    "orange_bridge->orange_bridge": 24,
+    "orange_bridge->red_cuboid": 3,
+    "orange_bridge:confused": 3,
+    "orange_bridge:correct": 24,
+    "orange_bridge:missed": 1,
+    "red_cuboid->red_cuboid": 37,
+    "red_cuboid:correct": 37,
+    "red_cuboid:missed": 5
+  },
+  "red_to_orange": 0,
+  "orange_to_red": 3,
+  "samples": 70,
+  "details": [
+    {
+      "image": "combination_01_f000700.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.733405,
+      "iou": 0.719217,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000340.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.944578,
+      "iou": 0.968694,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000340.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.959658,
+      "iou": 0.961417,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000360.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.944365,
+      "iou": 0.978252,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000360.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.952119,
+      "iou": 0.969293,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000380.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.952593,
+      "iou": 0.951246,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000380.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.939795,
+      "iou": 0.967735,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000400.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.961397,
+      "iou": 0.964108,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000400.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.948886,
+      "iou": 0.940737,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000420.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.947389,
+      "iou": 0.989074,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000420.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.942276,
+      "iou": 0.971409,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000440.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.949394,
+      "iou": 0.983949,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000440.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.956674,
+      "iou": 0.992215,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000460.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.964546,
+      "iou": 0.966854,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000460.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.957699,
+      "iou": 0.987897,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000480.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.959385,
+      "iou": 0.976308,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000480.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.923932,
+      "iou": 0.965497,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000500.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.954448,
+      "iou": 0.966865,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_02_f000500.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.942599,
+      "iou": 0.970615,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_03_f000000.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.943611,
+      "iou": 0.981895,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_03_f000020.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.956867,
+      "iou": 0.981003,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_03_f000020.jpg",
+      "true": "red_cuboid",
+      "predicted": null,
+      "confidence": 0.0,
+      "iou": 0.0,
+      "outcome": "missed"
+    },
+    {
+      "image": "combination_03_f000840.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.945296,
+      "iou": 0.948397,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_03_f000860.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.940717,
+      "iou": 0.943841,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_03_f000860.jpg",
+      "true": "orange_bridge",
+      "predicted": null,
+      "confidence": 0.0,
+      "iou": 0.273878,
+      "outcome": "missed"
+    },
+    {
+      "image": "combination_03_f000880.jpg",
+      "true": "orange_bridge",
+      "predicted": "red_cuboid",
+      "confidence": 0.64524,
+      "iou": 0.829141,
+      "outcome": "confused"
+    },
+    {
+      "image": "combination_03_f000900.jpg",
+      "true": "orange_bridge",
+      "predicted": "red_cuboid",
+      "confidence": 0.764828,
+      "iou": 0.642243,
+      "outcome": "confused"
+    },
+    {
+      "image": "combination_03_f000900.jpg",
+      "true": "red_cuboid",
+      "predicted": null,
+      "confidence": 0.0,
+      "iou": 0.340517,
+      "outcome": "missed"
+    },
+    {
+      "image": "combination_03_f000920.jpg",
+      "true": "orange_bridge",
+      "predicted": "red_cuboid",
+      "confidence": 0.949333,
+      "iou": 0.79278,
+      "outcome": "confused"
+    },
+    {
+      "image": "combination_03_f000920.jpg",
+      "true": "red_cuboid",
+      "predicted": null,
+      "confidence": 0.0,
+      "iou": 0.258947,
+      "outcome": "missed"
+    },
+    {
+      "image": "combination_03_f000920.jpg",
+      "true": "red_cuboid",
+      "predicted": null,
+      "confidence": 0.0,
+      "iou": 0.216098,
+      "outcome": "missed"
+    },
+    {
+      "image": "combination_04_f000200.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.94795,
+      "iou": 0.974723,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000200.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.952282,
+      "iou": 0.994242,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000220.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.952553,
+      "iou": 0.956197,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000220.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.966503,
+      "iou": 0.973445,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000220.jpg",
+      "true": "red_cuboid",
+      "predicted": null,
+      "confidence": 0.0,
+      "iou": 0.0,
+      "outcome": "missed"
+    },
+    {
+      "image": "combination_04_f000240.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.951077,
+      "iou": 0.964779,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000240.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.961869,
+      "iou": 0.976931,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000260.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.947758,
+      "iou": 0.956683,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000260.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.947329,
+      "iou": 0.944257,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000280.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.885141,
+      "iou": 0.412884,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000280.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.950486,
+      "iou": 0.947523,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000300.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.941999,
+      "iou": 0.958746,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000300.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.962501,
+      "iou": 0.973641,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000320.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.480367,
+      "iou": 0.922747,
+      "outcome": "correct"
+    },
+    {
+      "image": "combination_04_f000320.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.94933,
+      "iou": 0.952531,
+      "outcome": "correct"
+    },
+    {
+      "image": "orange_bridge_01_f000075.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.958596,
+      "iou": 0.947366,
+      "outcome": "correct"
+    },
+    {
+      "image": "orange_bridge_01_f000090.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.957083,
+      "iou": 0.977387,
+      "outcome": "correct"
+    },
+    {
+      "image": "orange_bridge_01_f000105.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.956624,
+      "iou": 0.974936,
+      "outcome": "correct"
+    },
+    {
+      "image": "orange_bridge_01_f000120.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.956338,
+      "iou": 0.979206,
+      "outcome": "correct"
+    },
+    {
+      "image": "orange_bridge_01_f000135.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.952306,
+      "iou": 0.986457,
+      "outcome": "correct"
+    },
+    {
+      "image": "orange_bridge_01_f000150.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.950999,
+      "iou": 0.985833,
+      "outcome": "correct"
+    },
+    {
+      "image": "orange_bridge_01_f000165.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.952074,
+      "iou": 0.978906,
+      "outcome": "correct"
+    },
+    {
+      "image": "orange_bridge_01_f000180.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.948807,
+      "iou": 0.970854,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000330.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.951915,
+      "iou": 0.993334,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000345.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.943356,
+      "iou": 0.970978,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000360.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.937688,
+      "iou": 0.978591,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000375.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.950231,
+      "iou": 0.99372,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000390.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.946829,
+      "iou": 0.97526,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000405.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.942072,
+      "iou": 0.976908,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000420.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.953162,
+      "iou": 0.972282,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000435.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.951111,
+      "iou": 0.977124,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_01_f000450.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.947495,
+      "iou": 0.989706,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_02_f000345.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.94079,
+      "iou": 0.946162,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_02_f000360.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.946221,
+      "iou": 0.965247,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_02_f000375.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.928688,
+      "iou": 0.978758,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_02_f000390.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.883054,
+      "iou": 0.909387,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_02_f000405.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.910925,
+      "iou": 0.981377,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_02_f000420.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.937825,
+      "iou": 0.98229,
+      "outcome": "correct"
+    },
+    {
+      "image": "red_cuboid_02_f000435.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.937179,
+      "iou": 0.992829,
+      "outcome": "correct"
+    }
+  ]
+}

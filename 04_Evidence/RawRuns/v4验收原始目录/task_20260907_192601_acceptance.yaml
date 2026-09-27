@@ -1,0 +1,103 @@
+format: mecharm_experiment3_acceptance/v1
+generated_at: '2026-09-07T19:35:07+08:00'
+minimum_correct_required: 5
+request_count: 5
+completed_count: 5
+correct_destination_count: 5
+failed_count: 0
+unverified_completion_count: 0
+skipped_exception_count: 6
+completed_grids:
+- 1
+- 2
+- 3
+- 5
+- 6
+checks:
+  automatic_controller_armed: true
+  automatic_task_completed: true
+  at_least_required_correct: true
+  all_completed_routes_match_class: true
+  no_transfer_failure: true
+  all_motion_completions_post_transfer_accepted: true
+  has_motion_logs: true
+result: PASS
+completed:
+- time: '2026-09-07T19:26:28.720+08:00'
+  event: transfer_requested
+  request_id: 1
+  grid_id: 1
+  class_name: green_cube
+  group: cube
+  destination: right
+  confidence: 0.9221068620681763
+  motion_log: /home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_192628.yaml
+- time: '2026-09-07T19:27:43.473+08:00'
+  event: transfer_requested
+  request_id: 2
+  grid_id: 2
+  class_name: yellow_cube
+  group: cube
+  destination: right
+  confidence: 0.9511067271232605
+  motion_log: /home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_192743.yaml
+- time: '2026-09-07T19:29:10.972+08:00'
+  event: transfer_requested
+  request_id: 3
+  grid_id: 3
+  class_name: orange_bridge
+  group: other
+  destination: left
+  confidence: 0.9425906538963318
+  motion_log: /home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_192911.yaml
+- time: '2026-09-07T19:30:18.723+08:00'
+  event: transfer_requested
+  request_id: 4
+  grid_id: 5
+  class_name: blue_cube
+  group: cube
+  destination: right
+  confidence: 0.8490273356437683
+  motion_log: /home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_193018.yaml
+- time: '2026-09-07T19:31:41.472+08:00'
+  event: transfer_requested
+  request_id: 5
+  grid_id: 6
+  class_name: orange_bridge
+  group: other
+  destination: left
+  confidence: 0.9032452702522278
+  motion_log: /home/nvidia/mecharm_tasks/experiment3/current/runs/run_20260907_193141.yaml
+failures: []
+unverified: []
+skipped:
+- time: '2026-09-07T19:26:28.719+08:00'
+  event: region_skipped
+  grid_id: 4
+  state: EMPTY
+  action: SKIP_NO_MOTION
+- time: '2026-09-07T19:26:28.720+08:00'
+  event: region_skipped
+  grid_id: 5
+  state: EMPTY
+  action: SKIP_NO_MOTION
+- time: '2026-09-07T19:26:28.720+08:00'
+  event: region_skipped
+  grid_id: 6
+  state: EMPTY
+  action: SKIP_NO_MOTION
+- time: '2026-09-07T19:26:51.719+08:00'
+  event: region_skipped
+  grid_id: 1
+  state: EMPTY
+  action: SKIP_NO_MOTION
+- time: '2026-09-07T19:27:24.219+08:00'
+  event: region_skipped
+  grid_id: 2
+  state: EMPTY
+  action: SKIP_NO_MOTION
+- time: '2026-09-07T19:29:30.969+08:00'
+  event: region_skipped
+  grid_id: 3
+  state: EMPTY
+  action: SKIP_NO_MOTION

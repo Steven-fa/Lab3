@@ -1,0 +1,10 @@
+image_width: 1280
+image_height: 720
+groups:
+  cube:
+    destination: right
+    classes: [blue_cube, green_cube, pink_cube, yellow_cube]
+  other:
+    destination: left
+    classes: [red_cuboid, orange_bridge]
+

@@ -1,0 +1,77 @@
+{
+  "video": "/dev/video0",
+  "frame_count": 120,
+  "fps": 30.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "center_laplacian": {
+    "minimum": 14.555,
+    "median": 1557.911,
+    "p90": 1572.88,
+    "maximum": 1855.263
+  },
+  "sharpest_frames": [
+    {
+      "frame": 26,
+      "time_seconds": 0.867,
+      "laplacian_center": 1855.263
+    },
+    {
+      "frame": 66,
+      "time_seconds": 2.2,
+      "laplacian_center": 1578.273
+    },
+    {
+      "frame": 60,
+      "time_seconds": 2.0,
+      "laplacian_center": 1576.841
+    },
+    {
+      "frame": 54,
+      "time_seconds": 1.8,
+      "laplacian_center": 1574.907
+    },
+    {
+      "frame": 57,
+      "time_seconds": 1.9,
+      "laplacian_center": 1573.806
+    },
+    {
+      "frame": 63,
+      "time_seconds": 2.1,
+      "laplacian_center": 1573.521
+    },
+    {
+      "frame": 69,
+      "time_seconds": 2.3,
+      "laplacian_center": 1573.004
+    },
+    {
+      "frame": 51,
+      "time_seconds": 1.7,
+      "laplacian_center": 1572.02
+    },
+    {
+      "frame": 47,
+      "time_seconds": 1.567,
+      "laplacian_center": 1569.353
+    },
+    {
+      "frame": 77,
+      "time_seconds": 2.567,
+      "laplacian_center": 1568.487
+    },
+    {
+      "frame": 73,
+      "time_seconds": 2.433,
+      "laplacian_center": 1565.785
+    },
+    {
+      "frame": 96,
+      "time_seconds": 3.2,
+      "laplacian_center": 1564.349
+    }
+  ]
+}

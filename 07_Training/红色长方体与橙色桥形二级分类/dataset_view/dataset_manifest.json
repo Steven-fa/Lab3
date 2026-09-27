@@ -1,0 +1,39 @@
+{
+  "source": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_hard_negative_20260912_140758\\dataset_v3",
+  "split_images": {
+    "train": 474,
+    "val": 94,
+    "test": 105
+  },
+  "class_instances": {
+    "train": {
+      "blue_cube": 113,
+      "green_cube": 93,
+      "pink_cube": 154,
+      "yellow_cube": 107,
+      "red_cuboid": 187,
+      "orange_bridge": 132
+    },
+    "val": {
+      "blue_cube": 16,
+      "green_cube": 16,
+      "pink_cube": 28,
+      "yellow_cube": 12,
+      "red_cuboid": 41,
+      "orange_bridge": 28
+    },
+    "test": {
+      "blue_cube": 15,
+      "green_cube": 15,
+      "pink_cube": 26,
+      "yellow_cube": 25,
+      "red_cuboid": 42,
+      "orange_bridge": 28
+    }
+  },
+  "red_repeat": 5,
+  "orange_repeat": 5,
+  "effective_train_entries": 1362,
+  "train_file": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_v5_red_orange_20260914\\dataset_view\\train_red_orange_focus.txt",
+  "dataset_yaml": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_v5_red_orange_20260914\\dataset_view\\dataset_v5.yaml"
+}

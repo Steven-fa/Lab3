@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="workpiece">
+    <static>false</static>
+    <link name="workpiece_link">
+      <!-- The teaching task attaches this model by updating its pose relative
+           to the gripper at 25 Hz. Gazebo contact forces or gravity would
+           compete with that attachment and make the model jump. MoveIt keeps
+           a separate collision proxy for motion planning. -->
+      <gravity>false</gravity>
+      <inertial>
+        <mass>0.05</mass>
+        <inertia>
+          <ixx>0.00001552</ixx><iyy>0.00001552</iyy><izz>0.00001021</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+      <visual name="visual">
+        <geometry><box><size>0.035 0.035 0.05</size></box></geometry>
+        <material>
+          <ambient>0.90 0.20 0.08 1</ambient>
+          <diffuse>1.00 0.28 0.10 1</diffuse>
+          <specular>0.20 0.20 0.20 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

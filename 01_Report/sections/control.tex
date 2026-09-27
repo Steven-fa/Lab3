@@ -1,0 +1,58 @@
+\section{Task Control and Exception Handling}
+This section describes the physical controller, including its five-out-of-seven decisions and refill handling. The simulation controller uses four consecutive matching observations and a single pass over the six source grids; its state machine is described in Section~\ref{sec:simulation}.
+
+\subsection{From a visual state to one transfer}
+Each grid has a current visual state. A stable cube group becomes \file{READY_CUBE}; a stable non-cube group becomes \file{READY_OTHER}. Other states include \file{EMPTY}, \file{UNKNOWN}, \file{MULTIPLE}, and \file{CANDIDATE}. The controller chooses a ready target by ascending grid number. The current representative group must agree with the stable ready state. This prevents an old majority alone from creating a request when the current observation points to a different group.\src{controller}
+
+\begin{figure}[H]\centering
+\begin{tikzpicture}[font=\small,>=Latex,
+ b/.style={draw=Navy,fill=PaleBlue,align=center,text width=4.35cm,minimum height=0.88cm},
+ a/.style={->,thick,color=Teal}]
+\node[b] (observe) {Observe and update grid states};
+\node[b,below=0.35cm of observe] (ready) {Select a stable valid target};
+\node[b,below=0.35cm of ready] (run) {Send one request and wait};
+\node[b,below=0.35cm of run] (verify) {Pause and check the source state};
+\node[b,right=1.0cm of run,text width=3.5cm] (fail) {Failure or timeout\\Stop the task};
+\draw[a] (observe)--(ready);
+\draw[a] (ready)--node[right,font=\scriptsize]{armed and worker available}(run);
+\draw[a] (run)--node[right,font=\scriptsize]{completed}(verify);
+\draw[a] (run)--(fail);
+\draw[a] (verify.west)--++(-0.8,0)|-(observe.west);
+\end{tikzpicture}
+\caption{Simplified task cycle. Non-target states are skipped; final completion also requires a stable empty scene.}
+\end{figure}
+
+The controller permits only one outstanding request. The worker also has a busy flag and checks that the grid lies in 1--6 and that the group matches the destination. It returns \file{STARTED}, \file{COMPLETED}, or \file{FAILED} with the request ID. Feedback for a different request is ignored by the controller. The worker sends \file{COMPLETED} only after the transfer routine returns without an error; that status describes software execution and its configured checks.
+
+\subsection{Checking after a transfer}
+After a completed transfer, the controller waits for the five-second interval and checks the source grid again. An \file{EMPTY} state accepts the transfer. A stable ready state also accepts the previous transfer and queues the current object again. This second rule supports immediate replenishment of a source cell.\src{controller}
+
+A refilled cell and an unsuccessful pickup can produce the same ready state. We therefore checked placement in the video as well as the controller result.
+
+The whole task ends automatically only after at least one transfer has been accepted, all six regions are stably empty, and that empty condition lasts for the configured five seconds. An initially empty table does not immediately finish the session. Unknown or mixed-group states also do not satisfy the all-empty completion condition, even though they do not trigger a pick.
+
+\subsection{Exception states and recovery}
+\begin{table}[H]\tabstart
+\caption{Abnormal inputs and the implemented response}
+\begin{tabularx}{\textwidth}{@{}L{3.1cm}Y@{}}
+\toprule Condition & Controller or worker response\\\midrule
+Empty cell & Record a skip and send no transfer request.\\
+Unsupported class & Mark \file{UNKNOWN}, record a skip, and send no transfer request.\\
+Conflicting groups in one cell & Mark \file{MULTIPLE}; do not select the cell.\\
+Unstable observations & Keep \file{CANDIDATE} until a stable state is available.\\
+Outside or ambiguous region & Assign no grid, so the detection cannot choose a route.\\
+Disarmed mode or busy worker & Do not start a new movement; the worker rejects an invalid request.\\
+Invalid pose, failed feedback check, or motion error & Raise a transfer error, attempt the programmed stop or recovery, and report failure.\\
+Transfer exceeds 180 s & Record the timeout and stop the Launch through controller shutdown.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The complete Launch registers the exit of each main process. If the detector, controller, or worker exits, it requests shutdown of the remaining system. The worker attempts to stop an active runner during shutdown. A control lock also prevents two cooperating programs from commanding the same arm at once. Emergency-stop response time was not measured in these tests.\src{integration,motion}
+
+\subsection{Unknown-object tests}
+The project contains two related tests. The interface test publishes an unsupported label, \file{unrecognized_object}, at a selected cell center. It checks whether the controller enters \file{UNKNOWN}, records \file{SKIP_NO_MOTION}, and creates no transfer request. This isolates the task-control rule from detector quality.\src{unknown}
+
+The physical unknown test first records an empty-cell background and then a scene with the test object. It uses a brightness-adjusted image difference to check occupancy. Its default criteria require a changed area of at least 3.5\% of the cell and a largest connected area of at least 2\%. It also requires no known-class detection in that cell. If these conditions hold, the test publishes the same unsupported label. Both test paths run the controller in disarmed mode and check for zero movement requests.
+
+The occupancy test runs separately from normal six-class detection. During normal sorting, an unfamiliar object can still be missed or assigned a known label.

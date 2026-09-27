@@ -1,0 +1,15 @@
+{
+  "grid_id": 1,
+  "changed_ratio": 0.83219,
+  "largest_changed_component_ratio": 0.7977,
+  "known_yolo_detections": [],
+  "occupancy_pass": true,
+  "unknown_pass": true,
+  "baseline_sharpness": {},
+  "unknown_object_sharpness": {
+    "minimum": 1023.633,
+    "median": 1174.037,
+    "maximum": 1182.879,
+    "sharpest_frame_in_batch": 67
+  }
+}

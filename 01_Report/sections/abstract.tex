@@ -1,0 +1,10 @@
+\section*{Abstract}\addcontentsline{toc}{section}{Abstract}
+We built a desktop sorting system for the mechArm 270 using six pickup grids and two placement areas. An overhead camera identifies the object in each grid, and a ROS 2 state machine selects and executes the corresponding taught motion.
+
+The Gazebo and MoveIt simulation uses HSV detection to sort four cubes and two hollow bridge-shaped objects. All six objects reached their target positions, including both bridges. The run took 391.53 s; the monitor recorded 37,831 joint samples with no joint-limit violations or unsafe contact pairs. Grasping uses a fixed attachment constraint after alignment and gripper-closure checks.
+
+The physical system runs YOLO11 on a Jetson. Four cube classes go to the right placement area, while red cuboids and orange bridges go to the left. We use seven-frame histories with five matching group observations to stabilize grid decisions, and 17 taught poses for pickup and placement. The physical demonstration completed six transfers from five initial objects and one yellow-cube re-feed, with all six destination choices correct. Separate empty-cell and unknown-object tests checked the controller's no-motion branch.
+
+The v4 detector's recorded mAP50--95 is 0.8755. A red/pink classifier assists the original detector, and a later red/orange classifier addresses confusion between the cuboid and bridge. The latter achieved 84/84 correct test crops and 36/36 detections in the saved video regression. These image tests are reported separately from robot transfer results.
+
+\vspace{0.6em}\noindent\textbf{Keywords:} object sorting; YOLO11; ROS 2; mechArm; fixed-grid picking; Gazebo

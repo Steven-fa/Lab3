@@ -1,0 +1,18 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: mecharm_270_m5_moveit_config
+    relative_path: config/firefighter.urdf.xacro
+  srdf:
+    relative_path: config/firefighter.srdf
+  package_settings:
+    author_name: robot
+    author_email: robot@example.com
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro

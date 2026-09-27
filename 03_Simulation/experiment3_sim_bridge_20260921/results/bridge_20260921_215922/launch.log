@@ -1,0 +1,462 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2026-09-21-21-59-24-378599-localhost-356
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gzserver-1]: process started with pid [413]
+[INFO] [robot_state_publisher-2]: process started with pid [415]
+[INFO] [static_transform_publisher-3]: process started with pid [417]
+[static_transform_publisher-3] [WARN] [1789999164.908073082] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-3] [INFO] [1789999165.184774732] [world_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'world' to 'base'
+[robot_state_publisher-2] [WARN] [1789999165.211981488] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-2] [INFO] [1789999165.212614724] [robot_state_publisher]: got segment base
+[robot_state_publisher-2] [INFO] [1789999165.212689176] [robot_state_publisher]: got segment gripper_base
+[robot_state_publisher-2] [INFO] [1789999165.212696710] [robot_state_publisher]: got segment gripper_left1
+[robot_state_publisher-2] [INFO] [1789999165.212699242] [robot_state_publisher]: got segment gripper_left2
+[robot_state_publisher-2] [INFO] [1789999165.212701442] [robot_state_publisher]: got segment gripper_left3
+[robot_state_publisher-2] [INFO] [1789999165.212703531] [robot_state_publisher]: got segment gripper_right1
+[robot_state_publisher-2] [INFO] [1789999165.212705713] [robot_state_publisher]: got segment gripper_right2
+[robot_state_publisher-2] [INFO] [1789999165.212707805] [robot_state_publisher]: got segment gripper_right3
+[robot_state_publisher-2] [INFO] [1789999165.212709866] [robot_state_publisher]: got segment link1
+[robot_state_publisher-2] [INFO] [1789999165.212711994] [robot_state_publisher]: got segment link2
+[robot_state_publisher-2] [INFO] [1789999165.212714060] [robot_state_publisher]: got segment link3
+[robot_state_publisher-2] [INFO] [1789999165.212716124] [robot_state_publisher]: got segment link4
+[robot_state_publisher-2] [INFO] [1789999165.212718178] [robot_state_publisher]: got segment link5
+[robot_state_publisher-2] [INFO] [1789999165.212720356] [robot_state_publisher]: got segment link6
+[gzserver-1] [INFO] [1789999167.755968388] [task3.camera.task3_camera]: Publishing camera info to [/task3/camera/overhead/camera_info]
+[gzserver-1] [INFO] [1789999167.770591708] [gazebo.gazebo_ros_state]: Publishing states of gazebo models at [/gazebo/model_states]
+[gzserver-1] [INFO] [1789999167.771004747] [gazebo.gazebo_ros_state]: Publishing states of gazebo links at [/gazebo/link_states]
+[INFO] [spawn_entity.py-4]: process started with pid [536]
+[spawn_entity.py-4] [INFO] [1789999168.511589400] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-4] [INFO] [1789999168.511876297] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-4] [INFO] [1789999168.518227362] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-4] [INFO] [1789999168.531027108] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-4] [INFO] [1789999168.531220740] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-4] [INFO] [1789999168.557686074] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-4] [INFO] [1789999168.847165977] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [mecharm_270_m5]
+[gzserver-1] [INFO] [1789999168.867264990] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-1] [INFO] [1789999168.871491215] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-1] [INFO] [1789999168.871563437] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[gzserver-1] [INFO] [1789999168.874195506] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-1] [INFO] [1789999168.874787117] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-1] [INFO] [1789999168.874831995] [gazebo_ros2_control]: Loading parameter files /home/robot/task3_bridge_ws_20260921/install/mecharm_task2/share/mecharm_task2/config/gazebo_controllers.yaml
+[gzserver-1] [INFO] [1789999168.887350737] [gazebo_ros2_control]: Loading joint: joint1_to_base
+[gzserver-1] [INFO] [1789999168.887410368] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.887416454] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.887422178] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1789999168.887429215] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.887432710] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.887435804] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888153352] [gazebo_ros2_control]: Loading joint: joint2_to_joint1
+[gzserver-1] [INFO] [1789999168.888177000] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.888181083] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888185245] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1789999168.888190246] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.888193236] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.888197754] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888301473] [gazebo_ros2_control]: Loading joint: joint3_to_joint2
+[gzserver-1] [INFO] [1789999168.888310343] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.888313705] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888317212] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1789999168.888321193] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.888324142] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.888327117] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888392625] [gazebo_ros2_control]: Loading joint: joint4_to_joint3
+[gzserver-1] [INFO] [1789999168.888399464] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.888402851] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888405759] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1789999168.888409348] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.888412559] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.888415790] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888516086] [gazebo_ros2_control]: Loading joint: joint5_to_joint4
+[gzserver-1] [INFO] [1789999168.888524188] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.888528495] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888538197] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1789999168.888542752] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.888546003] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.888548843] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888840688] [gazebo_ros2_control]: Loading joint: joint6_to_joint5
+[gzserver-1] [INFO] [1789999168.888858718] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.888862603] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888865997] [gazebo_ros2_control]: 			 found initial value: 0.000000
+[gzserver-1] [INFO] [1789999168.888870802] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.888873905] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.888877192] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.888986372] [gazebo_ros2_control]: Loading joint: gripper_controller
+[gzserver-1] [INFO] [1789999168.888994233] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.889017254] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.889021139] [gazebo_ros2_control]: 			 found initial value: 0.150000
+[gzserver-1] [INFO] [1789999168.889025457] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.889028390] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.889031345] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.889124534] [gazebo_ros2_control]: Loading joint: gripper_base_to_gripper_left2
+[gzserver-1] [INFO] [1789999168.889138682] [gazebo_ros2_control]: Joint 'gripper_base_to_gripper_left2'is mimicking joint 'gripper_controller' with multiplier: 1
+[gzserver-1] [INFO] [1789999168.889144046] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.889147890] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.889151016] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.889187296] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.889207357] [gazebo_ros2_control]: Loading joint: gripper_left3_to_gripper_left1
+[gzserver-1] [INFO] [1789999168.889214308] [gazebo_ros2_control]: Joint 'gripper_left3_to_gripper_left1'is mimicking joint 'gripper_controller' with multiplier: -1
+[gzserver-1] [INFO] [1789999168.889218143] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.889223445] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.889251190] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.889258503] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.889266633] [gazebo_ros2_control]: Loading joint: gripper_base_to_gripper_right3
+[gzserver-1] [INFO] [1789999168.889272232] [gazebo_ros2_control]: Joint 'gripper_base_to_gripper_right3'is mimicking joint 'gripper_controller' with multiplier: -1
+[gzserver-1] [INFO] [1789999168.889277140] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.889280108] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.889283635] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.889286393] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.889289477] [gazebo_ros2_control]: Loading joint: gripper_base_to_gripper_right2
+[gzserver-1] [INFO] [1789999168.889293169] [gazebo_ros2_control]: Joint 'gripper_base_to_gripper_right2'is mimicking joint 'gripper_controller' with multiplier: -1
+[gzserver-1] [INFO] [1789999168.889296051] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.889298841] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.889301878] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.889304823] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.889312836] [gazebo_ros2_control]: Loading joint: gripper_right3_to_gripper_right1
+[gzserver-1] [INFO] [1789999168.889321456] [gazebo_ros2_control]: Joint 'gripper_right3_to_gripper_right1'is mimicking joint 'gripper_controller' with multiplier: 1
+[gzserver-1] [INFO] [1789999168.889329000] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1789999168.889332511] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1789999168.889335603] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1789999168.889338296] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1789999168.889377747] [resource_manager]: Initialize hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1789999168.889476317] [resource_manager]: Successful initialization of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1789999168.889533284] [resource_manager]: 'configure' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1789999168.889539413] [resource_manager]: Successful 'configure' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1789999168.889545398] [resource_manager]: 'activate' hardware 'GazeboSystem' 
+[gzserver-1] [INFO] [1789999168.889548432] [resource_manager]: Successful 'activate' of hardware 'GazeboSystem'
+[gzserver-1] [INFO] [1789999168.889612607] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-1] [WARN] [1789999168.918513949] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-1] [INFO] [1789999168.918727688] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[gzserver-1] [INFO] [1789999168.931676874] [task3_grasp_plugin]: mechArm base anchored to the Gazebo world
+[INFO] [spawn_entity.py-4]: process has finished cleanly [pid 536]
+[INFO] [spawner-5]: process started with pid [555]
+[INFO] [spawner-6]: process started with pid [557]
+[INFO] [spawner-7]: process started with pid [559]
+[gzserver-1] [INFO] [1789999172.817571632] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[spawner-5] [INFO] [1789999172.852962981] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[gzserver-1] [INFO] [1789999172.853974870] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[gzserver-1] [INFO] [1789999172.854218181] [joint_state_broadcaster]: Publishing state interfaces defined in 'joints' and 'interfaces' parameters.
+[gzserver-1] [WARN] [1789999172.854250278] [joint_state_broadcaster]: Mapping from 'position' to interface 'position' will not be done, because 'position' is defined in 'interface' parameter.
+[gzserver-1] [WARN] [1789999172.854258257] [joint_state_broadcaster]: Mapping from 'velocity' to interface 'velocity' will not be done, because 'velocity' is defined in 'interface' parameter.
+[gzserver-1] [INFO] [1789999172.894627444] [controller_manager]: Loading controller 'arm_controller'
+[spawner-5] [INFO] [1789999172.895099977] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[gzserver-1] [WARN] [1789999172.914427325] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-6] [INFO] [1789999172.923742616] [spawner_arm_controller]: [94mLoaded [1marm_controller[0m
+[gzserver-1] [INFO] [1789999172.926133674] [controller_manager]: Configuring controller 'arm_controller'
+[gzserver-1] [INFO] [1789999172.926312604] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1789999172.926341351] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1789999172.926387221] [arm_controller]: Using 'splines' interpolation method.
+[gzserver-1] [INFO] [1789999172.927893464] [arm_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1789999172.935489238] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[gzserver-1] [INFO] [1789999172.972805462] [controller_manager]: Loading controller 'gripper_action_controller'
+[spawner-6] [INFO] [1789999172.973254305] [spawner_arm_controller]: [92mConfigured and activated [1marm_controller[0m
+[gzserver-1] [WARN] [1789999172.982038135] [gripper_action_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-7] [INFO] [1789999172.998357090] [spawner_gripper_action_controller]: [94mLoaded [1mgripper_action_controller[0m
+[INFO] [spawner-5]: process has finished cleanly [pid 555]
+[gzserver-1] [INFO] [1789999173.081679827] [controller_manager]: Configuring controller 'gripper_action_controller'
+[gzserver-1] [INFO] [1789999173.081791698] [gripper_action_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1789999173.081802948] [gripper_action_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gzserver-1] [INFO] [1789999173.081810107] [gripper_action_controller]: Using 'splines' interpolation method.
+[gzserver-1] [INFO] [1789999173.082223536] [gripper_action_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1789999173.083677961] [gripper_action_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [spawner-6]: process has finished cleanly [pid 557]
+[spawner-7] [INFO] [1789999173.201551805] [spawner_gripper_action_controller]: [92mConfigured and activated [1mgripper_action_controller[0m
+[INFO] [spawner-7]: process has finished cleanly [pid 559]
+[INFO] [move_group-8]: process started with pid [604]
+[INFO] [grasp_bridge.py-9]: process started with pid [606]
+[INFO] [task_controller.py-10]: process started with pid [608]
+[INFO] [acceptance_monitor.py-11]: process started with pid [610]
+[INFO] [detector.py-12]: process started with pid [612]
+[move_group-8] [INFO] [1789999175.392592949] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-8] [INFO] [1789999175.392740253] [moveit_robot_model.robot_model]: Loading robot model 'firefighter'...
+[move_group-8] [WARN] [1789999175.392848577] [moveit_robot_model.robot_model]: Link gripper_left2 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[move_group-8] [WARN] [1789999175.392865925] [moveit_robot_model.robot_model]: Link gripper_right2 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[move_group-8] [WARN] [1789999175.392874770] [moveit_robot_model.robot_model]: Link gripper_right3 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[move_group-8] [WARN] [1789999175.392886508] [moveit_robot_model.robot_model]: Link gripper_left3 has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[move_group-8] [WARN] [1789999175.406903440] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[move_group-8] [INFO] [1789999175.439817140] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-8] [INFO] [1789999175.440013377] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-8] [INFO] [1789999175.440786813] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-8] [INFO] [1789999175.441315766] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-8] [INFO] [1789999175.441338920] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-8] [INFO] [1789999175.441625257] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-8] [INFO] [1789999175.441640770] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-8] [INFO] [1789999175.441953973] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-8] [INFO] [1789999175.442223913] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-8] [WARN] [1789999175.442337680] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-8] [ERROR] [1789999175.442346470] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-8] [INFO] [1789999175.443177331] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-8] [INFO] [1789999175.479696276] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-8] [INFO] [1789999175.488664765] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-8] [INFO] [1789999175.488697384] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-8] [INFO] [1789999175.488702001] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-8] [INFO] [1789999175.488721990] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-8] [INFO] [1789999175.488736625] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-8] [INFO] [1789999175.488740918] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-8] [INFO] [1789999175.488750032] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-8] [INFO] [1789999175.488754290] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-8] [INFO] [1789999175.488758491] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-8] [INFO] [1789999175.488767664] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-8] [INFO] [1789999175.488770910] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-8] [INFO] [1789999175.488773614] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-8] [INFO] [1789999175.488776413] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-8] [INFO] [1789999175.488779167] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-8] [INFO] [1789999175.488781773] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-8] [INFO] [1789999175.493466861] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
+[move_group-8] [INFO] [1789999175.507191629] [moveit.ros_planning.planning_pipeline]: Using planning interface 'CHOMP'
+[move_group-8] [INFO] [1789999175.508035578] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
+[move_group-8] [INFO] [1789999175.508055574] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
+[move_group-8] [INFO] [1789999175.508060223] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
+[move_group-8] [INFO] [1789999175.508091067] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-8] [INFO] [1789999175.508104681] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
+[move_group-8] [INFO] [1789999175.508109560] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-8] [INFO] [1789999175.508119194] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-8] [INFO] [1789999175.508123311] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
+[move_group-8] [INFO] [1789999175.508127189] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
+[move_group-8] [INFO] [1789999175.508136262] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-8] [INFO] [1789999175.508139400] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-8] [INFO] [1789999175.508142264] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-8] [INFO] [1789999175.508167327] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-8] [INFO] [1789999175.508169788] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-8] [INFO] [1789999175.508172265] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-8] [INFO] [1789999175.508827881] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[move_group-8] [INFO] [1789999175.517115237] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-8] [INFO] [1789999175.520596754] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[move_group-8] [INFO] [1789999175.520632763] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[move_group-8] [INFO] [1789999175.524490895] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[move_group-8] [INFO] [1789999175.524536049] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[move_group-8] [INFO] [1789999175.526012060] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[move_group-8] [INFO] [1789999175.526044753] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[move_group-8] [INFO] [1789999175.527497765] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[move_group-8] [INFO] [1789999175.527533498] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[move_group-8] [INFO] [1789999175.549097066] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for arm_controller
+[move_group-8] [INFO] [1789999175.551317042] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for gripper_action_controller
+[move_group-8] [INFO] [1789999175.551538868] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1789999175.551561103] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1789999175.552023786] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-8] [INFO] [1789999175.552038101] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-8] [INFO] [1789999175.568086425] [move_group.move_group]: 
+[move_group-8] 
+[move_group-8] ********************************************************
+[move_group-8] * MoveGroup using: 
+[move_group-8] *     - ApplyPlanningSceneService
+[move_group-8] *     - ClearOctomapService
+[move_group-8] *     - CartesianPathService
+[move_group-8] *     - ExecuteTrajectoryAction
+[move_group-8] *     - GetPlanningSceneService
+[move_group-8] *     - KinematicsService
+[move_group-8] *     - MoveAction
+[move_group-8] *     - MotionPlanService
+[move_group-8] *     - QueryPlannersService
+[move_group-8] *     - StateValidationService
+[move_group-8] ********************************************************
+[move_group-8] 
+[move_group-8] [INFO] [1789999175.568137656] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-8] [INFO] [1789999175.568144902] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-8] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-8] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-8] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-8] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-8] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-8] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-8] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-8] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-8] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-8] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-8] [0m[92m
+[move_group-8] You can start planning now!
+[move_group-8] 
+[move_group-8] [ERROR] [1789999182.486596943] [moveit_robot_state.robot_state]: Attached body 'task3_object_1' not found
+[gzserver-1] [INFO] [1789999182.490173078] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999182.490278946] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999184.534452257] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999185.060993963] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999185.061093210] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999186.758246777] [arm_controller]: Goal reached, success!
+[move_group-8] [WARN] [1789999187.265399525] [moveit_planning_scene.planning_scene]: Tried to remove world object 'task3_object_1', but it does not exist in this scene.
+[gzserver-1] [INFO] [1789999187.310775608] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999187.310838478] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999201.284973446] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999201.839957916] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999201.840010320] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999204.691656247] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999205.243800054] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999205.243857817] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999207.280838793] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999207.801155196] [task3_grasp_plugin]: target attached without pose snapping; center_error=0.0001 m, local_error=[0.0000, 0.0000, -0.0000], gripper=0.1000 rad, target_z=0.0200 m, centered=true, closed=true, above_table=true
+[gzserver-1] [INFO] [1789999208.338249899] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999208.338340550] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999211.182458372] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999211.749413529] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999211.749481799] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999223.792590108] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999224.310707288] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999224.310775998] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999226.528741531] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999227.065568273] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999227.065629007] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999229.100833668] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999229.617398835] [task3_grasp_plugin]: target detached from adaptive gripper
+[gzserver-1] [INFO] [1789999231.632313547] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999231.632413665] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999233.835670994] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999234.406869835] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999234.406944975] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999245.609393097] [arm_controller]: Goal reached, success!
+[move_group-8] [ERROR] [1789999249.898080439] [moveit_robot_state.robot_state]: Attached body 'task3_object_2' not found
+[gzserver-1] [INFO] [1789999249.901990589] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999249.902356018] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999251.932764435] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999252.455431385] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999252.455479324] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999252.645384511] [arm_controller]: Goal reached, success!
+[move_group-8] [WARN] [1789999253.158069262] [moveit_planning_scene.planning_scene]: Tried to remove world object 'task3_object_2', but it does not exist in this scene.
+[gzserver-1] [INFO] [1789999253.206115003] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999253.206171455] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999262.941555536] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999263.480763012] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999263.480824936] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999266.376909005] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999266.885321346] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999266.885386597] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999268.923626512] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999269.444456718] [task3_grasp_plugin]: target attached without pose snapping; center_error=0.0000 m, local_error=[0.0000, 0.0000, -0.0000], gripper=0.1000 rad, target_z=0.0200 m, centered=true, closed=true, above_table=true
+[gzserver-1] [INFO] [1789999269.960345235] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999269.960397405] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999272.856979947] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999273.407289324] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999273.407354132] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999283.132108637] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999283.688589023] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999283.688670571] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999286.545049029] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999287.110157880] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999287.110240827] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999289.123455573] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999289.661378556] [task3_grasp_plugin]: target detached from adaptive gripper
+[gzserver-1] [INFO] [1789999291.674999717] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999291.675062429] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999294.544361950] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999295.111066569] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999295.111119613] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999310.370585459] [arm_controller]: Goal reached, success!
+[move_group-8] [ERROR] [1789999314.412702908] [moveit_robot_state.robot_state]: Attached body 'task3_object_3' not found
+[gzserver-1] [INFO] [1789999314.416387420] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999314.416456827] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999316.450675528] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999316.970053810] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999316.970167463] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999317.154070148] [arm_controller]: Goal reached, success!
+[move_group-8] [WARN] [1789999317.685369397] [moveit_planning_scene.planning_scene]: Tried to remove world object 'task3_object_3', but it does not exist in this scene.
+[gzserver-1] [INFO] [1789999317.723088477] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999317.723141886] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999326.831821699] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999327.387318179] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999327.387373971] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999330.235066982] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999330.746518175] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999330.746673442] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999332.770630284] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999333.306580048] [task3_grasp_plugin]: target attached without pose snapping; center_error=0.0001 m, local_error=[-0.0000, 0.0001, -0.0000], gripper=0.1000 rad, target_z=0.0200 m, centered=true, closed=true, above_table=true
+[gzserver-1] [INFO] [1789999333.835001452] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999333.835053955] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999336.673607420] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999337.245370799] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999337.245445204] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999349.480460130] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999350.011561389] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999350.011623185] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999352.214273514] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999352.767357953] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999352.767467319] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999354.794187085] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999355.320122524] [task3_grasp_plugin]: target detached from adaptive gripper
+[gzserver-1] [INFO] [1789999357.336526816] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999357.336583927] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999359.537475494] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999360.154436961] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999360.154508401] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999377.576276521] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999383.646027808] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999383.646155876] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999385.684788414] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999386.215267438] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999386.215320695] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999386.417276299] [arm_controller]: Goal reached, success!
+[move_group-8] [ERROR] [1789999391.355442851] [moveit_robot_state.robot_state]: Attached body 'task3_object_5' not found
+[gzserver-1] [INFO] [1789999391.358653744] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999391.358697817] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999393.387833566] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999393.914770853] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999393.914821912] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999394.104719741] [arm_controller]: Goal reached, success!
+[move_group-8] [WARN] [1789999394.617473323] [moveit_planning_scene.planning_scene]: Tried to remove world object 'task3_object_5', but it does not exist in this scene.
+[gzserver-1] [INFO] [1789999394.641219768] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999394.641319489] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999404.529152089] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999405.054779856] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999405.054831901] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999407.609051481] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999408.166633546] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999408.166682760] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999410.210240855] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999410.726261559] [task3_grasp_plugin]: target attached without pose snapping; center_error=0.0000 m, local_error=[0.0000, -0.0000, -0.0000], gripper=0.1000 rad, target_z=0.0200 m, centered=true, closed=true, above_table=true
+[gzserver-1] [INFO] [1789999411.242867071] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999411.242918667] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999413.814376146] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999414.393067608] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999414.393141580] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999421.935154070] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999422.472655436] [arm_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999422.472717319] [arm_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999424.033958276] [arm_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999424.578444826] [gripper_action_controller]: Received new action goal
+[gzserver-1] [INFO] [1789999424.578574302] [gripper_action_controller]: Accepted new action goal
+[gzserver-1] [INFO] [1789999426.614248576] [gripper_action_controller]: Goal reached, success!
+[gzserver-1] [INFO] [1789999427.135659559] [task3_grasp_plugin]: target detached from adaptive gripper
+[ERROR] [gzserver-1]: process has died [pid 413, exit code -11, cmd 'gzserver /mnt/d/大学/大三上/机器人小组项目（小学期）/实验3/experiment3_sim_bridge_20260921/results/bridge_20260921_215922/task3.world --seed=42 -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [detector.py-12]: sending signal 'SIGINT' to process[detector.py-12]
+[INFO] [acceptance_monitor.py-11]: sending signal 'SIGINT' to process[acceptance_monitor.py-11]
+[INFO] [task_controller.py-10]: sending signal 'SIGINT' to process[task_controller.py-10]
+[INFO] [grasp_bridge.py-9]: sending signal 'SIGINT' to process[grasp_bridge.py-9]
+[INFO] [move_group-8]: sending signal 'SIGINT' to process[move_group-8]
+[INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+[INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+[move_group-8] [INFO] [1789999724.971086875] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-3] [INFO] [1789999724.974875210] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-2] [INFO] [1789999724.976999451] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[move_group-8] [INFO] [1789999724.987531241] [moveit.ros_planning_interface.moveit_cpp]: Deleting MoveItCpp
+[move_group-8] [INFO] [1789999724.988341580] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[move_group-8] [INFO] [1789999724.988905295] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping world geometry monitor
+[move_group-8] [INFO] [1789999724.989035835] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+[move_group-8] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[move_group-8]          at line 127 in ./src/class_loader.cpp
+[move_group-8] Stack trace (most recent call last):
+[move_group-8] #16   Object "", at 0xffffffffffffffff, in 
+[move_group-8] #15   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5fec6d687724, in 
+[move_group-8] #14   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7859d7e29e3f, in __libc_start_main
+[move_group-8] #13   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7859d7e29d8f, in 
+[move_group-8] #12   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5fec6d68665b, in 
+[move_group-8] #11   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5fec6d688709, in 
+[move_group-8] #10   Object "/opt/ros/humble/lib/libmoveit_cpp.so.2.5.9", at 0x7859d8aef876, in moveit_cpp::MoveItCpp::~MoveItCpp()
+[move_group-8] #9    Object "/opt/ros/humble/lib/libmoveit_cpp.so.2.5.9", at 0x7859d8aedba9, in 
+[move_group-8] #8    Object "/opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x7859d80783b5, in trajectory_execution_manager::TrajectoryExecutionManager::~TrajectoryExecutionManager()
+[move_group-8] #7    Object "/opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x7859d808b2d9, in 
+[move_group-8] #6    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7859d8750b8c, in rclcpp::Node::~Node()
+[move_group-8] #5    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7859d8750b2e, in rclcpp::Node::~Node()
+[move_group-8] #4    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7859d872bd39, in 
+[move_group-8] #3    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7859d875a0b9, in 
+[move_group-8] #2    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7859d875a000, in rclcpp::node_interfaces::NodeBase::~NodeBase()
+[move_group-8] #1    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7859d872bd39, in 
+[move_group-8] #0    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7859d8730b31, in rclcpp::CallbackGroup::~CallbackGroup()
+[move_group-8] Segmentation fault (Address not mapped to object [0x7859cc135798])
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 417]
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 415]
+[INFO] [grasp_bridge.py-9]: process has finished cleanly [pid 606]
+[INFO] [task_controller.py-10]: process has finished cleanly [pid 608]
+[INFO] [acceptance_monitor.py-11]: process has finished cleanly [pid 610]
+[INFO] [detector.py-12]: process has finished cleanly [pid 612]
+[ERROR] [move_group-8]: process has died [pid 604, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_q1iu5nfd --params-file /tmp/launch_params_t6t4ctgt'].
+[move_group-8] [0m

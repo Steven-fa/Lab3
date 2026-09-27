@@ -1,0 +1,33 @@
+purpose: report_and_submission_operating_settings
+group: 15
+main_detector:
+  confidence: 0.25
+  nms_iou: 0.45
+grid_assignment: unique_center_in_polygon
+temporal_decision:
+  history_size: 7
+  stable_votes: 5
+  vote_unit: sorting_group
+  current_group_must_match: true
+routing:
+  cube: right
+  other: left
+gripper:
+  open: 100
+  cube_close: 69
+  other_close: 40
+  speed: 20
+red_orange_refinement:
+  model: red_orange_pair_classifier_v2.pt
+  min_confidence: 0.80
+  min_margin: 0.30
+physical_acceptance:
+  initial_objects: 5
+  refeed_count: 1
+  transfer_cycles: 6
+  instructor_approval: confirmed_by_group
+references:
+  launch: 02_Physical/ros2/mecharm_pick_place/launch/experiment3_real.launch.py
+  controller: 02_Physical/ros2/mecharm_pick_place/mecharm_pick_place/experiment3_task_controller.py
+  gripper: 02_Physical/config/gripper_profiles.yaml
+  measured_pose_reference: 06_Calibration/measured_17poses_20260907.yaml

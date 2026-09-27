@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="firefighter">
+  <group name="arm">
+    <chain base_link="base" tip_link="link6"/>
+  </group>
+  <group name="gripper">
+    <joint name="gripper_controller"/>
+  </group>
+
+  <group_state name="Home" group="arm">
+    <joint name="joint1_to_base" value="0"/>
+    <joint name="joint2_to_joint1" value="0"/>
+    <joint name="joint3_to_joint2" value="0"/>
+    <joint name="joint4_to_joint3" value="0"/>
+    <joint name="joint5_to_joint4" value="0"/>
+    <joint name="joint6_to_joint5" value="0"/>
+  </group_state>
+  <group_state name="Open" group="gripper">
+    <joint name="gripper_controller" value="0.15"/>
+  </group_state>
+  <group_state name="Closed" group="gripper">
+    <joint name="gripper_controller" value="0.10"/>
+  </group_state>
+
+  <end_effector name="adaptive_gripper" parent_link="link6" group="gripper" parent_group="arm"/>
+  <virtual_joint name="fixed_base" type="fixed" parent_frame="world" child_link="base"/>
+
+  <disable_collisions link1="base" link2="link1" reason="Adjacent"/>
+  <disable_collisions link1="link1" link2="link2" reason="Adjacent"/>
+  <!-- Official CAD shells overlap at this rotating shoulder/pedestal seam. -->
+  <disable_collisions link1="base" link2="link2" reason="Never"/>
+  <disable_collisions link1="link2" link2="link3" reason="Adjacent"/>
+  <disable_collisions link1="link3" link2="link4" reason="Adjacent"/>
+  <disable_collisions link1="link4" link2="link5" reason="Adjacent"/>
+  <disable_collisions link1="link5" link2="link6" reason="Adjacent"/>
+  <disable_collisions link1="link6" link2="gripper_base" reason="Adjacent"/>
+  <disable_collisions link1="link6" link2="gripper_left1" reason="Adjacent"/>
+  <disable_collisions link1="link6" link2="gripper_left2" reason="Adjacent"/>
+  <disable_collisions link1="link6" link2="gripper_left3" reason="Adjacent"/>
+  <disable_collisions link1="link6" link2="gripper_right1" reason="Adjacent"/>
+  <disable_collisions link1="link6" link2="gripper_right2" reason="Adjacent"/>
+  <disable_collisions link1="link6" link2="gripper_right3" reason="Adjacent"/>
+  <!-- Primitive Gazebo collision wrappers overlap at the nested wrist in Home. -->
+  <disable_collisions link1="link3" link2="link5" reason="Never"/>
+  <disable_collisions link1="base" link2="gripper_base" reason="Never"/>
+  <disable_collisions link1="base" link2="gripper_left1" reason="Never"/>
+  <disable_collisions link1="base" link2="gripper_left2" reason="Never"/>
+  <disable_collisions link1="base" link2="gripper_left3" reason="Never"/>
+  <disable_collisions link1="base" link2="gripper_right1" reason="Never"/>
+  <disable_collisions link1="base" link2="gripper_right2" reason="Never"/>
+  <disable_collisions link1="base" link2="gripper_right3" reason="Never"/>
+  <disable_collisions link1="gripper_base" link2="gripper_left1" reason="Never"/>
+  <disable_collisions link1="gripper_base" link2="gripper_left2" reason="Adjacent"/>
+  <disable_collisions link1="gripper_base" link2="gripper_left3" reason="Adjacent"/>
+  <disable_collisions link1="gripper_base" link2="gripper_right1" reason="Never"/>
+  <disable_collisions link1="gripper_base" link2="gripper_right2" reason="Adjacent"/>
+  <disable_collisions link1="gripper_base" link2="gripper_right3" reason="Adjacent"/>
+  <disable_collisions link1="gripper_left1" link2="gripper_left2" reason="Never"/>
+  <disable_collisions link1="gripper_left1" link2="gripper_left3" reason="Adjacent"/>
+  <disable_collisions link1="gripper_left2" link2="gripper_left3" reason="Never"/>
+  <disable_collisions link1="gripper_right1" link2="gripper_right2" reason="Never"/>
+  <disable_collisions link1="gripper_right1" link2="gripper_right3" reason="Adjacent"/>
+  <disable_collisions link1="gripper_right2" link2="gripper_right3" reason="Never"/>
+  <disable_collisions link1="gripper_left1" link2="gripper_right1" reason="Never"/>
+  <disable_collisions link1="gripper_left1" link2="gripper_right2" reason="Never"/>
+  <disable_collisions link1="gripper_left1" link2="gripper_right3" reason="Never"/>
+  <disable_collisions link1="gripper_left2" link2="gripper_right1" reason="Never"/>
+  <disable_collisions link1="gripper_left2" link2="gripper_right2" reason="Never"/>
+  <disable_collisions link1="gripper_left2" link2="gripper_right3" reason="Never"/>
+  <disable_collisions link1="gripper_left3" link2="gripper_right1" reason="Never"/>
+  <disable_collisions link1="gripper_left3" link2="gripper_right2" reason="Never"/>
+  <disable_collisions link1="gripper_left3" link2="gripper_right3" reason="Never"/>
+</robot>

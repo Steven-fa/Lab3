@@ -1,0 +1,101 @@
+\section{Physical Sorting Cycle}
+The physical sorting loop is outlined below. Motion routines handle retries and feedback checks.
+
+\begin{lstlisting}[caption={Main stages of the complete physical task}]
+Load the active models, regions, taught poses, and gripper profiles
+Validate the configuration and start detector, controller, and worker
+Acquire the robot control lock before armed operation
+While the task is active:
+    Update the stable states of all six source cells
+    Log non-target states without requesting a movement
+    If a transfer is running:
+        Wait for feedback with the matching request ID
+        On failure or timeout: stop the task and record the cause
+    Else if a completed transfer needs source verification:
+        Wait for the inter-object interval
+        Accept EMPTY, or accept and requeue a stable ready cell
+        Continue waiting for an unresolved source state
+    Else if an eligible cell exists and the task is armed:
+        Choose its group and destination automatically
+        Send one transfer request to the worker
+        Validate the selected route and open the gripper
+        Move safe -> source approach -> source grasp
+        Check the grasp pose, close, lift, and check the hold
+        Move through safe to the selected destination
+        Descend, release, verify clearance, and return to safe
+        Report COMPLETED or FAILED with the motion-log path
+    Else if work occurred and all cells stayed empty for 5 seconds:
+        Complete the session
+On exit: stop any active runner and close cameras and connections
+\end{lstlisting}
+
+A ready cell after transfer can mean either refill or an object left behind. The outline therefore preserves the current requeue rule without treating it as independent proof of physical success. The final placement must be checked using the video or another outcome measurement.
+
+\clearpage
+\section{Visual Processing Logic}
+The detector and controller logic is shown below. The robot worker executes the selected request. Here, UNKNOWN means an unsupported received label.
+
+\begin{lstlisting}[caption={Visual processing and request selection in the supplied ROS pipeline}]
+Load detector v4, red/pink v2, red/orange pair v2, and six polygons
+Create a history of length 7 for each cell
+For each camera frame:
+    boxes = detect(frame, size=640, confidence=0.25, nms_iou=0.45)
+    For each pink or red box:
+        crop = crop_with_padding(frame, box, padding=0.08)
+        label, score = classify(crop, size=224)
+        If box is pink and label is red and score >= 0.55:
+            change the class to red
+    For each remaining red-cuboid or orange-bridge candidate:
+        Run the red/orange pair classifier
+        If confidence >= 0.80 and top-two margin >= 0.30:
+            adopt the pair classifier label
+    Publish classes, scores, box centers, and sizes
+    Assign boxes to cells by unique center-in-polygon match
+    For each cell:
+        If no box: observation = EMPTY
+        Else if an unsupported class exists: observation = UNKNOWN
+        Else if known groups differ: observation = MULTIPLE
+        Else: observation = shared group; choose highest-score box
+        Update the seven-observation history
+        If seven entries exist and at least five agree:
+            stable = the majority group or state
+        Else: stable = CANDIDATE
+        A group is ready only if the current group also agrees
+    If armed, idle, and the required waits are complete:
+        Select the lowest-numbered ready cell
+        Send one request: cube -> right; other -> left
+\end{lstlisting}
+
+\clearpage
+\section{Submission File Index}
+\label{sec:submission}
+The submission folder is \file{Group15_Experiment3_Compact_20260924}. The root \file{README_CN.md} describes the package contents and \file{SHA256SUMS.txt} records file checksums. Video encoding and original-file identities are listed in \file{VIDEO_COMPRESSION.md}.
+
+\begin{longtable}{@{}L{3.1cm}L{5.8cm}L{6.1cm}@{}}
+\caption{Submission directory guide}\\
+\toprule Material & Relative path & Contents\\\midrule\endfirsthead
+\toprule Material & Relative path & Contents\\\midrule\endhead
+\bottomrule\endfoot
+Group report & \file{01_Report/} & PDF, LaTeX source, and figures\\
+Physical implementation & \file{02_Physical/} & ROS 2 detector, task controller, robot worker, hardware tools, Launch and deployment scripts\\
+Models & \file{02_Physical/models/} & Main v4 detector, red/pink v2 classifier, red/orange pair v2 classifier\\
+Classification settings & \file{02_Physical/config/class_mapping.yaml}, \file{gripper_profiles.yaml} & Class routing and gripper targets\\
+Latest simulation & \file{03_Simulation/experiment3_sim_bridge_20260921/} & Six grids, four cubes and two bridges; code, videos and independent acceptance\\
+Historical simulation & \file{03_Simulation/experiment3_sim_complete_20260914/} & Original normal and exception runs\\
+Reviewed physical videos & \file{04_Evidence/Physical_Video/} & Acceptance MP4 and separate visual-recognition MP4 (compressed from AVI)\\
+Original physical records & \file{04_Evidence/RawRuns/} & Six-cycle task, five-cycle v4 task, physical UNKNOWN and injection tests, console logs, images and videos\\
+Task and video indices & \file{05_Records/} & Original request association index and video-cycle observations\\
+Measured pose reference & \file{06_Calibration/measured_17poses_20260907.yaml} & Seventeen recorded robot poses for calibration reference\\
+Direction compensation & \file{06_Calibration/joint_compensation.yaml} & Recorded directional correction data\\
+Training and evaluation & \file{07_Training/} & Main detector training material and red/orange refinement datasets, scripts and evaluations\\
+\end{longtable}
+
+\subsection{Reading the results}
+The final bridge simulation record is \file{03_Simulation/experiment3_sim_bridge_20260921/results/bridge_20260921_222016/acceptance.json}: six correct placements, including both bridges, with 37,831 joint samples. Its two videos and original event records are stored in the same run directory.
+
+Physical request records preserve the original grid IDs, detector labels, destinations and worker feedback. The six-cycle and five-cycle runs retain separate identities. Video observations describe visible object transfers; offline classifier evaluations describe image-classification performance. 
+
+\subsection{Configuration and use}
+The classification workflow uses main-detector confidence 0.25, seven-observation/five-vote sorting-group stability, unique center-in-polygon grid assignment, and cube/right versus other/left routing. Gripper values are OPEN 100, cube CLOSE 69, other CLOSE 40, and speed 20. Configuration examples and calibration tools accompany the source.
+
+The measured-pose reference is retained in the calibration directory without replacing the robot's runtime configuration. Before physical operation, perform the documented region calibration, pose checks and low-speed validation for the current setup. 

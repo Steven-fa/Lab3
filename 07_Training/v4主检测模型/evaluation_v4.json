@@ -1,0 +1,127 @@
+{
+  "model": "/home/nvidia/mecharm_tasks/experiment3/training/cube6_red_focus_v4_video_negative/runs/cube6_red_focus_v4_video_negative/weights/best.pt",
+  "video_red_holdout": {
+    "images": 13,
+    "recall_iou50_conf025": 1.0,
+    "recall_iou50_conf050": 1.0,
+    "mean_best_iou": 0.8601758478057678,
+    "mean_best_confidence": 0.8811720884763278,
+    "details": [
+      {
+        "image": "v4red_test_075_f0375.jpg",
+        "best_iou": 0.9411712046053289,
+        "best_confidence": 0.9106926918029785
+      },
+      {
+        "image": "v4red_test_076_f0380.jpg",
+        "best_iou": 0.9533668948443319,
+        "best_confidence": 0.9212732911109924
+      },
+      {
+        "image": "v4red_test_077_f0385.jpg",
+        "best_iou": 0.9356400615744435,
+        "best_confidence": 0.8985366821289062
+      },
+      {
+        "image": "v4red_test_078_f0390.jpg",
+        "best_iou": 0.89820275455276,
+        "best_confidence": 0.8958789110183716
+      },
+      {
+        "image": "v4red_test_079_f0395.jpg",
+        "best_iou": 0.8045540301212224,
+        "best_confidence": 0.8719227910041809
+      },
+      {
+        "image": "v4red_test_080_f0400.jpg",
+        "best_iou": 0.7354491179114784,
+        "best_confidence": 0.8882818818092346
+      },
+      {
+        "image": "v4red_test_081_f0405.jpg",
+        "best_iou": 0.8573857280585767,
+        "best_confidence": 0.8973618149757385
+      },
+      {
+        "image": "v4red_test_082_f0410.jpg",
+        "best_iou": 0.9108318959868036,
+        "best_confidence": 0.901555597782135
+      },
+      {
+        "image": "v4red_test_083_f0415.jpg",
+        "best_iou": 0.8699518647648539,
+        "best_confidence": 0.8789066076278687
+      },
+      {
+        "image": "v4red_test_084_f0420.jpg",
+        "best_iou": 0.9182260048694023,
+        "best_confidence": 0.8908037543296814
+      },
+      {
+        "image": "v4red_test_085_f0425.jpg",
+        "best_iou": 0.8616541198644572,
+        "best_confidence": 0.8355167508125305
+      },
+      {
+        "image": "v4red_test_086_f0430.jpg",
+        "best_iou": 0.7383556973832972,
+        "best_confidence": 0.8402830362319946
+      },
+      {
+        "image": "v4red_test_087_f0435.jpg",
+        "best_iou": 0.7574966469380243,
+        "best_confidence": 0.8242233395576477
+      }
+    ]
+  },
+  "video_negative_holdout": {
+    "images": 4,
+    "thresholds": {
+      "0.1": {
+        "images_with_false_positive": 0,
+        "false_boxes": 0
+      },
+      "0.25": {
+        "images_with_false_positive": 0,
+        "false_boxes": 0
+      },
+      "0.5": {
+        "images_with_false_positive": 0,
+        "false_boxes": 0
+      }
+    },
+    "details": [
+      {
+        "image": "v4neg_test_025_f0075.jpg",
+        "detections": []
+      },
+      {
+        "image": "v4neg_test_026_f0078.jpg",
+        "detections": []
+      },
+      {
+        "image": "v4neg_test_027_f0081.jpg",
+        "detections": []
+      },
+      {
+        "image": "v4neg_test_028_f0084.jpg",
+        "detections": []
+      }
+    ]
+  },
+  "full_v4_test_metrics": {
+    "metrics/precision(B)": 0.9365552253680584,
+    "metrics/recall(B)": 0.9281111813984216,
+    "metrics/mAP50(B)": 0.9353851043425346,
+    "metrics/mAP50-95(B)": 0.8755297857427836,
+    "fitness": 0.8755297857427836
+  },
+  "per_class_map50_95": {
+    "blue_cube": 0.87775,
+    "green_cube": 0.9272461538461538,
+    "pink_cube": 0.7947891520244459,
+    "yellow_cube": 0.9775,
+    "red_cuboid": 0.8053236970476414,
+    "orange_bridge": 0.8705697115384616
+  }
+}

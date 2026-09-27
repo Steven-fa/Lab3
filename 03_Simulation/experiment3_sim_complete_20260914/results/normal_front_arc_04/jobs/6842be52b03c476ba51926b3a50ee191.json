@@ -1,0 +1,529 @@
+{
+  "ok": true,
+  "status": "SORTED",
+  "safe_to_continue": true,
+  "fault_injection": null,
+  "job_id": "6842be52b03c476ba51926b3a50ee191",
+  "grid_id": "6",
+  "class_id": "blue_cube",
+  "confidence": 0.9699082215194191,
+  "bbox": [
+    572.0,
+    233.0,
+    84.0,
+    84.0
+  ],
+  "bin_slot": 2,
+  "issued_monotonic": 1770.06420042,
+  "preflight": {
+    "ok": true,
+    "chains": [
+      {
+        "label": "grid_vertical",
+        "ok": true,
+        "cartesian_points": 10,
+        "largest_adjacent_joint_step_deg": 2.745,
+        "start_object_center_m": [
+          0.065,
+          0.145,
+          0.065
+        ],
+        "end_object_center_m": [
+          0.065,
+          0.145,
+          0.02
+        ]
+      },
+      {
+        "label": "bin_vertical",
+        "ok": true,
+        "cartesian_points": 6,
+        "largest_adjacent_joint_step_deg": 8.135,
+        "start_object_center_m": [
+          0.14,
+          0.125,
+          0.065
+        ],
+        "end_object_center_m": [
+          0.14,
+          0.125,
+          0.04
+        ]
+      }
+    ],
+    "transfer_planner": "continuous radial IK, front arc, fixed height",
+    "transfer_xyz": [
+      [
+        0.06929708192220836,
+        0.14487518742093508,
+        0.065
+      ],
+      [
+        0.07362731407651173,
+        0.14462559251333976,
+        0.065
+      ],
+      [
+        0.07798712998176044,
+        0.14424951036839861,
+        0.065
+      ],
+      [
+        0.08237289938921873,
+        0.1437453367190549,
+        0.065
+      ],
+      [
+        0.08678093109279401,
+        0.14311157004401112,
+        0.065
+      ],
+      [
+        0.0912074758041448,
+        0.14234681359395124,
+        0.065
+      ],
+      [
+        0.09564872909053193,
+        0.14144977733806663,
+        0.065
+      ],
+      [
+        0.10010083437322059,
+        0.1404192798290276,
+        0.065
+      ],
+      [
+        0.10455988598418915,
+        0.13925424998459984,
+        0.065
+      ],
+      [
+        0.1090219322788472,
+        0.13795372878416925,
+        0.065
+      ],
+      [
+        0.11348297880241665,
+        0.13651687087849904,
+        0.065
+      ],
+      [
+        0.11793899150757983,
+        0.13494294611110894,
+        0.065
+      ],
+      [
+        0.12238590002095273,
+        0.1332313409497306,
+        0.065
+      ],
+      [
+        0.12681960095589662,
+        0.13138155982636138,
+        0.065
+      ],
+      [
+        0.13123596126913745,
+        0.12939322638450576,
+        0.065
+      ],
+      [
+        0.135630821658622,
+        0.12726608463226444,
+        0.065
+      ],
+      [
+        0.14,
+        0.125,
+        0.065
+      ]
+    ],
+    "transfer_joints": [
+      [
+        1.0926426925940362,
+        0.5245661983724567,
+        -0.5298046850601801,
+        0.08585226910056504,
+        1.5350441585074956,
+        -1.1861509721111938
+      ],
+      [
+        1.0682451124553183,
+        0.5449224932507809,
+        -0.55977177636511,
+        0.08581286320278042,
+        1.5445905124339088,
+        -1.1849887446423817
+      ],
+      [
+        1.0438404292941286,
+        0.5657014132037771,
+        -0.590705724860307,
+        0.08578083225457883,
+        1.5546797511079442,
+        -1.1837876368896045
+      ],
+      [
+        1.0194288648265966,
+        0.5869550437927471,
+        -0.6227039202184134,
+        0.08575754789987294,
+        1.565356988976307,
+        -1.1825434432894064
+      ],
+      [
+        0.9950106318158538,
+        0.6087448405495047,
+        -0.6558818816553615,
+        0.08574463885909248,
+        1.576676066350963,
+        -1.181251161333108
+      ],
+      [
+        0.9705859345687051,
+        0.6311442478431075,
+        -0.6903783021163689,
+        0.08574406592292338,
+        1.5887019649653042,
+        -1.1799047639815998
+      ],
+      [
+        0.9461549694215166,
+        0.6542423376951739,
+        -0.7263620570168676,
+        0.08575822711196728,
+        1.6015141643121125,
+        -1.178496882724986
+      ],
+      [
+        0.9217179252245478,
+        0.6781490004290435,
+        -0.7640422018542546,
+        0.08579010905061711,
+        1.6152114291836699,
+        -1.177018354339974
+      ],
+      [
+        0.8972749838412922,
+        0.7030025814839755,
+        -0.8036826809298094,
+        0.0858435117028122,
+        1.6299188529347899,
+        -1.1754575522392785
+      ],
+      [
+        0.8728263206910799,
+        0.7289815398969898,
+        -0.8456247810207516,
+        0.08592339458826632,
+        1.6457986088260164,
+        -1.1737993627599266
+      ],
+      [
+        0.8483721053871267,
+        0.7563230641542059,
+        -0.8903229828047967,
+        0.086036434699393,
+        1.6630671153802876,
+        -1.172023545605303
+      ],
+      [
+        0.8239125025749542,
+        0.7853545066087023,
+        -0.9384054954182995,
+        0.08619197738676566,
+        1.6820240175923544,
+        -1.1701019566279736
+      ],
+      [
+        0.7994476732035395,
+        0.8165504054650241,
+        -0.9907840588217914,
+        0.08640377766668074,
+        1.7031047508759853,
+        -1.1679934935894811
+      ],
+      [
+        0.7749777768090778,
+        0.8506462831338851,
+        -1.0488730598674154,
+        0.08669350916140407,
+        1.7269854254013042,
+        -1.165633975547556
+      ],
+      [
+        0.7505029765088895,
+        0.8888984274237224,
+        -1.1150896963762202,
+        0.08709885471664128,
+        1.7548222162628184,
+        -1.1629129589166263
+      ],
+      [
+        0.7260234529810562,
+        0.9338127888749806,
+        -1.1942572273618617,
+        0.08769644432683397,
+        1.7889229212005342,
+        -1.159608452297208
+      ],
+      [
+        0.7015394619185539,
+        0.9921083595135848,
+        -1.2993094491594193,
+        0.08869615034861306,
+        1.8354766540826326,
+        -1.1551204867576084
+      ]
+    ],
+    "largest_transfer_joint_step_deg": 6.01904893747228,
+    "base_rotation_deg": -24.09415833568048
+  },
+  "execution": {
+    "ok": true,
+    "steps": [
+      {
+        "label": "detach_reset",
+        "ok": true,
+        "detail": "target is already detached"
+      },
+      {
+        "label": "remove_attached_scene",
+        "ok": true
+      },
+      {
+        "label": "strict_table_contact",
+        "ok": true
+      },
+      {
+        "label": "open_gripper",
+        "ok": true,
+        "detail": "open gripper"
+      },
+      {
+        "label": "home_before_task",
+        "ok": true,
+        "detail": {
+          "label": "Home_before_dynamic_task",
+          "points": 1,
+          "collision_samples": 1,
+          "command_duration_s": 0.18
+        }
+      },
+      {
+        "label": "remove_old_world_target",
+        "ok": true
+      },
+      {
+        "label": "verify_cube_at_detected_grid",
+        "ok": true,
+        "detail": [
+          0.065,
+          0.145,
+          0.019997
+        ]
+      },
+      {
+        "label": "add_start_world_target",
+        "ok": true
+      },
+      {
+        "label": "move_to_start_safe",
+        "ok": true,
+        "detail": {
+          "label": "affine_start_safe",
+          "points": 44,
+          "collision_samples": 44,
+          "command_duration_s": 9.638
+        }
+      },
+      {
+        "label": "remove_target_for_grasp",
+        "ok": true
+      },
+      {
+        "label": "descend_to_start",
+        "ok": true,
+        "detail": {
+          "label": "descend_to_affine_start",
+          "points": 9,
+          "collision_samples": 17,
+          "command_duration_s": 2.525
+        }
+      },
+      {
+        "label": "cube_still_at_start",
+        "ok": true,
+        "detail": [
+          0.065,
+          0.145,
+          0.019997
+        ]
+      },
+      {
+        "label": "close_gripper",
+        "ok": true,
+        "detail": "close gripper"
+      },
+      {
+        "label": "close_did_not_push_cube",
+        "ok": true,
+        "detail": [
+          0.065,
+          0.145,
+          0.02
+        ]
+      },
+      {
+        "label": "grasp_alignment",
+        "ok": true,
+        "detail": "center_error=0.0000 m, local_error=[0.0000, -0.0000, -0.0000], gripper=0.1000 rad, target_z=0.0200 m, centered=true, closed=true, above_table=true"
+      },
+      {
+        "label": "grasp_center_within_10mm",
+        "ok": true,
+        "detail": 0.0
+      },
+      {
+        "label": "physical_attach",
+        "ok": true,
+        "detail": "target attached without pose snapping; center_error=0.0000 m, local_error=[-0.0000, -0.0000, 0.0000], gripper=0.1000 rad, target_z=0.0200 m, centered=true, closed=true, above_table=true"
+      },
+      {
+        "label": "attach_snap_within_3mm",
+        "ok": true,
+        "detail": 1.9566887223802312e-05
+      },
+      {
+        "label": "add_attached_collision",
+        "ok": true
+      },
+      {
+        "label": "allow_initial_table_contact",
+        "ok": true
+      },
+      {
+        "label": "lift_from_start",
+        "ok": true,
+        "detail": {
+          "label": "lift_from_affine_start",
+          "points": 9,
+          "collision_samples": 18,
+          "command_duration_s": 2.526
+        }
+      },
+      {
+        "label": "restore_strict_table_contact",
+        "ok": true
+      },
+      {
+        "label": "cube_lifted",
+        "ok": true,
+        "detail": [
+          0.065,
+          0.144999,
+          0.065
+        ]
+      },
+      {
+        "label": "transfer_to_end",
+        "ok": true,
+        "detail": {
+          "label": "front_arc_bin_transfer",
+          "points": 17,
+          "collision_samples": 26,
+          "command_duration_s": 5.091
+        }
+      },
+      {
+        "label": "transfer_hold",
+        "ok": true,
+        "detail": "center_error=0.0000 m, local_error=[0.0000, -0.0000, -0.0000], gripper=0.1000 rad, target_z=0.0650 m, centered=true, closed=true, above_table=true"
+      },
+      {
+        "label": "descend_to_release",
+        "ok": true,
+        "detail": {
+          "label": "descend_to_affine_end_release",
+          "points": 5,
+          "collision_samples": 13,
+          "command_duration_s": 2.814
+        }
+      },
+      {
+        "label": "release_pose_aligned",
+        "ok": true,
+        "detail": [
+          0.139999,
+          0.124998,
+          0.04
+        ]
+      },
+      {
+        "label": "remove_attached_collision",
+        "ok": true
+      },
+      {
+        "label": "open_for_release",
+        "ok": true,
+        "detail": "open for release"
+      },
+      {
+        "label": "physical_detach",
+        "ok": true,
+        "detail": "target detached from adaptive gripper"
+      },
+      {
+        "label": "final_cube_tolerance",
+        "ok": true,
+        "detail": {
+          "pose_m": [
+            0.139788,
+            0.12482,
+            0.01999
+          ],
+          "xy_error_mm": 0.278,
+          "z_error_mm": 0.01
+        }
+      },
+      {
+        "label": "restore_world_collision",
+        "ok": true
+      },
+      {
+        "label": "leave_end",
+        "ok": true,
+        "detail": {
+          "label": "leave_affine_end",
+          "points": 5,
+          "collision_samples": 13,
+          "command_duration_s": 2.814
+        }
+      },
+      {
+        "label": "home_after_task",
+        "ok": true,
+        "detail": {
+          "label": "Home_after_dynamic_task",
+          "points": 53,
+          "collision_samples": 53,
+          "command_duration_s": 11.572
+        }
+      }
+    ],
+    "attach_snap_mm": 0.02,
+    "final_pose_m": [
+      0.139788,
+      0.12482,
+      0.01999
+    ],
+    "final_xy_error_mm": 0.278,
+    "final_z_error_mm": 0.01
+  },
+  "final_position": [
+    0.1397880879216639,
+    0.12482016020922532,
+    0.01999036012305547
+  ]
+}

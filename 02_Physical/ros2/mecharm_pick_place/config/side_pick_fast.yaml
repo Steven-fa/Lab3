@@ -1,0 +1,122 @@
+format: mecharm_keyframes/v1
+updated_at: '2026-09-01T22:10:00'
+recorded_at: '2026-09-01T20:15:20'
+base_frame: base
+end_effector_link: gripper_base
+object_id: workpiece
+joint_names:
+- joint1_to_base
+- joint2_to_joint1
+- joint3_to_joint2
+- joint4_to_joint3
+- joint5_to_joint4
+- joint6_to_joint5
+gripper_joint: gripper_controller
+gripper_open: 0.09
+gripper_closed: -0.10
+return_home: true
+release_clearance_adjustment: 0.01
+optimized_from: /home/tonyt/mecharm_demos/side_pick_complete_6plus8/keyframes.yaml
+optimization: approach, grasp, vertical lift, fixed collision-checked outer corridor, vertical release, vertical 0.15 m lift, home
+removed_source_indices: [1, 2, 3, 4, 7, 8, 9, 10, 11, 13, 14]
+keyframe_count: 7
+keyframes:
+- index: 1
+  source_index: 5
+  type: waypoint
+  captured_at: '2026-09-01T20:13:38.947'
+  ee_pose:
+    position: [0.1106376052300725, -0.10241372090769375, 0.05708321183022423]
+    orientation_xyzw: [0.0029418794390460357, -0.0029613368616856215, -0.7066327729854182, 0.7075681592414234]
+  joint_positions:
+    joint1_to_base: -1.439743899350531
+    joint2_to_joint1: 1.306282313653023
+    joint3_to_joint2: 0.24160962088581162
+    joint4_to_joint3: -1.4409414143507817
+    joint5_to_joint4: -1.5679589153614275
+    joint6_to_joint5: 0.022666988842654945
+  gripper_position: 0.09999999999999964
+  object_pose:
+    position: [0.18000000000000102, -0.09999999999999404, 0.019998774991022362]
+    orientation_xyzw: [-1.1918760319453686e-13, 2.1812065150991364e-14, -3.716656870481374e-18, 1.0]
+- index: 2
+  source_index: 6
+  type: grasp
+  captured_at: '2026-09-01T20:14:01.019'
+  ee_pose:
+    position: [0.11030599919820007, -0.10018271702996424, 0.034104577087304716]
+    orientation_xyzw: [0.0028856194021671857, -0.0029361685207287633, -0.7071698777169396, 0.7070316938899504]
+  joint_positions:
+    joint1_to_base: -1.439931533921336
+    joint2_to_joint1: 1.5290701725223297
+    joint3_to_joint2: 0.06957091434169094
+    joint4_to_joint3: -1.4397906495760067
+    joint5_to_joint4: -1.5744716537315258
+    joint6_to_joint5: -0.027679493662399857
+  gripper_position: 0.10000000000000053
+  object_pose:
+    position: [0.18000000000000102, -0.09999999999999404, 0.019998774991022362]
+    orientation_xyzw: [-1.1918760319453686e-13, 2.1812065150991364e-14, -3.716656870481374e-18, 1.0]
+- index: 3
+  generated: vertical_grasp_lift
+  motion: vertical
+  type: waypoint
+  ee_pose:
+    position: [0.11030599919820007, -0.10018271702996424, 0.16000000000000000]
+    orientation_xyzw: [0.0028856194021671857, -0.0029361685207287633, -0.7071698777169396, 0.7070316938899504]
+  gripper_position: -0.10
+  object_pose:
+    position: [0.18000000000000102, -0.09999999999999404, 0.14589419790371765]
+    orientation_xyzw: [-1.1918760319453686e-13, 2.1812065150991364e-14, -3.716656870481374e-18, 1.0]
+- index: 4
+  generated: outward_base_clearance
+  motion: cartesian
+  type: waypoint
+  ee_pose:
+    position: [0.20000000000000000, -0.10018271702996424, 0.16000000000000000]
+    orientation_xyzw: [0.0028856194021671857, -0.0029361685207287633, -0.7071698777169396, 0.7070316938899504]
+  gripper_position: -0.10
+  object_pose:
+    position: [0.26969400080180095, -0.09999999999999404, 0.14589419790371765]
+    orientation_xyzw: [-1.1918760319453686e-13, 2.1812065150991364e-14, -3.716656870481374e-18, 1.0]
+- index: 5
+  generated: above_release_corridor
+  motion: cartesian
+  type: waypoint
+  ee_pose:
+    position: [0.13006369420890307, 0.11904769782179829, 0.16000000000000000]
+    orientation_xyzw: [0.0029509788804094163, -0.002814197446952348, -0.7071376732042667, 0.7070641294476993]
+  gripper_position: -0.10
+  object_pose:
+    position: [0.19975654840361734, 0.11924059411060514, 0.13588866940115065]
+    orientation_xyzw: [0.00013227733727055402, 4.001946698032862e-05, 4.625092909271711e-05, 0.9999999893809999]
+- index: 6
+  source_index: 12
+  motion: vertical
+  type: release
+  captured_at: '2026-09-01T19:57:21.126'
+  ee_pose:
+    position: [0.13006369420890307, 0.11904769782179829, 0.04574513147562579]
+    orientation_xyzw: [0.0029509788804094163, -0.002814197446952348, -0.7071376732042667, 0.7070641294476993]
+  joint_positions:
+    joint1_to_base: 1.3138036505908346
+    joint2_to_joint1: 1.5371545318377597
+    joint3_to_joint2: -0.12877924795397422
+    joint4_to_joint3: 1.3171487074864547
+    joint5_to_joint4: -1.529642193409276
+    joint6_to_joint5: -0.15698814016398455
+  gripper_position: -0.10
+  object_pose:
+    position: [0.19975654840361734, 0.11924059411060514, 0.021633800876776438]
+    orientation_xyzw: [0.00013227733727055402, 4.001946698032862e-05, 4.625092909271711e-05, 0.9999999893809999]
+- index: 7
+  generated: vertical_release_lift_0.15m
+  motion: vertical
+  type: waypoint
+  ee_pose:
+    position: [0.13006369420890307, 0.11904769782179829, 0.1957451314756258]
+    orientation_xyzw: [0.0029509788804094163, -0.002814197446952348, -0.7071376732042667, 0.7070641294476993]
+  gripper_position: 0.09
+  object_pose:
+    position: [0.19975654840361734, 0.11924059411060514, 0.021633800876776438]
+    orientation_xyzw: [0.00013227733727055402, 4.001946698032862e-05, 4.625092909271711e-05, 0.9999999893809999]

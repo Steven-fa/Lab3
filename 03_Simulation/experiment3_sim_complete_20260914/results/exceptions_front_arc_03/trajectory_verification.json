@@ -1,0 +1,85 @@
+{
+  "note": "Plan coordinates and actual joint telemetry are distinguished; full safety and correctness are in acceptance.json.",
+  "jobs": [
+    {
+      "grid_id": "1",
+      "class_id": "red_cube",
+      "bin_slot": 0,
+      "actual_samples_during_transfer": 21,
+      "actual_joint_ranges_deg": {
+        "joint1_to_base": [
+          124.632,
+          156.022
+        ],
+        "joint2_to_joint1": [
+          -1.911,
+          50.318
+        ],
+        "joint3_to_joint2": [
+          -62.819,
+          8.718
+        ],
+        "joint4_to_joint3": [
+          4.913,
+          5.016
+        ],
+        "joint5_to_joint4": [
+          80.927,
+          100.09
+        ],
+        "joint6_to_joint5": [
+          -69.518,
+          -66.674
+        ]
+      },
+      "planned_base_rotation_deg": 30.215,
+      "planned_max_adjacent_step_deg": 6.089,
+      "planned_front_y_min_m": 0.07,
+      "planned_z_range_m": [
+        0.065,
+        0.065
+      ],
+      "placed_xy_error_mm": 0.301
+    },
+    {
+      "grid_id": "4",
+      "class_id": "blue_cube",
+      "bin_slot": 0,
+      "actual_samples_during_transfer": 24,
+      "actual_joint_ranges_deg": {
+        "joint1_to_base": [
+          20.782,
+          111.848
+        ],
+        "joint2_to_joint1": [
+          28.995,
+          50.323
+        ],
+        "joint3_to_joint2": [
+          -62.828,
+          -28.802
+        ],
+        "joint4_to_joint3": [
+          4.913,
+          4.983
+        ],
+        "joint5_to_joint4": [
+          87.466,
+          100.094
+        ],
+        "joint6_to_joint5": [
+          -68.021,
+          -66.674
+        ]
+      },
+      "planned_base_rotation_deg": -91.765,
+      "planned_max_adjacent_step_deg": 1.408,
+      "planned_front_y_min_m": 0.07,
+      "planned_z_range_m": [
+        0.065,
+        0.065
+      ],
+      "placed_xy_error_mm": 0.28
+    }
+  ]
+}

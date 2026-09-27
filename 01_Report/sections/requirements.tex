@@ -1,0 +1,45 @@
+\section{Experiment Objectives and Requirements}
+\subsection{Purpose and connection with Experiment 2}
+The aim of Experiment 3 is to make the robot choose a useful action from camera information. In Experiment 2, the main work was recording robot states and replaying a fixed route. The operator already knew the picking and placing points. In this experiment, an object may appear in any of six prepared grids, and its group decides its destination. The system must connect visual detection, task decisions, and robot movement into one repeated process.\src{requirements,lab2}
+
+The task is to identify at least two object groups, select their source grids and place them in the corresponding areas. We use fixed pickup positions, so the camera only needs to identify a cell. The camera, robot base and objects must remain close to the calibrated arrangement.
+
+\subsection{Basic task and required interfaces}
+The handout requires four to six fixed source grids and at least two sorting areas. Our implementation uses six grids and two destinations. After the task starts, the operator must not manually choose the object class, source grid, or placement area.\src{requirements}
+
+\begin{table}[H]\tabstart
+\caption{Required interfaces and their roles}
+\begin{tabularx}{\textwidth}{@{}L{3.0cm}L{5.0cm}Y@{}}
+\toprule Interface & Required form & Purpose\\\midrule
+Camera image & \file{sensor_msgs/Image} & Provide the scene used for detection.\\
+Object detection & \file{vision_msgs/Detection2DArray} & Provide class, box, and confidence.\\
+Grasping task & ROS 2 Action or an equivalent long task interface with feedback & Send a request and report progress or failure.\\
+Task decisions & State machine or BehaviorTree & Select targets and manage normal and abnormal states.\\
+System startup & One Launch file & Start the camera, perception, robot, and task control chain.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The task loop is to observe the table, find a valid object, decide its group and destination, execute picking and placing, and then observe again. Empty grids and unknown classes should be skipped. A failed grasp or unreachable target should lead to a stop or a safe return. Logs should preserve the recognition result, motion result, placement result, and error information.
+
+\subsection{Simulation and physical requirements}
+The required order is simulation first, followed by physical verification. Simulation should contain the arm, gripper, overhead camera, table grid, and at least two object groups. The simulated image must pass through the detection and task-control chain. The physical stage uses a fixed RGB camera, a Jetson computer, and the real mechArm. The physical layout must provide six target objects from at least two groups.\src{requirements}
+
+\begin{table}[H]\tabstart
+\caption{Acceptance targets stated in the Experiment 3 handout}
+\begin{tabularx}{\textwidth}{@{}L{3.1cm}Y Y@{}}
+\toprule Item & Simulation & Physical experiment\\\midrule
+Sorting performance & At least 5 correctly sorted objects from at least 6 tested objects & At least 5 correctly sorted objects out of 6\\
+Class coverage & At least 2 sorting groups & At least 2 sorting groups\\
+Autonomy & No manual class, grid, or destination choice after startup & No manual class decision or action triggering during normal operation\\
+Abnormal cases & Correctly handle at least 2 types & At least empty grids and unknown objects\\
+Motion safety & No clear collision or joint-limit violation & No collision, limit violation, or dangerous action; safe stop on errors\\
+Records and startup & Recognition, grasp, and state logs; one Launch & Per-object outcomes and errors; one Launch\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The required submission includes the ROS 2 project, Launch and dependency files, trained weights, class definitions, grid configuration, task-control description, simulation and physical videos, test records, and this report. The task records link each selected target to its motion request and outcome.
+
+\subsection{Experimental setup}
+Our physical system uses six source cells and two destinations. The instructor accepted a test starting with five objects and re-feeding the yellow cube once, giving six transfers in total. The final simulation contains four cubes and two bridges. Its normal run and the earlier exception tests are described in Section~\ref{sec:simulation}.\src{simbridge,simbridgerun,simruns}

@@ -1,0 +1,6 @@
+\section{Conclusion}
+The system completed the required sequence from camera detection to grid selection, grasping and classified placement. Fixed pickup grids allowed us to use taught poses while leaving object selection and destination choice to the controller.
+
+In simulation, four cubes and two bridges reached their assigned positions. On the physical arm, the instructor-approved test used five initial objects and one re-feed to complete six transfers. Original task logs record the six requests and completed results. Empty and unknown cells were checked in separate no-motion tests.\src{simbridgerun,physicalvideo,physicalrecords}
+
+The main implementation choices were five-of-seven group voting, one motion request at a time, and position and gripper checks during transfer. Red/pink and red/orange classifiers were added for the object pairs that caused recognition errors. The red/orange update has been evaluated on saved images and video. Further physical trials would be needed to measure its effect on repeated sorting runs.

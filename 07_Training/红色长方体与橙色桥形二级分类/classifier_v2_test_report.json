@@ -1,0 +1,515 @@
+{
+  "model": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_v5_red_orange_20260914\\runs\\red_orange_classifier_v2\\weights\\best.pt",
+  "counts": {
+    "orange_bridge->orange_bridge": 30,
+    "red_cuboid->red_cuboid": 54
+  },
+  "samples": 84,
+  "accuracy": 1.0,
+  "details": [
+    {
+      "image": "combination_01_f000700_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.993779
+    },
+    {
+      "image": "combination_02_f000340_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.99994
+    },
+    {
+      "image": "combination_02_f000360_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999919
+    },
+    {
+      "image": "combination_02_f000380_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999995
+    },
+    {
+      "image": "combination_02_f000400_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999995
+    },
+    {
+      "image": "combination_02_f000420_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999955
+    },
+    {
+      "image": "combination_02_f000440_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999969
+    },
+    {
+      "image": "combination_02_f000460_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999994
+    },
+    {
+      "image": "combination_02_f000480_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.99997
+    },
+    {
+      "image": "combination_02_f000500_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.99999
+    },
+    {
+      "image": "combination_03_f000000_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999995
+    },
+    {
+      "image": "combination_03_f000020_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999981
+    },
+    {
+      "image": "combination_03_f000020_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999993
+    },
+    {
+      "image": "combination_03_f000840_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999827
+    },
+    {
+      "image": "combination_03_f000860_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999424
+    },
+    {
+      "image": "combination_03_f000860_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.998364
+    },
+    {
+      "image": "combination_03_f000880_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.994619
+    },
+    {
+      "image": "combination_03_f000900_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999466
+    },
+    {
+      "image": "combination_03_f000900_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.997457
+    },
+    {
+      "image": "combination_03_f000920_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999678
+    },
+    {
+      "image": "combination_03_f000920_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999819
+    },
+    {
+      "image": "combination_03_f000920_02.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999799
+    },
+    {
+      "image": "combination_04_f000200_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999997
+    },
+    {
+      "image": "combination_04_f000220_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999983
+    },
+    {
+      "image": "combination_04_f000220_02.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999885
+    },
+    {
+      "image": "combination_04_f000240_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999898
+    },
+    {
+      "image": "combination_04_f000260_01.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999989
+    },
+    {
+      "image": "combination_04_f000280_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999835
+    },
+    {
+      "image": "combination_04_f000300_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999984
+    },
+    {
+      "image": "combination_04_f000320_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999857
+    },
+    {
+      "image": "deployment_f000290_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999689
+    },
+    {
+      "image": "deployment_f000300_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999822
+    },
+    {
+      "image": "deployment_f000310_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999733
+    },
+    {
+      "image": "deployment_f000320_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.99982
+    },
+    {
+      "image": "deployment_f000330_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999658
+    },
+    {
+      "image": "deployment_f000340_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999663
+    },
+    {
+      "image": "extra_red_010.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999984
+    },
+    {
+      "image": "extra_red_011.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999792
+    },
+    {
+      "image": "red_cuboid_01_f000330_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999862
+    },
+    {
+      "image": "red_cuboid_01_f000345_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.99988
+    },
+    {
+      "image": "red_cuboid_01_f000360_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999531
+    },
+    {
+      "image": "red_cuboid_01_f000375_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999952
+    },
+    {
+      "image": "red_cuboid_01_f000390_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999983
+    },
+    {
+      "image": "red_cuboid_01_f000405_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999963
+    },
+    {
+      "image": "red_cuboid_01_f000420_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999997
+    },
+    {
+      "image": "red_cuboid_01_f000435_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999992
+    },
+    {
+      "image": "red_cuboid_01_f000450_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999949
+    },
+    {
+      "image": "red_cuboid_02_f000345_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999952
+    },
+    {
+      "image": "red_cuboid_02_f000360_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999965
+    },
+    {
+      "image": "red_cuboid_02_f000375_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.997733
+    },
+    {
+      "image": "red_cuboid_02_f000390_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.998357
+    },
+    {
+      "image": "red_cuboid_02_f000405_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.99967
+    },
+    {
+      "image": "red_cuboid_02_f000420_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999996
+    },
+    {
+      "image": "red_cuboid_02_f000435_00.jpg",
+      "true": "red_cuboid",
+      "predicted": "red_cuboid",
+      "confidence": 0.999986
+    },
+    {
+      "image": "combination_02_f000340_01.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999301
+    },
+    {
+      "image": "combination_02_f000360_01.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.998861
+    },
+    {
+      "image": "combination_02_f000380_01.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999994
+    },
+    {
+      "image": "combination_02_f000400_01.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999736
+    },
+    {
+      "image": "combination_02_f000420_01.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.998203
+    },
+    {
+      "image": "combination_02_f000440_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.99975
+    },
+    {
+      "image": "combination_02_f000460_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999926
+    },
+    {
+      "image": "combination_02_f000480_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999947
+    },
+    {
+      "image": "combination_02_f000500_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999924
+    },
+    {
+      "image": "combination_04_f000200_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999922
+    },
+    {
+      "image": "combination_04_f000220_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.99998
+    },
+    {
+      "image": "combination_04_f000240_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999876
+    },
+    {
+      "image": "combination_04_f000260_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.933909
+    },
+    {
+      "image": "combination_04_f000280_01.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.934022
+    },
+    {
+      "image": "combination_04_f000300_01.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.994635
+    },
+    {
+      "image": "combination_04_f000320_01.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.998848
+    },
+    {
+      "image": "deployment_f000290_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999995
+    },
+    {
+      "image": "deployment_f000300_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999989
+    },
+    {
+      "image": "deployment_f000310_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999997
+    },
+    {
+      "image": "deployment_f000320_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999993
+    },
+    {
+      "image": "deployment_f000330_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999976
+    },
+    {
+      "image": "deployment_f000340_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.99999
+    },
+    {
+      "image": "orange_bridge_01_f000075_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999961
+    },
+    {
+      "image": "orange_bridge_01_f000090_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.99994
+    },
+    {
+      "image": "orange_bridge_01_f000105_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999469
+    },
+    {
+      "image": "orange_bridge_01_f000120_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.977899
+    },
+    {
+      "image": "orange_bridge_01_f000135_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999835
+    },
+    {
+      "image": "orange_bridge_01_f000150_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999968
+    },
+    {
+      "image": "orange_bridge_01_f000165_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999972
+    },
+    {
+      "image": "orange_bridge_01_f000180_00.jpg",
+      "true": "orange_bridge",
+      "predicted": "orange_bridge",
+      "confidence": 0.999981
+    }
+  ]
+}

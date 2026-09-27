@@ -1,0 +1,26 @@
+{
+  "base": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_v5_red_orange_20260914\\classifier_dataset",
+  "video": "F:\\PycharmProjects\\robomaster\\deliverables\\experiment3_v4_acceptance_20260907_192601\\acceptance_20260907_192601.avi",
+  "detector": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_v4_red_negative_20260913\\cube6_red_focus_v4_video_negative_best.pt",
+  "known_bad_labels": [
+    "combination_03_f000860_01.jpg",
+    "combination_03_f000880_00.jpg",
+    "combination_03_f000900_00.jpg",
+    "combination_03_f000920_00.jpg"
+  ],
+  "counts": {
+    "base/test/orange_bridge": 24,
+    "base/test/red_cuboid": 48,
+    "base/train/orange_bridge": 132,
+    "base/train/red_cuboid": 195,
+    "base/val/orange_bridge": 28,
+    "base/val/red_cuboid": 43,
+    "corrected_bad_labels": 4,
+    "deployment/test/orange_bridge": 6,
+    "deployment/test/red_cuboid": 6,
+    "deployment/train/orange_bridge": 18,
+    "deployment/train/red_cuboid": 27,
+    "deployment/val/orange_bridge": 6,
+    "deployment/val/red_cuboid": 6
+  }
+}

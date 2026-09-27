@@ -1,0 +1,7 @@
+format: mecharm_experiment3_gripper_profiles/v1
+complete: true
+open: 100
+cube_close: 69
+other_close: 40
+speed: 20
+

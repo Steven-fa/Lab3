@@ -1,0 +1,8 @@
+{
+  "grid_id": 1,
+  "changed_ratio": 0.40357,
+  "largest_changed_component_ratio": 0.29705,
+  "known_yolo_detections": [],
+  "occupancy_pass": true,
+  "unknown_pass": true
+}

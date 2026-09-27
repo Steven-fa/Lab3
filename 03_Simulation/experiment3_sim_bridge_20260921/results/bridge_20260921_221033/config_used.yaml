@@ -1,0 +1,44 @@
+camera:
+  position: [0.0, 0.055, 0.65]
+  width: 960
+  height: 720
+  hfov: 1.0
+  rate: 8
+object_size: 0.04
+scene_labels: [blue_cube, orange_bridge, red_cube, orange_bridge, red_cube, blue_cube]
+grids:
+  '1': {xy: [-0.065, 0.085], half_width: 0.027}
+  '2': {xy: [0.0, 0.10], half_width: 0.027}
+  '3': {xy: [0.065, 0.085], half_width: 0.027}
+  '4': {xy: [-0.065, 0.145], half_width: 0.027}
+  '5': {xy: [0.0, 0.16], half_width: 0.027}
+  '6': {xy: [0.065, 0.145], half_width: 0.027}
+bins:
+  orange_bridge: {id: bridge_bin, slots: [[-0.14, 0.125], [-0.075, 0.205]], half_width: 0.028}
+  red_cube: {id: red_bin, slots: [[-0.17, 0.07], [-0.112, 0.045], [-0.14, 0.125]], half_width: 0.028}
+  blue_cube: {id: blue_bin, slots: [[0.17, 0.07], [0.112, 0.045], [0.14, 0.125]], half_width: 0.028}
+detector:
+  backend: hsv
+  min_area_px: 250
+  max_area_px: 10000
+  max_aspect_ratio: 1.8
+  min_confidence: 0.65
+  hsv_ranges:
+    orange_bridge: [[[15, 110, 70], [28, 255, 255]]]
+    red_cube: [[[0, 110, 70], [12, 255, 255]], [[170, 110, 70], [179, 255, 255]]]
+    blue_cube: [[[95, 110, 60], [135, 255, 255]]]
+  unknown_saturation: 110
+task:
+  stable_observations: 4
+  image_timeout_s: 8.0
+  job_timeout_s: 180.0
+  settle_after_job_s: 2.0
+  max_jobs: 6
+  min_successes: 6
+  required_bridge_successes: 2
+  normal_object_count: 6
+  state_machine: [WAIT_READY, OBSERVE, SELECT, EXECUTING, VERIFY, RECOVER, DONE, STOPPED]
+motion:
+  safe_object_z: 0.065
+  release_object_z: 0.04
+  joint_limits: [[-2.792527, 2.792527], [-1.3089, 2.0943], [-3.0543, 1.1344], [-2.7052, 2.7052], [-2.0071, 2.0071], [-3.14, 3.14]]

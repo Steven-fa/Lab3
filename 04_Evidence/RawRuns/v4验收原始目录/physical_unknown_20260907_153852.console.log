@@ -1,0 +1,3 @@
+[INFO] [1788766733.449344216] [experiment3_task_controller]: DISARMED: publishing visual state only; no transfer request will be sent
+[INFO] [1788766770.285123128] [experiment3_task_controller]: 视觉区域状态：G1=CANDIDATE, G2=CANDIDATE, G3=CANDIDATE, G4=CANDIDATE, G5=CANDIDATE, G6=CANDIDATE
+[INFO] [1788766770.893123544] [experiment3_task_controller]: 视觉区域状态：G1=UNKNOWN, G2=EMPTY, G3=EMPTY, G4=EMPTY, G5=EMPTY, G6=EMPTY

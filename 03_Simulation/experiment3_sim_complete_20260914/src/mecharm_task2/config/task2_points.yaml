@@ -1,0 +1,17 @@
+task2_scene:
+  ros__parameters:
+    table_size: [0.80, 0.80, 0.05]
+    table_position: [0.15, 0.00, -0.025]
+    target_size: [0.04, 0.04, 0.04]
+    point_a: [0.18, 0.08, 0.02]
+    point_b: [0.18, -0.08, 0.02]
+    safe_height: 0.12
+
+task2:
+  ros__parameters:
+    home_joints: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    point_a: [0.18, 0.08, 0.02]
+    point_b: [0.18, -0.08, 0.02]
+    safe_height: 0.12
+    velocity_scale: 0.10
+    acceleration_scale: 0.10

@@ -1,0 +1,221 @@
+{
+  "group": 15,
+  "experiment": 3,
+  "environment": "physical",
+  "record_type": "video_annotated_transfer_cycles_not_original_runtime_log",
+  "reported_totals": {
+    "tested_objects": 6,
+    "correctly_sorted": 6,
+    "failed_transfers": 0,
+    "sources": [
+      "Group 15 confirmation",
+      "Defense slide 9 visible result"
+    ],
+    "independently_recounted_from_full_video": false,
+    "qualification": "Legacy wording retained for source traceability. MP4 confirms six transfer cycles from five initial objects with one yellow re-feed, not six distinct objects."
+  },
+  "video_observed_totals": {
+    "initial_objects": 5,
+    "refeed_events": 1,
+    "transfer_cycles": 6,
+    "visible_lifts": 6,
+    "matching_destination_choices": 6,
+    "simultaneous_six_object_setup_verified": false,
+    "all_six_source_cells_exercised": null,
+    "unattended_final_placement_verified": false
+  },
+  "count_reconciliation": {
+    "older_slide9_speaker_note_count": 5,
+    "adopted_cycle_count": 6,
+    "basis": "Two separately retained original runs: six cycles on 20260908 and five cycles on 20260907; instructor-approved re-feed protocol confirmed by group."
+  },
+  "record_id_meaning": "Chronological MP4 transfer cycles, not six unique objects. P03 repeats the yellow cube.",
+  "missing_value_meaning": "null denotes evidence not recovered, not a failed transfer.",
+  "videos": [
+    {
+      "file": "04_Evidence/Physical_Video/2eb7001d38fd861630d52918161ba8cf.mp4",
+      "role": "acceptance with re-feed",
+      "sha256": "e20112905d5c3d599aa90e119b644bd457244f76eb93323bb1b30d5ba5a5b568",
+      "duration_s": 247.6,
+      "frames": 6386,
+      "fully_decoded_frames": 6386,
+      "width": 960,
+      "height": 544,
+      "variable_frame_rate": true,
+      "timing_method": "decoded presentation timestamps; approximately one-second event intervals"
+    },
+    {
+      "file": "04_Evidence/Physical_Video/acceptance_20260907_192601.mp4",
+      "original_file": "04_Evidence/Physical_Video/acceptance_20260907_192601.avi",
+      "original_sha256": "40beefc96132b33a8725bd16b0eb7393709a7f662f250d011eea165928b72ff8",
+      "encoding_note": "H.264 compressed copy; unchanged frame count, resolution and playback speed",
+      "role": "separate five-object visual-recognition demonstration",
+      "sha256": "dc0eb0b122f897f2a443fe26531e7f3461b3f65ca3a6159f394c8c7857f26c96",
+      "duration_s": 183.766667,
+      "frames": 5513,
+      "fully_decoded_frames": 5513,
+      "width": 1280,
+      "height": 720,
+      "fps": 30
+    }
+  ],
+  "review_method": "Overview frame review plus denser key-event frames, full sequential decode integrity check; not exhaustive frame-by-frame visual examination.",
+  "human_intervention": {
+    "yellow_refeed_interval_s": [
+      84,
+      85
+    ],
+    "delivered_objects_cleared": true,
+    "software_action_triggering_visible": false
+  },
+  "objects": [
+    {
+      "record_id": "P01",
+      "true_class": "red_cuboid",
+      "class_basis": "visible color and geometry, not detector ground-truth annotation",
+      "source_grid": null,
+      "target_area": "left",
+      "grasp_result": "visible lift and transport",
+      "placement_result": "delivery and gripper opening at matching destination; prompt human clearing limits unattended stability assessment",
+      "route_matches_mapping": true,
+      "video_file": "04_Evidence/Physical_Video/2eb7001d38fd861630d52918161ba8cf.mp4",
+      "video_time_s": {
+        "lift_visible_approx": 13,
+        "delivery_release_interval": [
+          22,
+          25
+        ]
+      },
+      "refed_object": false,
+      "unique_object_id": "red_cuboid_initial",
+      "runtime_request_id": null
+    },
+    {
+      "record_id": "P02",
+      "true_class": "yellow_cube",
+      "class_basis": "visible color and geometry, not detector ground-truth annotation",
+      "source_grid": null,
+      "target_area": "right",
+      "grasp_result": "visible lift and transport",
+      "placement_result": "delivery and gripper opening at matching destination; prompt human clearing limits unattended stability assessment",
+      "route_matches_mapping": true,
+      "video_file": "04_Evidence/Physical_Video/2eb7001d38fd861630d52918161ba8cf.mp4",
+      "video_time_s": {
+        "lift_visible_approx": 64,
+        "delivery_release_interval": [
+          76,
+          79
+        ]
+      },
+      "refed_object": false,
+      "unique_object_id": "yellow_cube_initial",
+      "runtime_request_id": null
+    },
+    {
+      "record_id": "P03",
+      "true_class": "yellow_cube",
+      "class_basis": "visible color and geometry, not detector ground-truth annotation",
+      "source_grid": null,
+      "target_area": "right",
+      "grasp_result": "visible lift and transport",
+      "placement_result": "delivery and gripper opening at matching destination; prompt human clearing limits unattended stability assessment",
+      "route_matches_mapping": true,
+      "video_file": "04_Evidence/Physical_Video/2eb7001d38fd861630d52918161ba8cf.mp4",
+      "video_time_s": {
+        "lift_visible_approx": 116,
+        "delivery_release_interval": [
+          124,
+          126
+        ]
+      },
+      "refed_object": true,
+      "unique_object_id": "yellow_initial",
+      "runtime_request_id": null
+    },
+    {
+      "record_id": "P04",
+      "true_class": "blue_cube",
+      "class_basis": "visible color and geometry, not detector ground-truth annotation",
+      "source_grid": null,
+      "target_area": "right",
+      "grasp_result": "visible lift and transport",
+      "placement_result": "delivery and gripper opening at matching destination; prompt human clearing limits unattended stability assessment",
+      "route_matches_mapping": true,
+      "video_file": "04_Evidence/Physical_Video/2eb7001d38fd861630d52918161ba8cf.mp4",
+      "video_time_s": {
+        "lift_visible_approx": 159,
+        "delivery_release_interval": [
+          168,
+          169
+        ]
+      },
+      "refed_object": false,
+      "unique_object_id": "blue_cube_initial",
+      "runtime_request_id": null
+    },
+    {
+      "record_id": "P05",
+      "true_class": "orange_bridge",
+      "class_basis": "visible color and geometry, not detector ground-truth annotation",
+      "source_grid": null,
+      "target_area": "left",
+      "grasp_result": "visible lift and transport",
+      "placement_result": "delivery and gripper opening at matching destination; prompt human clearing limits unattended stability assessment",
+      "route_matches_mapping": true,
+      "video_file": "04_Evidence/Physical_Video/2eb7001d38fd861630d52918161ba8cf.mp4",
+      "video_time_s": {
+        "lift_visible_approx": 198,
+        "delivery_release_interval": [
+          202,
+          204
+        ]
+      },
+      "refed_object": false,
+      "unique_object_id": "orange_bridge_initial",
+      "runtime_request_id": null
+    },
+    {
+      "record_id": "P06",
+      "true_class": "green_cube",
+      "class_basis": "visible color and geometry, not detector ground-truth annotation",
+      "source_grid": null,
+      "target_area": "right",
+      "grasp_result": "visible lift and transport",
+      "placement_result": "delivery and gripper opening at matching destination; prompt human clearing limits unattended stability assessment",
+      "route_matches_mapping": true,
+      "video_file": "04_Evidence/Physical_Video/2eb7001d38fd861630d52918161ba8cf.mp4",
+      "video_time_s": {
+        "lift_visible_approx": 232,
+        "delivery_release_interval": [
+          239,
+          241
+        ]
+      },
+      "refed_object": false,
+      "unique_object_id": "green_cube_initial",
+      "runtime_request_id": null
+    }
+  ],
+  "visual_demo": {
+    "initial_grids": {
+      "G1": "green_cube",
+      "G2": "yellow_cube",
+      "G3": "orange_bridge",
+      "G4": "EMPTY",
+      "G5": "blue_cube",
+      "G6": "red_cuboid"
+    },
+    "visible_lifts": 5,
+    "visible_table_releases": 2,
+    "cube_releases_outside_view": 3,
+    "bridge_removed_by_hand_approx_s": 121,
+    "red_cuboid_label_mismatch": "Repeated orange_bridge label; both classes belong to left group; does not independently imply wrong group routing.",
+    "synchronized_with_acceptance": false
+  },
+  "instructor_approval": {
+    "approved": true,
+    "basis": "Group confirmation on 2026-09-22",
+    "protocol": "five initial objects plus one yellow-cube re-feed, six transfer cycles"
+  },
+  "source_grid_reference": "task_index.json contains original run-specific request/grid identities; no unverified video time alignment is asserted"
+}

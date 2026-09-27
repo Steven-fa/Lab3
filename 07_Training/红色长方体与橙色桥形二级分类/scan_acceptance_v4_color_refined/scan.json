@@ -1,0 +1,6558 @@
+{
+  "model": "F:\\PycharmProjects\\robomaster\\artifacts\\experiment3_v4_red_negative_20260913\\cube6_red_focus_v4_video_negative_best.pt",
+  "video": "F:\\PycharmProjects\\robomaster\\deliverables\\experiment3_v4_acceptance_20260907_192601\\acceptance_20260907_192601.avi",
+  "stride": 30,
+  "refine_color": true,
+  "counts": {
+    "orange_bridge": 116,
+    "red_cuboid": 167
+  },
+  "sampled_frames_with_red_orange": 177,
+  "records": [
+    {
+      "frame": 0,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.718741,
+          "xyxy": [
+            612,
+            385,
+            806,
+            518
+          ],
+          "center": [
+            709.0,
+            451.5
+          ],
+          "aspect_ratio": 1.458647,
+          "red_fraction": 0.250414,
+          "orange_fraction": 0.636959,
+          "chromatic_fraction": 0.848207
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.157184,
+          "xyxy": [
+            673,
+            256,
+            814,
+            349
+          ],
+          "center": [
+            743.5,
+            302.5
+          ],
+          "aspect_ratio": 1.516129,
+          "red_fraction": 0.792142,
+          "orange_fraction": 0.027883,
+          "chromatic_fraction": 0.934711
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.833237,
+          "xyxy": [
+            617,
+            389,
+            806,
+            517
+          ],
+          "center": [
+            711.5,
+            453.0
+          ],
+          "aspect_ratio": 1.476562,
+          "red_fraction": 0.221072,
+          "orange_fraction": 0.683757,
+          "chromatic_fraction": 0.861496
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.825031,
+          "xyxy": [
+            684,
+            260,
+            810,
+            346
+          ],
+          "center": [
+            747.0,
+            303.0
+          ],
+          "aspect_ratio": 1.465116,
+          "red_fraction": 0.875795,
+          "orange_fraction": 0.00163,
+          "chromatic_fraction": 0.968277
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.301419,
+          "xyxy": [
+            629,
+            396,
+            768,
+            516
+          ],
+          "center": [
+            698.5,
+            456.0
+          ],
+          "aspect_ratio": 1.158333,
+          "red_fraction": 0.228475,
+          "orange_fraction": 0.674867,
+          "chromatic_fraction": 0.892133
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.806283,
+          "xyxy": [
+            615,
+            388,
+            806,
+            517
+          ],
+          "center": [
+            710.5,
+            452.5
+          ],
+          "aspect_ratio": 1.48062,
+          "red_fraction": 0.225326,
+          "orange_fraction": 0.679235,
+          "chromatic_fraction": 0.855451
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.739919,
+          "xyxy": [
+            681,
+            259,
+            813,
+            347
+          ],
+          "center": [
+            747.0,
+            303.0
+          ],
+          "aspect_ratio": 1.5,
+          "red_fraction": 0.8659,
+          "orange_fraction": 0.002521,
+          "chromatic_fraction": 0.961515
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.174872,
+          "xyxy": [
+            629,
+            395,
+            770,
+            516
+          ],
+          "center": [
+            699.5,
+            455.5
+          ],
+          "aspect_ratio": 1.165289,
+          "red_fraction": 0.220749,
+          "orange_fraction": 0.68438,
+          "chromatic_fraction": 0.890931
+        }
+      ]
+    },
+    {
+      "frame": 90,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.782323,
+          "xyxy": [
+            614,
+            386,
+            805,
+            516
+          ],
+          "center": [
+            709.5,
+            451.0
+          ],
+          "aspect_ratio": 1.469231,
+          "red_fraction": 0.234095,
+          "orange_fraction": 0.671452,
+          "chromatic_fraction": 0.862773
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.772428,
+          "xyxy": [
+            682,
+            260,
+            810,
+            347
+          ],
+          "center": [
+            746.0,
+            303.5
+          ],
+          "aspect_ratio": 1.471264,
+          "red_fraction": 0.864886,
+          "orange_fraction": 0.004109,
+          "chromatic_fraction": 0.963753
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.18299,
+          "xyxy": [
+            629,
+            396,
+            772,
+            516
+          ],
+          "center": [
+            700.5,
+            456.0
+          ],
+          "aspect_ratio": 1.191667,
+          "red_fraction": 0.233225,
+          "orange_fraction": 0.671013,
+          "chromatic_fraction": 0.887216
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.802884,
+          "xyxy": [
+            616,
+            387,
+            806,
+            517
+          ],
+          "center": [
+            711.0,
+            452.0
+          ],
+          "aspect_ratio": 1.461538,
+          "red_fraction": 0.213483,
+          "orange_fraction": 0.69225,
+          "chromatic_fraction": 0.85771
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.30915,
+          "xyxy": [
+            685,
+            260,
+            819,
+            345
+          ],
+          "center": [
+            752.0,
+            302.5
+          ],
+          "aspect_ratio": 1.576471,
+          "red_fraction": 0.847069,
+          "orange_fraction": 0.013473,
+          "chromatic_fraction": 0.861991
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.204515,
+          "xyxy": [
+            630,
+            395,
+            769,
+            515
+          ],
+          "center": [
+            699.5,
+            455.0
+          ],
+          "aspect_ratio": 1.158333,
+          "red_fraction": 0.20947,
+          "orange_fraction": 0.695241,
+          "chromatic_fraction": 0.887578
+        }
+      ]
+    },
+    {
+      "frame": 150,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.840578,
+          "xyxy": [
+            613,
+            389,
+            802,
+            517
+          ],
+          "center": [
+            707.5,
+            453.0
+          ],
+          "aspect_ratio": 1.476562,
+          "red_fraction": 0.220987,
+          "orange_fraction": 0.679889,
+          "chromatic_fraction": 0.847296
+        }
+      ]
+    },
+    {
+      "frame": 180,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.892285,
+          "xyxy": [
+            608,
+            374,
+            808,
+            523
+          ],
+          "center": [
+            708.0,
+            448.5
+          ],
+          "aspect_ratio": 1.342282,
+          "red_fraction": 0.221499,
+          "orange_fraction": 0.677375,
+          "chromatic_fraction": 0.795645
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.7695,
+          "xyxy": [
+            672,
+            257,
+            813,
+            348
+          ],
+          "center": [
+            742.5,
+            302.5
+          ],
+          "aspect_ratio": 1.549451,
+          "red_fraction": 0.842728,
+          "orange_fraction": 0.000564,
+          "chromatic_fraction": 0.961127
+        }
+      ]
+    },
+    {
+      "frame": 210,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.90092,
+          "xyxy": [
+            614,
+            379,
+            781,
+            518
+          ],
+          "center": [
+            697.5,
+            448.5
+          ],
+          "aspect_ratio": 1.201439,
+          "red_fraction": 0.247174,
+          "orange_fraction": 0.645972,
+          "chromatic_fraction": 0.835846
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.868501,
+          "xyxy": [
+            672,
+            254,
+            809,
+            350
+          ],
+          "center": [
+            740.5,
+            302.0
+          ],
+          "aspect_ratio": 1.427083,
+          "red_fraction": 0.837703,
+          "orange_fraction": 0.002358,
+          "chromatic_fraction": 0.953571
+        }
+      ]
+    },
+    {
+      "frame": 240,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.901368,
+          "xyxy": [
+            615,
+            379,
+            781,
+            518
+          ],
+          "center": [
+            698.0,
+            448.5
+          ],
+          "aspect_ratio": 1.194245,
+          "red_fraction": 0.248657,
+          "orange_fraction": 0.648908,
+          "chromatic_fraction": 0.844142
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.890726,
+          "xyxy": [
+            671,
+            253,
+            811,
+            351
+          ],
+          "center": [
+            741.0,
+            302.0
+          ],
+          "aspect_ratio": 1.428571,
+          "red_fraction": 0.834472,
+          "orange_fraction": 0.001504,
+          "chromatic_fraction": 0.932687
+        }
+      ]
+    },
+    {
+      "frame": 270,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.89709,
+          "xyxy": [
+            611,
+            377,
+            786,
+            518
+          ],
+          "center": [
+            698.5,
+            447.5
+          ],
+          "aspect_ratio": 1.241135,
+          "red_fraction": 0.23552,
+          "orange_fraction": 0.661797,
+          "chromatic_fraction": 0.82257
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.85976,
+          "xyxy": [
+            671,
+            254,
+            810,
+            350
+          ],
+          "center": [
+            740.5,
+            302.0
+          ],
+          "aspect_ratio": 1.447917,
+          "red_fraction": 0.834074,
+          "orange_fraction": 0.002083,
+          "chromatic_fraction": 0.952646
+        }
+      ]
+    },
+    {
+      "frame": 300,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.900624,
+          "xyxy": [
+            613,
+            379,
+            783,
+            519
+          ],
+          "center": [
+            698.0,
+            449.0
+          ],
+          "aspect_ratio": 1.214286,
+          "red_fraction": 0.239552,
+          "orange_fraction": 0.654792,
+          "chromatic_fraction": 0.835196
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.880954,
+          "xyxy": [
+            672,
+            254,
+            810,
+            351
+          ],
+          "center": [
+            741.0,
+            302.5
+          ],
+          "aspect_ratio": 1.42268,
+          "red_fraction": 0.832336,
+          "orange_fraction": 0.002365,
+          "chromatic_fraction": 0.946654
+        }
+      ]
+    },
+    {
+      "frame": 330,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.919884,
+          "xyxy": [
+            610,
+            374,
+            793,
+            519
+          ],
+          "center": [
+            701.5,
+            446.5
+          ],
+          "aspect_ratio": 1.262069,
+          "red_fraction": 0.268966,
+          "orange_fraction": 0.628281,
+          "chromatic_fraction": 0.809903
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.845286,
+          "xyxy": [
+            673,
+            255,
+            812,
+            349
+          ],
+          "center": [
+            742.5,
+            302.0
+          ],
+          "aspect_ratio": 1.478723,
+          "red_fraction": 0.836794,
+          "orange_fraction": 0.001812,
+          "chromatic_fraction": 0.949074
+        }
+      ]
+    },
+    {
+      "frame": 360,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.921028,
+          "xyxy": [
+            609,
+            372,
+            802,
+            519
+          ],
+          "center": [
+            705.5,
+            445.5
+          ],
+          "aspect_ratio": 1.312925,
+          "red_fraction": 0.253383,
+          "orange_fraction": 0.649709,
+          "chromatic_fraction": 0.81075
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.784201,
+          "xyxy": [
+            674,
+            256,
+            814,
+            349
+          ],
+          "center": [
+            744.0,
+            302.5
+          ],
+          "aspect_ratio": 1.505376,
+          "red_fraction": 0.844092,
+          "orange_fraction": 0.001544,
+          "chromatic_fraction": 0.946851
+        }
+      ]
+    },
+    {
+      "frame": 390,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.182837,
+          "xyxy": [
+            609,
+            401,
+            802,
+            523
+          ],
+          "center": [
+            705.5,
+            462.0
+          ],
+          "aspect_ratio": 1.581967,
+          "red_fraction": 0.233078,
+          "orange_fraction": 0.343241,
+          "chromatic_fraction": 0.753771
+        }
+      ]
+    },
+    {
+      "frame": 420,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.900948,
+          "xyxy": [
+            611,
+            370,
+            811,
+            517
+          ],
+          "center": [
+            711.0,
+            443.5
+          ],
+          "aspect_ratio": 1.360544,
+          "red_fraction": 0.28197,
+          "orange_fraction": 0.619295,
+          "chromatic_fraction": 0.786984
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.874457,
+          "xyxy": [
+            679,
+            255,
+            817,
+            348
+          ],
+          "center": [
+            748.0,
+            301.5
+          ],
+          "aspect_ratio": 1.483871,
+          "red_fraction": 0.845037,
+          "orange_fraction": 0.005185,
+          "chromatic_fraction": 0.914139
+        }
+      ]
+    },
+    {
+      "frame": 450,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.899224,
+          "xyxy": [
+            609,
+            369,
+            811,
+            518
+          ],
+          "center": [
+            710.0,
+            443.5
+          ],
+          "aspect_ratio": 1.355705,
+          "red_fraction": 0.276705,
+          "orange_fraction": 0.624945,
+          "chromatic_fraction": 0.780025
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.792915,
+          "xyxy": [
+            678,
+            256,
+            817,
+            351
+          ],
+          "center": [
+            747.5,
+            303.5
+          ],
+          "aspect_ratio": 1.463158,
+          "red_fraction": 0.833456,
+          "orange_fraction": 0.006163,
+          "chromatic_fraction": 0.889106
+        }
+      ]
+    },
+    {
+      "frame": 480,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917758,
+          "xyxy": [
+            607,
+            379,
+            810,
+            520
+          ],
+          "center": [
+            708.5,
+            449.5
+          ],
+          "aspect_ratio": 1.439716,
+          "red_fraction": 0.22052,
+          "orange_fraction": 0.662454,
+          "chromatic_fraction": 0.810974
+        }
+      ]
+    },
+    {
+      "frame": 510,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.913271,
+          "xyxy": [
+            607,
+            371,
+            809,
+            518
+          ],
+          "center": [
+            708.0,
+            444.5
+          ],
+          "aspect_ratio": 1.37415,
+          "red_fraction": 0.283498,
+          "orange_fraction": 0.618737,
+          "chromatic_fraction": 0.788054
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.875163,
+          "xyxy": [
+            674,
+            256,
+            814,
+            350
+          ],
+          "center": [
+            744.0,
+            303.0
+          ],
+          "aspect_ratio": 1.489362,
+          "red_fraction": 0.835146,
+          "orange_fraction": 0.002929,
+          "chromatic_fraction": 0.939465
+        }
+      ]
+    },
+    {
+      "frame": 540,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.916001,
+          "xyxy": [
+            607,
+            372,
+            809,
+            518
+          ],
+          "center": [
+            708.0,
+            445.0
+          ],
+          "aspect_ratio": 1.383562,
+          "red_fraction": 0.2218,
+          "orange_fraction": 0.681409,
+          "chromatic_fraction": 0.792857
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.883604,
+          "xyxy": [
+            671,
+            258,
+            815,
+            349
+          ],
+          "center": [
+            743.0,
+            303.5
+          ],
+          "aspect_ratio": 1.582418,
+          "red_fraction": 0.832243,
+          "orange_fraction": 0.002645,
+          "chromatic_fraction": 0.946377
+        }
+      ]
+    },
+    {
+      "frame": 570,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.915945,
+          "xyxy": [
+            609,
+            371,
+            810,
+            517
+          ],
+          "center": [
+            709.5,
+            444.0
+          ],
+          "aspect_ratio": 1.376712,
+          "red_fraction": 0.244655,
+          "orange_fraction": 0.66116,
+          "chromatic_fraction": 0.79489
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.880745,
+          "xyxy": [
+            675,
+            257,
+            816,
+            350
+          ],
+          "center": [
+            745.5,
+            303.5
+          ],
+          "aspect_ratio": 1.516129,
+          "red_fraction": 0.842157,
+          "orange_fraction": 0.004388,
+          "chromatic_fraction": 0.929841
+        }
+      ]
+    },
+    {
+      "frame": 600,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.916942,
+          "xyxy": [
+            609,
+            371,
+            809,
+            517
+          ],
+          "center": [
+            709.0,
+            444.0
+          ],
+          "aspect_ratio": 1.369863,
+          "red_fraction": 0.235592,
+          "orange_fraction": 0.669688,
+          "chromatic_fraction": 0.791806
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.853646,
+          "xyxy": [
+            673,
+            256,
+            815,
+            351
+          ],
+          "center": [
+            744.0,
+            303.5
+          ],
+          "aspect_ratio": 1.494737,
+          "red_fraction": 0.837856,
+          "orange_fraction": 0.002056,
+          "chromatic_fraction": 0.925419
+        }
+      ]
+    },
+    {
+      "frame": 630,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.919858,
+          "xyxy": [
+            609,
+            371,
+            809,
+            518
+          ],
+          "center": [
+            709.0,
+            444.5
+          ],
+          "aspect_ratio": 1.360544,
+          "red_fraction": 0.235712,
+          "orange_fraction": 0.667762,
+          "chromatic_fraction": 0.793326
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.84844,
+          "xyxy": [
+            675,
+            255,
+            816,
+            352
+          ],
+          "center": [
+            745.5,
+            303.5
+          ],
+          "aspect_ratio": 1.453608,
+          "red_fraction": 0.842274,
+          "orange_fraction": 0.001811,
+          "chromatic_fraction": 0.918832
+        }
+      ]
+    },
+    {
+      "frame": 660,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.919781,
+          "xyxy": [
+            609,
+            371,
+            809,
+            517
+          ],
+          "center": [
+            709.0,
+            444.0
+          ],
+          "aspect_ratio": 1.369863,
+          "red_fraction": 0.230879,
+          "orange_fraction": 0.674923,
+          "chromatic_fraction": 0.79683
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.844922,
+          "xyxy": [
+            672,
+            255,
+            815,
+            352
+          ],
+          "center": [
+            743.5,
+            303.5
+          ],
+          "aspect_ratio": 1.474227,
+          "red_fraction": 0.834376,
+          "orange_fraction": 0.002584,
+          "chromatic_fraction": 0.924218
+        }
+      ]
+    },
+    {
+      "frame": 690,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.916153,
+          "xyxy": [
+            608,
+            370,
+            810,
+            517
+          ],
+          "center": [
+            709.0,
+            443.5
+          ],
+          "aspect_ratio": 1.37415,
+          "red_fraction": 0.239445,
+          "orange_fraction": 0.666469,
+          "chromatic_fraction": 0.788405
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.886783,
+          "xyxy": [
+            672,
+            255,
+            815,
+            351
+          ],
+          "center": [
+            743.5,
+            303.0
+          ],
+          "aspect_ratio": 1.489583,
+          "red_fraction": 0.841313,
+          "orange_fraction": 0.002873,
+          "chromatic_fraction": 0.931448
+        }
+      ]
+    },
+    {
+      "frame": 720,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.9196,
+          "xyxy": [
+            607,
+            371,
+            810,
+            516
+          ],
+          "center": [
+            708.5,
+            443.5
+          ],
+          "aspect_ratio": 1.4,
+          "red_fraction": 0.229939,
+          "orange_fraction": 0.671207,
+          "chromatic_fraction": 0.78082
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.872075,
+          "xyxy": [
+            671,
+            257,
+            816,
+            351
+          ],
+          "center": [
+            743.5,
+            304.0
+          ],
+          "aspect_ratio": 1.542553,
+          "red_fraction": 0.829238,
+          "orange_fraction": 0.001493,
+          "chromatic_fraction": 0.921797
+        }
+      ]
+    },
+    {
+      "frame": 750,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.926938,
+          "xyxy": [
+            607,
+            371,
+            809,
+            519
+          ],
+          "center": [
+            708.0,
+            445.0
+          ],
+          "aspect_ratio": 1.364865,
+          "red_fraction": 0.273966,
+          "orange_fraction": 0.630317,
+          "chromatic_fraction": 0.800151
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.852106,
+          "xyxy": [
+            676,
+            257,
+            814,
+            349
+          ],
+          "center": [
+            745.0,
+            303.0
+          ],
+          "aspect_ratio": 1.5,
+          "red_fraction": 0.852856,
+          "orange_fraction": 0.002741,
+          "chromatic_fraction": 0.952198
+        }
+      ]
+    },
+    {
+      "frame": 780,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917128,
+          "xyxy": [
+            608,
+            369,
+            812,
+            518
+          ],
+          "center": [
+            710.0,
+            443.5
+          ],
+          "aspect_ratio": 1.369128,
+          "red_fraction": 0.258696,
+          "orange_fraction": 0.643574,
+          "chromatic_fraction": 0.779555
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.875741,
+          "xyxy": [
+            671,
+            256,
+            818,
+            349
+          ],
+          "center": [
+            744.5,
+            302.5
+          ],
+          "aspect_ratio": 1.580645,
+          "red_fraction": 0.83484,
+          "orange_fraction": 0.001506,
+          "chromatic_fraction": 0.926532
+        }
+      ]
+    },
+    {
+      "frame": 810,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.909133,
+          "xyxy": [
+            608,
+            370,
+            813,
+            517
+          ],
+          "center": [
+            710.5,
+            443.5
+          ],
+          "aspect_ratio": 1.394558,
+          "red_fraction": 0.275257,
+          "orange_fraction": 0.630764,
+          "chromatic_fraction": 0.79163
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.881172,
+          "xyxy": [
+            674,
+            257,
+            818,
+            349
+          ],
+          "center": [
+            746.0,
+            303.0
+          ],
+          "aspect_ratio": 1.565217,
+          "red_fraction": 0.839742,
+          "orange_fraction": 0.001684,
+          "chromatic_fraction": 0.925455
+        }
+      ]
+    },
+    {
+      "frame": 840,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.919243,
+          "xyxy": [
+            609,
+            371,
+            809,
+            517
+          ],
+          "center": [
+            709.0,
+            444.0
+          ],
+          "aspect_ratio": 1.369863,
+          "red_fraction": 0.274031,
+          "orange_fraction": 0.630144,
+          "chromatic_fraction": 0.805144
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.85109,
+          "xyxy": [
+            672,
+            255,
+            817,
+            351
+          ],
+          "center": [
+            744.5,
+            303.0
+          ],
+          "aspect_ratio": 1.510417,
+          "red_fraction": 0.834262,
+          "orange_fraction": 0.001496,
+          "chromatic_fraction": 0.920295
+        }
+      ]
+    },
+    {
+      "frame": 870,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917459,
+          "xyxy": [
+            609,
+            371,
+            809,
+            518
+          ],
+          "center": [
+            709.0,
+            444.5
+          ],
+          "aspect_ratio": 1.360544,
+          "red_fraction": 0.283494,
+          "orange_fraction": 0.618693,
+          "chromatic_fraction": 0.804706
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.863111,
+          "xyxy": [
+            676,
+            256,
+            816,
+            351
+          ],
+          "center": [
+            746.0,
+            303.5
+          ],
+          "aspect_ratio": 1.473684,
+          "red_fraction": 0.838101,
+          "orange_fraction": 0.003241,
+          "chromatic_fraction": 0.917162
+        }
+      ]
+    },
+    {
+      "frame": 900,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.931171,
+          "xyxy": [
+            608,
+            371,
+            808,
+            517
+          ],
+          "center": [
+            708.0,
+            444.0
+          ],
+          "aspect_ratio": 1.369863,
+          "red_fraction": 0.293303,
+          "orange_fraction": 0.608806,
+          "chromatic_fraction": 0.802811
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.402719,
+          "xyxy": [
+            669,
+            263,
+            818,
+            354
+          ],
+          "center": [
+            743.5,
+            308.5
+          ],
+          "aspect_ratio": 1.637363,
+          "red_fraction": 0.722284,
+          "orange_fraction": 0.001302,
+          "chromatic_fraction": 0.689496
+        }
+      ]
+    },
+    {
+      "frame": 930,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.915694,
+          "xyxy": [
+            607,
+            369,
+            812,
+            518
+          ],
+          "center": [
+            709.5,
+            443.5
+          ],
+          "aspect_ratio": 1.375839,
+          "red_fraction": 0.263449,
+          "orange_fraction": 0.638025,
+          "chromatic_fraction": 0.774764
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.859946,
+          "xyxy": [
+            677,
+            255,
+            817,
+            351
+          ],
+          "center": [
+            747.0,
+            303.0
+          ],
+          "aspect_ratio": 1.458333,
+          "red_fraction": 0.832177,
+          "orange_fraction": 0.004576,
+          "chromatic_fraction": 0.88771
+        }
+      ]
+    },
+    {
+      "frame": 960,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.907945,
+          "xyxy": [
+            608,
+            370,
+            812,
+            519
+          ],
+          "center": [
+            710.0,
+            444.5
+          ],
+          "aspect_ratio": 1.369128,
+          "red_fraction": 0.261807,
+          "orange_fraction": 0.63869,
+          "chromatic_fraction": 0.775925
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.869342,
+          "xyxy": [
+            683,
+            256,
+            816,
+            350
+          ],
+          "center": [
+            749.5,
+            303.0
+          ],
+          "aspect_ratio": 1.414894,
+          "red_fraction": 0.849487,
+          "orange_fraction": 0.003728,
+          "chromatic_fraction": 0.885314
+        }
+      ]
+    },
+    {
+      "frame": 990,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.911826,
+          "xyxy": [
+            607,
+            370,
+            812,
+            518
+          ],
+          "center": [
+            709.5,
+            444.0
+          ],
+          "aspect_ratio": 1.385135,
+          "red_fraction": 0.261292,
+          "orange_fraction": 0.639894,
+          "chromatic_fraction": 0.78174
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.881373,
+          "xyxy": [
+            684,
+            256,
+            816,
+            351
+          ],
+          "center": [
+            750.0,
+            303.5
+          ],
+          "aspect_ratio": 1.389474,
+          "red_fraction": 0.852393,
+          "orange_fraction": 0.002617,
+          "chromatic_fraction": 0.89
+        }
+      ]
+    },
+    {
+      "frame": 1020,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.914739,
+          "xyxy": [
+            608,
+            369,
+            812,
+            518
+          ],
+          "center": [
+            710.0,
+            443.5
+          ],
+          "aspect_ratio": 1.369128,
+          "red_fraction": 0.255936,
+          "orange_fraction": 0.647257,
+          "chromatic_fraction": 0.776435
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.882035,
+          "xyxy": [
+            683,
+            257,
+            818,
+            350
+          ],
+          "center": [
+            750.5,
+            303.5
+          ],
+          "aspect_ratio": 1.451613,
+          "red_fraction": 0.842154,
+          "orange_fraction": 0.003846,
+          "chromatic_fraction": 0.888828
+        }
+      ]
+    },
+    {
+      "frame": 1050,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917926,
+          "xyxy": [
+            608,
+            369,
+            812,
+            518
+          ],
+          "center": [
+            710.0,
+            443.5
+          ],
+          "aspect_ratio": 1.369128,
+          "red_fraction": 0.275248,
+          "orange_fraction": 0.625511,
+          "chromatic_fraction": 0.7774
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.875933,
+          "xyxy": [
+            681,
+            256,
+            817,
+            351
+          ],
+          "center": [
+            749.0,
+            303.5
+          ],
+          "aspect_ratio": 1.431579,
+          "red_fraction": 0.840841,
+          "orange_fraction": 0.003003,
+          "chromatic_fraction": 0.877239
+        }
+      ]
+    },
+    {
+      "frame": 1080,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.90765,
+          "xyxy": [
+            607,
+            368,
+            811,
+            519
+          ],
+          "center": [
+            709.0,
+            443.5
+          ],
+          "aspect_ratio": 1.350993,
+          "red_fraction": 0.258459,
+          "orange_fraction": 0.639739,
+          "chromatic_fraction": 0.761093
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.889806,
+          "xyxy": [
+            681,
+            255,
+            817,
+            349
+          ],
+          "center": [
+            749.0,
+            302.0
+          ],
+          "aspect_ratio": 1.446809,
+          "red_fraction": 0.841963,
+          "orange_fraction": 0.004214,
+          "chromatic_fraction": 0.887286
+        }
+      ]
+    },
+    {
+      "frame": 1110,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.916229,
+          "xyxy": [
+            609,
+            369,
+            810,
+            517
+          ],
+          "center": [
+            709.5,
+            443.0
+          ],
+          "aspect_ratio": 1.358108,
+          "red_fraction": 0.255928,
+          "orange_fraction": 0.645821,
+          "chromatic_fraction": 0.787582
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.286997,
+          "xyxy": [
+            674,
+            258,
+            816,
+            352
+          ],
+          "center": [
+            745.0,
+            305.0
+          ],
+          "aspect_ratio": 1.510638,
+          "red_fraction": 0.757273,
+          "orange_fraction": 0.005413,
+          "chromatic_fraction": 0.760288
+        }
+      ]
+    },
+    {
+      "frame": 1140,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.921407,
+          "xyxy": [
+            609,
+            371,
+            809,
+            517
+          ],
+          "center": [
+            709.0,
+            444.0
+          ],
+          "aspect_ratio": 1.369863,
+          "red_fraction": 0.261294,
+          "orange_fraction": 0.63963,
+          "chromatic_fraction": 0.802273
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.861435,
+          "xyxy": [
+            674,
+            255,
+            816,
+            351
+          ],
+          "center": [
+            745.0,
+            303.0
+          ],
+          "aspect_ratio": 1.479167,
+          "red_fraction": 0.834096,
+          "orange_fraction": 0.002081,
+          "chromatic_fraction": 0.927083
+        }
+      ]
+    },
+    {
+      "frame": 1170,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.921364,
+          "xyxy": [
+            610,
+            370,
+            809,
+            517
+          ],
+          "center": [
+            709.5,
+            443.5
+          ],
+          "aspect_ratio": 1.353741,
+          "red_fraction": 0.270636,
+          "orange_fraction": 0.633965,
+          "chromatic_fraction": 0.793628
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.83422,
+          "xyxy": [
+            677,
+            255,
+            816,
+            351
+          ],
+          "center": [
+            746.5,
+            303.0
+          ],
+          "aspect_ratio": 1.447917,
+          "red_fraction": 0.844648,
+          "orange_fraction": 0.001143,
+          "chromatic_fraction": 0.925529
+        }
+      ]
+    },
+    {
+      "frame": 1200,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.923744,
+          "xyxy": [
+            609,
+            369,
+            809,
+            518
+          ],
+          "center": [
+            709.0,
+            443.5
+          ],
+          "aspect_ratio": 1.342282,
+          "red_fraction": 0.268903,
+          "orange_fraction": 0.632262,
+          "chromatic_fraction": 0.784641
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.888088,
+          "xyxy": [
+            672,
+            255,
+            817,
+            348
+          ],
+          "center": [
+            744.5,
+            301.5
+          ],
+          "aspect_ratio": 1.55914,
+          "red_fraction": 0.83968,
+          "orange_fraction": 0.003035,
+          "chromatic_fraction": 0.91968
+        }
+      ]
+    },
+    {
+      "frame": 1230,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.916977,
+          "xyxy": [
+            609,
+            370,
+            808,
+            516
+          ],
+          "center": [
+            708.5,
+            443.0
+          ],
+          "aspect_ratio": 1.363014,
+          "red_fraction": 0.249905,
+          "orange_fraction": 0.652906,
+          "chromatic_fraction": 0.790427
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.892963,
+          "xyxy": [
+            670,
+            255,
+            816,
+            350
+          ],
+          "center": [
+            743.0,
+            302.5
+          ],
+          "aspect_ratio": 1.536842,
+          "red_fraction": 0.83055,
+          "orange_fraction": 0.00202,
+          "chromatic_fraction": 0.924533
+        }
+      ]
+    },
+    {
+      "frame": 1260,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.922182,
+          "xyxy": [
+            608,
+            369,
+            809,
+            519
+          ],
+          "center": [
+            708.5,
+            444.0
+          ],
+          "aspect_ratio": 1.34,
+          "red_fraction": 0.264639,
+          "orange_fraction": 0.637991,
+          "chromatic_fraction": 0.778408
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.866023,
+          "xyxy": [
+            674,
+            255,
+            817,
+            349
+          ],
+          "center": [
+            745.5,
+            302.0
+          ],
+          "aspect_ratio": 1.521277,
+          "red_fraction": 0.840912,
+          "orange_fraction": 0.001669,
+          "chromatic_fraction": 0.916284
+        }
+      ]
+    },
+    {
+      "frame": 1290,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.922329,
+          "xyxy": [
+            608,
+            369,
+            809,
+            518
+          ],
+          "center": [
+            708.5,
+            443.5
+          ],
+          "aspect_ratio": 1.348993,
+          "red_fraction": 0.286334,
+          "orange_fraction": 0.617487,
+          "chromatic_fraction": 0.787206
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.867164,
+          "xyxy": [
+            671,
+            254,
+            817,
+            350
+          ],
+          "center": [
+            744.0,
+            302.0
+          ],
+          "aspect_ratio": 1.520833,
+          "red_fraction": 0.834926,
+          "orange_fraction": 0.001502,
+          "chromatic_fraction": 0.924747
+        }
+      ]
+    },
+    {
+      "frame": 1320,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.91675,
+          "xyxy": [
+            609,
+            371,
+            809,
+            517
+          ],
+          "center": [
+            709.0,
+            444.0
+          ],
+          "aspect_ratio": 1.369863,
+          "red_fraction": 0.253885,
+          "orange_fraction": 0.650478,
+          "chromatic_fraction": 0.800478
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.861916,
+          "xyxy": [
+            671,
+            255,
+            815,
+            349
+          ],
+          "center": [
+            743.0,
+            302.0
+          ],
+          "aspect_ratio": 1.531915,
+          "red_fraction": 0.835073,
+          "orange_fraction": 0.001626,
+          "chromatic_fraction": 0.931692
+        }
+      ]
+    },
+    {
+      "frame": 1350,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.924598,
+          "xyxy": [
+            608,
+            369,
+            809,
+            517
+          ],
+          "center": [
+            708.5,
+            443.0
+          ],
+          "aspect_ratio": 1.358108,
+          "red_fraction": 0.283166,
+          "orange_fraction": 0.619993,
+          "chromatic_fraction": 0.785189
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.863217,
+          "xyxy": [
+            674,
+            256,
+            815,
+            350
+          ],
+          "center": [
+            744.5,
+            303.0
+          ],
+          "aspect_ratio": 1.5,
+          "red_fraction": 0.834819,
+          "orange_fraction": 0.002368,
+          "chromatic_fraction": 0.931983
+        }
+      ]
+    },
+    {
+      "frame": 1380,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.922518,
+          "xyxy": [
+            608,
+            370,
+            809,
+            518
+          ],
+          "center": [
+            708.5,
+            444.0
+          ],
+          "aspect_ratio": 1.358108,
+          "red_fraction": 0.278861,
+          "orange_fraction": 0.623415,
+          "chromatic_fraction": 0.787056
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.844754,
+          "xyxy": [
+            674,
+            255,
+            814,
+            352
+          ],
+          "center": [
+            744.0,
+            303.5
+          ],
+          "aspect_ratio": 1.443299,
+          "red_fraction": 0.832642,
+          "orange_fraction": 0.001936,
+          "chromatic_fraction": 0.93435
+        }
+      ]
+    },
+    {
+      "frame": 1410,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917831,
+          "xyxy": [
+            608,
+            370,
+            810,
+            517
+          ],
+          "center": [
+            709.0,
+            443.5
+          ],
+          "aspect_ratio": 1.37415,
+          "red_fraction": 0.28274,
+          "orange_fraction": 0.620035,
+          "chromatic_fraction": 0.792442
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.866622,
+          "xyxy": [
+            671,
+            255,
+            816,
+            350
+          ],
+          "center": [
+            743.5,
+            302.5
+          ],
+          "aspect_ratio": 1.526316,
+          "red_fraction": 0.829304,
+          "orange_fraction": 0.000537,
+          "chromatic_fraction": 0.918919
+        }
+      ]
+    },
+    {
+      "frame": 1440,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.922725,
+          "xyxy": [
+            607,
+            369,
+            809,
+            518
+          ],
+          "center": [
+            708.0,
+            443.5
+          ],
+          "aspect_ratio": 1.355705,
+          "red_fraction": 0.280996,
+          "orange_fraction": 0.620359,
+          "chromatic_fraction": 0.78468
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.866431,
+          "xyxy": [
+            674,
+            255,
+            817,
+            351
+          ],
+          "center": [
+            745.5,
+            303.0
+          ],
+          "aspect_ratio": 1.489583,
+          "red_fraction": 0.836205,
+          "orange_fraction": 0.000417,
+          "chromatic_fraction": 0.917176
+        }
+      ]
+    },
+    {
+      "frame": 1470,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.918092,
+          "xyxy": [
+            608,
+            370,
+            810,
+            518
+          ],
+          "center": [
+            709.0,
+            444.0
+          ],
+          "aspect_ratio": 1.364865,
+          "red_fraction": 0.274501,
+          "orange_fraction": 0.629401,
+          "chromatic_fraction": 0.790353
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.8438,
+          "xyxy": [
+            672,
+            255,
+            816,
+            351
+          ],
+          "center": [
+            744.0,
+            303.0
+          ],
+          "aspect_ratio": 1.5,
+          "red_fraction": 0.837705,
+          "orange_fraction": 0.001093,
+          "chromatic_fraction": 0.924242
+        }
+      ]
+    },
+    {
+      "frame": 1500,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917565,
+          "xyxy": [
+            610,
+            371,
+            809,
+            516
+          ],
+          "center": [
+            709.5,
+            443.5
+          ],
+          "aspect_ratio": 1.372414,
+          "red_fraction": 0.268672,
+          "orange_fraction": 0.636179,
+          "chromatic_fraction": 0.79321
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.871372,
+          "xyxy": [
+            675,
+            257,
+            815,
+            349
+          ],
+          "center": [
+            745.0,
+            303.0
+          ],
+          "aspect_ratio": 1.521739,
+          "red_fraction": 0.844308,
+          "orange_fraction": 0.002143,
+          "chromatic_fraction": 0.943531
+        }
+      ]
+    },
+    {
+      "frame": 1530,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.916519,
+          "xyxy": [
+            607,
+            371,
+            809,
+            518
+          ],
+          "center": [
+            708.0,
+            444.5
+          ],
+          "aspect_ratio": 1.37415,
+          "red_fraction": 0.275192,
+          "orange_fraction": 0.626551,
+          "chromatic_fraction": 0.791857
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.847636,
+          "xyxy": [
+            672,
+            255,
+            814,
+            350
+          ],
+          "center": [
+            743.0,
+            302.5
+          ],
+          "aspect_ratio": 1.494737,
+          "red_fraction": 0.834966,
+          "orange_fraction": 0.002857,
+          "chromatic_fraction": 0.932268
+        }
+      ]
+    },
+    {
+      "frame": 1560,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.867434,
+          "xyxy": [
+            608,
+            377,
+            795,
+            518
+          ],
+          "center": [
+            701.5,
+            447.5
+          ],
+          "aspect_ratio": 1.326241,
+          "red_fraction": 0.254996,
+          "orange_fraction": 0.642152,
+          "chromatic_fraction": 0.827332
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.480418,
+          "xyxy": [
+            677,
+            257,
+            791,
+            347
+          ],
+          "center": [
+            734.0,
+            302.0
+          ],
+          "aspect_ratio": 1.266667,
+          "red_fraction": 0.850153,
+          "orange_fraction": 0.003069,
+          "chromatic_fraction": 0.947161
+        }
+      ]
+    },
+    {
+      "frame": 1590,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.894414,
+          "xyxy": [
+            603,
+            368,
+            815,
+            522
+          ],
+          "center": [
+            709.0,
+            445.0
+          ],
+          "aspect_ratio": 1.376623,
+          "red_fraction": 0.273619,
+          "orange_fraction": 0.616478,
+          "chromatic_fraction": 0.735876
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.628199,
+          "xyxy": [
+            701,
+            257,
+            823,
+            347
+          ],
+          "center": [
+            762.0,
+            302.0
+          ],
+          "aspect_ratio": 1.355556,
+          "red_fraction": 0.748138,
+          "orange_fraction": 0.118583,
+          "chromatic_fraction": 0.793958
+        }
+      ]
+    },
+    {
+      "frame": 1620,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917014,
+          "xyxy": [
+            608,
+            370,
+            813,
+            518
+          ],
+          "center": [
+            710.5,
+            444.0
+          ],
+          "aspect_ratio": 1.385135,
+          "red_fraction": 0.250318,
+          "orange_fraction": 0.649659,
+          "chromatic_fraction": 0.768836
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.643646,
+          "xyxy": [
+            702,
+            258,
+            819,
+            348
+          ],
+          "center": [
+            760.5,
+            303.0
+          ],
+          "aspect_ratio": 1.3,
+          "red_fraction": 0.772697,
+          "orange_fraction": 0.095427,
+          "chromatic_fraction": 0.748017
+        }
+      ]
+    },
+    {
+      "frame": 1650,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.87107,
+          "xyxy": [
+            606,
+            371,
+            811,
+            518
+          ],
+          "center": [
+            708.5,
+            444.5
+          ],
+          "aspect_ratio": 1.394558,
+          "red_fraction": 0.218752,
+          "orange_fraction": 0.68756,
+          "chromatic_fraction": 0.789131
+        }
+      ]
+    },
+    {
+      "frame": 1680,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.92406,
+          "xyxy": [
+            607,
+            371,
+            809,
+            518
+          ],
+          "center": [
+            708.0,
+            444.5
+          ],
+          "aspect_ratio": 1.37415,
+          "red_fraction": 0.297178,
+          "orange_fraction": 0.604156,
+          "chromatic_fraction": 0.793904
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.883075,
+          "xyxy": [
+            674,
+            258,
+            815,
+            349
+          ],
+          "center": [
+            744.5,
+            303.5
+          ],
+          "aspect_ratio": 1.549451,
+          "red_fraction": 0.847633,
+          "orange_fraction": 0.001004,
+          "chromatic_fraction": 0.944061
+        }
+      ]
+    },
+    {
+      "frame": 1710,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.914381,
+          "xyxy": [
+            607,
+            371,
+            809,
+            516
+          ],
+          "center": [
+            708.0,
+            443.5
+          ],
+          "aspect_ratio": 1.393103,
+          "red_fraction": 0.274569,
+          "orange_fraction": 0.628186,
+          "chromatic_fraction": 0.79408
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.858907,
+          "xyxy": [
+            675,
+            257,
+            814,
+            351
+          ],
+          "center": [
+            744.5,
+            304.0
+          ],
+          "aspect_ratio": 1.478723,
+          "red_fraction": 0.849591,
+          "orange_fraction": 0.000987,
+          "chromatic_fraction": 0.93836
+        }
+      ]
+    },
+    {
+      "frame": 1740,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.923561,
+          "xyxy": [
+            609,
+            371,
+            809,
+            519
+          ],
+          "center": [
+            709.0,
+            445.0
+          ],
+          "aspect_ratio": 1.351351,
+          "red_fraction": 0.272002,
+          "orange_fraction": 0.630221,
+          "chromatic_fraction": 0.787594
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.873013,
+          "xyxy": [
+            675,
+            258,
+            816,
+            350
+          ],
+          "center": [
+            745.5,
+            304.0
+          ],
+          "aspect_ratio": 1.532609,
+          "red_fraction": 0.844081,
+          "orange_fraction": 0.004443,
+          "chromatic_fraction": 0.931642
+        }
+      ]
+    },
+    {
+      "frame": 1770,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.924357,
+          "xyxy": [
+            608,
+            371,
+            808,
+            519
+          ],
+          "center": [
+            708.0,
+            445.0
+          ],
+          "aspect_ratio": 1.351351,
+          "red_fraction": 0.255034,
+          "orange_fraction": 0.647278,
+          "chromatic_fraction": 0.787711
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.85262,
+          "xyxy": [
+            675,
+            256,
+            814,
+            349
+          ],
+          "center": [
+            744.5,
+            302.5
+          ],
+          "aspect_ratio": 1.494624,
+          "red_fraction": 0.853662,
+          "orange_fraction": 0.002125,
+          "chromatic_fraction": 0.946881
+        }
+      ]
+    },
+    {
+      "frame": 1800,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.923743,
+          "xyxy": [
+            607,
+            371,
+            809,
+            517
+          ],
+          "center": [
+            708.0,
+            444.0
+          ],
+          "aspect_ratio": 1.383562,
+          "red_fraction": 0.272586,
+          "orange_fraction": 0.631758,
+          "chromatic_fraction": 0.800413
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.891409,
+          "xyxy": [
+            675,
+            258,
+            814,
+            349
+          ],
+          "center": [
+            744.5,
+            303.5
+          ],
+          "aspect_ratio": 1.527473,
+          "red_fraction": 0.850427,
+          "orange_fraction": 0.000434,
+          "chromatic_fraction": 0.954175
+        }
+      ]
+    },
+    {
+      "frame": 1830,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.924632,
+          "xyxy": [
+            608,
+            371,
+            809,
+            518
+          ],
+          "center": [
+            708.5,
+            444.5
+          ],
+          "aspect_ratio": 1.367347,
+          "red_fraction": 0.284166,
+          "orange_fraction": 0.617131,
+          "chromatic_fraction": 0.798799
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.864955,
+          "xyxy": [
+            674,
+            256,
+            814,
+            351
+          ],
+          "center": [
+            744.0,
+            303.5
+          ],
+          "aspect_ratio": 1.473684,
+          "red_fraction": 0.837901,
+          "orange_fraction": 0.00263,
+          "chromatic_fraction": 0.933575
+        }
+      ]
+    },
+    {
+      "frame": 1860,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.922815,
+          "xyxy": [
+            609,
+            371,
+            808,
+            517
+          ],
+          "center": [
+            708.5,
+            444.0
+          ],
+          "aspect_ratio": 1.363014,
+          "red_fraction": 0.266801,
+          "orange_fraction": 0.638527,
+          "chromatic_fraction": 0.804455
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.871592,
+          "xyxy": [
+            680,
+            256,
+            815,
+            350
+          ],
+          "center": [
+            747.5,
+            303.0
+          ],
+          "aspect_ratio": 1.43617,
+          "red_fraction": 0.851265,
+          "orange_fraction": 0.001309,
+          "chromatic_fraction": 0.927454
+        }
+      ]
+    },
+    {
+      "frame": 1890,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.918538,
+          "xyxy": [
+            608,
+            371,
+            809,
+            517
+          ],
+          "center": [
+            708.5,
+            444.0
+          ],
+          "aspect_ratio": 1.376712,
+          "red_fraction": 0.278929,
+          "orange_fraction": 0.626961,
+          "chromatic_fraction": 0.80309
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.862592,
+          "xyxy": [
+            676,
+            256,
+            814,
+            350
+          ],
+          "center": [
+            745.0,
+            303.0
+          ],
+          "aspect_ratio": 1.468085,
+          "red_fraction": 0.848481,
+          "orange_fraction": 0.000994,
+          "chromatic_fraction": 0.940438
+        }
+      ]
+    },
+    {
+      "frame": 1920,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.924751,
+          "xyxy": [
+            609,
+            371,
+            809,
+            517
+          ],
+          "center": [
+            709.0,
+            444.0
+          ],
+          "aspect_ratio": 1.369863,
+          "red_fraction": 0.265919,
+          "orange_fraction": 0.63864,
+          "chromatic_fraction": 0.800239
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.864064,
+          "xyxy": [
+            676,
+            256,
+            816,
+            352
+          ],
+          "center": [
+            746.0,
+            304.0
+          ],
+          "aspect_ratio": 1.458333,
+          "red_fraction": 0.842553,
+          "orange_fraction": 0.001844,
+          "chromatic_fraction": 0.923742
+        }
+      ]
+    },
+    {
+      "frame": 1950,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.927031,
+          "xyxy": [
+            609,
+            371,
+            808,
+            517
+          ],
+          "center": [
+            708.5,
+            444.0
+          ],
+          "aspect_ratio": 1.363014,
+          "red_fraction": 0.247902,
+          "orange_fraction": 0.656175,
+          "chromatic_fraction": 0.803371
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.874091,
+          "xyxy": [
+            676,
+            258,
+            815,
+            351
+          ],
+          "center": [
+            745.5,
+            304.5
+          ],
+          "aspect_ratio": 1.494624,
+          "red_fraction": 0.849295,
+          "orange_fraction": 0.001007,
+          "chromatic_fraction": 0.932797
+        }
+      ]
+    },
+    {
+      "frame": 1980,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.919188,
+          "xyxy": [
+            608,
+            371,
+            809,
+            516
+          ],
+          "center": [
+            708.5,
+            443.5
+          ],
+          "aspect_ratio": 1.386207,
+          "red_fraction": 0.25433,
+          "orange_fraction": 0.648779,
+          "chromatic_fraction": 0.795501
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.84916,
+          "xyxy": [
+            675,
+            256,
+            814,
+            350
+          ],
+          "center": [
+            744.5,
+            303.0
+          ],
+          "aspect_ratio": 1.478723,
+          "red_fraction": 0.848067,
+          "orange_fraction": 0.003795,
+          "chromatic_fraction": 0.941138
+        }
+      ]
+    },
+    {
+      "frame": 2010,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.919958,
+          "xyxy": [
+            608,
+            372,
+            809,
+            517
+          ],
+          "center": [
+            708.5,
+            444.5
+          ],
+          "aspect_ratio": 1.386207,
+          "red_fraction": 0.2655,
+          "orange_fraction": 0.636773,
+          "chromatic_fraction": 0.797739
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.866042,
+          "xyxy": [
+            673,
+            255,
+            815,
+            350
+          ],
+          "center": [
+            744.0,
+            302.5
+          ],
+          "aspect_ratio": 1.494737,
+          "red_fraction": 0.839852,
+          "orange_fraction": 0.000957,
+          "chromatic_fraction": 0.927448
+        }
+      ]
+    },
+    {
+      "frame": 2040,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.921715,
+          "xyxy": [
+            606,
+            370,
+            809,
+            518
+          ],
+          "center": [
+            707.5,
+            444.0
+          ],
+          "aspect_ratio": 1.371622,
+          "red_fraction": 0.231575,
+          "orange_fraction": 0.668651,
+          "chromatic_fraction": 0.764401
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.782695,
+          "xyxy": [
+            677,
+            255,
+            817,
+            351
+          ],
+          "center": [
+            747.0,
+            303.0
+          ],
+          "aspect_ratio": 1.458333,
+          "red_fraction": 0.85028,
+          "orange_fraction": 0.001864,
+          "chromatic_fraction": 0.913653
+        }
+      ]
+    },
+    {
+      "frame": 2070,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.927362,
+          "xyxy": [
+            609,
+            370,
+            810,
+            519
+          ],
+          "center": [
+            709.5,
+            444.5
+          ],
+          "aspect_ratio": 1.348993,
+          "red_fraction": 0.257977,
+          "orange_fraction": 0.642915,
+          "chromatic_fraction": 0.78495
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.396785,
+          "xyxy": [
+            671,
+            263,
+            820,
+            354
+          ],
+          "center": [
+            745.5,
+            308.5
+          ],
+          "aspect_ratio": 1.637363,
+          "red_fraction": 0.737521,
+          "orange_fraction": 0.008289,
+          "chromatic_fraction": 0.696293
+        }
+      ]
+    },
+    {
+      "frame": 2100,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.913774,
+          "xyxy": [
+            608,
+            369,
+            811,
+            519
+          ],
+          "center": [
+            709.5,
+            444.0
+          ],
+          "aspect_ratio": 1.353333,
+          "red_fraction": 0.245211,
+          "orange_fraction": 0.655688,
+          "chromatic_fraction": 0.768081
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.864149,
+          "xyxy": [
+            679,
+            254,
+            815,
+            351
+          ],
+          "center": [
+            747.0,
+            302.5
+          ],
+          "aspect_ratio": 1.402062,
+          "red_fraction": 0.839312,
+          "orange_fraction": 0.003261,
+          "chromatic_fraction": 0.888567
+        }
+      ]
+    },
+    {
+      "frame": 2130,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.920834,
+          "xyxy": [
+            609,
+            369,
+            811,
+            520
+          ],
+          "center": [
+            710.0,
+            444.5
+          ],
+          "aspect_ratio": 1.337748,
+          "red_fraction": 0.232439,
+          "orange_fraction": 0.670565,
+          "chromatic_fraction": 0.772501
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.889815,
+          "xyxy": [
+            685,
+            257,
+            817,
+            349
+          ],
+          "center": [
+            751.0,
+            303.0
+          ],
+          "aspect_ratio": 1.434783,
+          "red_fraction": 0.856254,
+          "orange_fraction": 0.003031,
+          "chromatic_fraction": 0.895429
+        }
+      ]
+    },
+    {
+      "frame": 2160,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917744,
+          "xyxy": [
+            609,
+            369,
+            811,
+            518
+          ],
+          "center": [
+            710.0,
+            443.5
+          ],
+          "aspect_ratio": 1.355705,
+          "red_fraction": 0.230304,
+          "orange_fraction": 0.672027,
+          "chromatic_fraction": 0.778991
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.893613,
+          "xyxy": [
+            688,
+            258,
+            814,
+            348
+          ],
+          "center": [
+            751.0,
+            303.0
+          ],
+          "aspect_ratio": 1.4,
+          "red_fraction": 0.877988,
+          "orange_fraction": 0.002308,
+          "chromatic_fraction": 0.929075
+        }
+      ]
+    },
+    {
+      "frame": 2190,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.913227,
+          "xyxy": [
+            608,
+            368,
+            812,
+            519
+          ],
+          "center": [
+            710.0,
+            443.5
+          ],
+          "aspect_ratio": 1.350993,
+          "red_fraction": 0.247502,
+          "orange_fraction": 0.655801,
+          "chromatic_fraction": 0.764381
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.890375,
+          "xyxy": [
+            685,
+            257,
+            816,
+            349
+          ],
+          "center": [
+            750.5,
+            303.0
+          ],
+          "aspect_ratio": 1.423913,
+          "red_fraction": 0.856939,
+          "orange_fraction": 0.003644,
+          "chromatic_fraction": 0.910823
+        }
+      ]
+    },
+    {
+      "frame": 2220,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.919714,
+          "xyxy": [
+            609,
+            369,
+            812,
+            520
+          ],
+          "center": [
+            710.5,
+            444.5
+          ],
+          "aspect_ratio": 1.344371,
+          "red_fraction": 0.254484,
+          "orange_fraction": 0.646128,
+          "chromatic_fraction": 0.769369
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.897809,
+          "xyxy": [
+            684,
+            258,
+            816,
+            348
+          ],
+          "center": [
+            750.0,
+            303.0
+          ],
+          "aspect_ratio": 1.466667,
+          "red_fraction": 0.860491,
+          "orange_fraction": 0.003853,
+          "chromatic_fraction": 0.916029
+        }
+      ]
+    },
+    {
+      "frame": 2250,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.917283,
+          "xyxy": [
+            609,
+            369,
+            811,
+            519
+          ],
+          "center": [
+            710.0,
+            444.0
+          ],
+          "aspect_ratio": 1.346667,
+          "red_fraction": 0.248919,
+          "orange_fraction": 0.655089,
+          "chromatic_fraction": 0.777341
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.886981,
+          "xyxy": [
+            677,
+            254,
+            815,
+            348
+          ],
+          "center": [
+            746.0,
+            301.0
+          ],
+          "aspect_ratio": 1.468085,
+          "red_fraction": 0.84658,
+          "orange_fraction": 0.003592,
+          "chromatic_fraction": 0.892228
+        }
+      ]
+    },
+    {
+      "frame": 2280,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.911198,
+          "xyxy": [
+            608,
+            368,
+            811,
+            520
+          ],
+          "center": [
+            709.5,
+            444.0
+          ],
+          "aspect_ratio": 1.335526,
+          "red_fraction": 0.258144,
+          "orange_fraction": 0.64384,
+          "chromatic_fraction": 0.768298
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.376799,
+          "xyxy": [
+            686,
+            257,
+            818,
+            351
+          ],
+          "center": [
+            752.0,
+            304.0
+          ],
+          "aspect_ratio": 1.404255,
+          "red_fraction": 0.740524,
+          "orange_fraction": 0.007364,
+          "chromatic_fraction": 0.64125
+        }
+      ]
+    },
+    {
+      "frame": 2310,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.913626,
+          "xyxy": [
+            609,
+            372,
+            812,
+            518
+          ],
+          "center": [
+            710.5,
+            445.0
+          ],
+          "aspect_ratio": 1.390411,
+          "red_fraction": 0.229849,
+          "orange_fraction": 0.672684,
+          "chromatic_fraction": 0.789501
+        }
+      ]
+    },
+    {
+      "frame": 2340,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.913868,
+          "xyxy": [
+            610,
+            374,
+            811,
+            516
+          ],
+          "center": [
+            710.5,
+            445.0
+          ],
+          "aspect_ratio": 1.415493,
+          "red_fraction": 0.228589,
+          "orange_fraction": 0.67491,
+          "chromatic_fraction": 0.802711
+        }
+      ]
+    },
+    {
+      "frame": 2370,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.730074,
+          "xyxy": [
+            608,
+            386,
+            803,
+            520
+          ],
+          "center": [
+            705.5,
+            453.0
+          ],
+          "aspect_ratio": 1.455224,
+          "red_fraction": 0.267999,
+          "orange_fraction": 0.560455,
+          "chromatic_fraction": 0.573036
+        }
+      ]
+    },
+    {
+      "frame": 2400,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.742684,
+          "xyxy": [
+            608,
+            387,
+            798,
+            520
+          ],
+          "center": [
+            703.0,
+            453.5
+          ],
+          "aspect_ratio": 1.428571,
+          "red_fraction": 0.279609,
+          "orange_fraction": 0.547681,
+          "chromatic_fraction": 0.584021
+        }
+      ]
+    },
+    {
+      "frame": 2430,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.407276,
+          "xyxy": [
+            605,
+            388,
+            726,
+            521
+          ],
+          "center": [
+            665.5,
+            454.5
+          ],
+          "aspect_ratio": 0.909774,
+          "red_fraction": 0.278792,
+          "orange_fraction": 0.578074,
+          "chromatic_fraction": 0.727451
+        }
+      ]
+    },
+    {
+      "frame": 2460,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.708897,
+          "xyxy": [
+            585,
+            318,
+            720,
+            438
+          ],
+          "center": [
+            652.5,
+            378.0
+          ],
+          "aspect_ratio": 1.125,
+          "red_fraction": 0.183045,
+          "orange_fraction": 0.734801,
+          "chromatic_fraction": 0.805403
+        }
+      ]
+    },
+    {
+      "frame": 2490,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.754935,
+          "xyxy": [
+            584,
+            315,
+            714,
+            440
+          ],
+          "center": [
+            649.0,
+            377.5
+          ],
+          "aspect_ratio": 1.04,
+          "red_fraction": 0.181155,
+          "orange_fraction": 0.73309,
+          "chromatic_fraction": 0.824168
+        }
+      ]
+    },
+    {
+      "frame": 2520,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.861142,
+          "xyxy": [
+            681,
+            255,
+            818,
+            353
+          ],
+          "center": [
+            749.5,
+            304.0
+          ],
+          "aspect_ratio": 1.397959,
+          "red_fraction": 0.770279,
+          "orange_fraction": 0.078453,
+          "chromatic_fraction": 0.821879
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.812966,
+          "xyxy": [
+            516,
+            217,
+            675,
+            393
+          ],
+          "center": [
+            595.5,
+            305.0
+          ],
+          "aspect_ratio": 0.903409,
+          "red_fraction": 0.108253,
+          "orange_fraction": 0.572508,
+          "chromatic_fraction": 0.726409
+        }
+      ]
+    },
+    {
+      "frame": 2550,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.906266,
+          "xyxy": [
+            675,
+            255,
+            821,
+            355
+          ],
+          "center": [
+            748.0,
+            305.0
+          ],
+          "aspect_ratio": 1.46,
+          "red_fraction": 0.786181,
+          "orange_fraction": 0.04791,
+          "chromatic_fraction": 0.841388
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.594092,
+          "xyxy": [
+            502,
+            194,
+            646,
+            332
+          ],
+          "center": [
+            574.0,
+            263.0
+          ],
+          "aspect_ratio": 1.043478,
+          "red_fraction": 0.123229,
+          "orange_fraction": 0.762866,
+          "chromatic_fraction": 0.740559
+        }
+      ]
+    },
+    {
+      "frame": 2580,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.869354,
+          "xyxy": [
+            673,
+            254,
+            818,
+            355
+          ],
+          "center": [
+            745.5,
+            304.5
+          ],
+          "aspect_ratio": 1.435644,
+          "red_fraction": 0.822461,
+          "orange_fraction": 0.006187,
+          "chromatic_fraction": 0.869896
+        }
+      ]
+    },
+    {
+      "frame": 2610,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.888771,
+          "xyxy": [
+            668,
+            254,
+            822,
+            356
+          ],
+          "center": [
+            745.0,
+            305.0
+          ],
+          "aspect_ratio": 1.509804,
+          "red_fraction": 0.81225,
+          "orange_fraction": 0.000905,
+          "chromatic_fraction": 0.84083
+        }
+      ]
+    },
+    {
+      "frame": 2640,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.911266,
+          "xyxy": [
+            673,
+            255,
+            817,
+            351
+          ],
+          "center": [
+            745.0,
+            303.0
+          ],
+          "aspect_ratio": 1.5,
+          "red_fraction": 0.838687,
+          "orange_fraction": 0.004274,
+          "chromatic_fraction": 0.915783
+        }
+      ]
+    },
+    {
+      "frame": 2670,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.907489,
+          "xyxy": [
+            672,
+            254,
+            819,
+            353
+          ],
+          "center": [
+            745.5,
+            303.5
+          ],
+          "aspect_ratio": 1.484848,
+          "red_fraction": 0.834779,
+          "orange_fraction": 0.00366,
+          "chromatic_fraction": 0.886246
+        }
+      ]
+    },
+    {
+      "frame": 2700,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.910177,
+          "xyxy": [
+            672,
+            257,
+            820,
+            353
+          ],
+          "center": [
+            746.0,
+            305.0
+          ],
+          "aspect_ratio": 1.541667,
+          "red_fraction": 0.829743,
+          "orange_fraction": 0.003753,
+          "chromatic_fraction": 0.892237
+        }
+      ]
+    },
+    {
+      "frame": 2730,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.913847,
+          "xyxy": [
+            673,
+            256,
+            817,
+            353
+          ],
+          "center": [
+            745.0,
+            304.5
+          ],
+          "aspect_ratio": 1.484536,
+          "red_fraction": 0.837994,
+          "orange_fraction": 0.005924,
+          "chromatic_fraction": 0.903985
+        }
+      ]
+    },
+    {
+      "frame": 2760,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.871503,
+          "xyxy": [
+            671,
+            253,
+            825,
+            353
+          ],
+          "center": [
+            748.0,
+            303.0
+          ],
+          "aspect_ratio": 1.54,
+          "red_fraction": 0.815539,
+          "orange_fraction": 0.026025,
+          "chromatic_fraction": 0.878345
+        }
+      ]
+    },
+    {
+      "frame": 2790,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.897841,
+          "xyxy": [
+            671,
+            249,
+            825,
+            355
+          ],
+          "center": [
+            748.0,
+            302.0
+          ],
+          "aspect_ratio": 1.45283,
+          "red_fraction": 0.802165,
+          "orange_fraction": 0.037452,
+          "chromatic_fraction": 0.851377
+        }
+      ]
+    },
+    {
+      "frame": 2820,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.879055,
+          "xyxy": [
+            673,
+            215,
+            833,
+            353
+          ],
+          "center": [
+            753.0,
+            284.0
+          ],
+          "aspect_ratio": 1.15942,
+          "red_fraction": 0.664642,
+          "orange_fraction": 0.221142,
+          "chromatic_fraction": 0.778373
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.846555,
+          "xyxy": [
+            677,
+            255,
+            828,
+            352
+          ],
+          "center": [
+            752.5,
+            303.5
+          ],
+          "aspect_ratio": 1.556701,
+          "red_fraction": 0.826766,
+          "orange_fraction": 0.021603,
+          "chromatic_fraction": 0.876712
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.264518,
+          "xyxy": [
+            719,
+            197,
+            837,
+            293
+          ],
+          "center": [
+            778.0,
+            245.0
+          ],
+          "aspect_ratio": 1.229167,
+          "red_fraction": 0.256968,
+          "orange_fraction": 0.714418,
+          "chromatic_fraction": 0.830556
+        }
+      ]
+    },
+    {
+      "frame": 2850,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.784732,
+          "xyxy": [
+            683,
+            268,
+            822,
+            352
+          ],
+          "center": [
+            752.5,
+            310.0
+          ],
+          "aspect_ratio": 1.654762,
+          "red_fraction": 0.801372,
+          "orange_fraction": 0.008748,
+          "chromatic_fraction": 0.86756
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.717634,
+          "xyxy": [
+            710,
+            194,
+            836,
+            291
+          ],
+          "center": [
+            773.0,
+            242.5
+          ],
+          "aspect_ratio": 1.298969,
+          "red_fraction": 0.203299,
+          "orange_fraction": 0.762997,
+          "chromatic_fraction": 0.795947
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.391803,
+          "xyxy": [
+            688,
+            195,
+            831,
+            350
+          ],
+          "center": [
+            759.5,
+            272.5
+          ],
+          "aspect_ratio": 0.922581,
+          "red_fraction": 0.516478,
+          "orange_fraction": 0.359666,
+          "chromatic_fraction": 0.797067
+        }
+      ]
+    },
+    {
+      "frame": 2880,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.880389,
+          "xyxy": [
+            673,
+            205,
+            832,
+            353
+          ],
+          "center": [
+            752.5,
+            279.0
+          ],
+          "aspect_ratio": 1.074324,
+          "red_fraction": 0.61761,
+          "orange_fraction": 0.276266,
+          "chromatic_fraction": 0.767636
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.85486,
+          "xyxy": [
+            677,
+            256,
+            826,
+            352
+          ],
+          "center": [
+            751.5,
+            304.0
+          ],
+          "aspect_ratio": 1.552083,
+          "red_fraction": 0.831595,
+          "orange_fraction": 0.017939,
+          "chromatic_fraction": 0.88385
+        }
+      ]
+    },
+    {
+      "frame": 2910,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.84985,
+          "xyxy": [
+            671,
+            201,
+            835,
+            353
+          ],
+          "center": [
+            753.0,
+            277.0
+          ],
+          "aspect_ratio": 1.078947,
+          "red_fraction": 0.599963,
+          "orange_fraction": 0.294443,
+          "chromatic_fraction": 0.753198
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.822487,
+          "xyxy": [
+            674,
+            255,
+            831,
+            352
+          ],
+          "center": [
+            752.5,
+            303.5
+          ],
+          "aspect_ratio": 1.618557,
+          "red_fraction": 0.817699,
+          "orange_fraction": 0.024015,
+          "chromatic_fraction": 0.867618
+        }
+      ]
+    },
+    {
+      "frame": 2940,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.821712,
+          "xyxy": [
+            670,
+            220,
+            832,
+            352
+          ],
+          "center": [
+            751.0,
+            286.0
+          ],
+          "aspect_ratio": 1.227273,
+          "red_fraction": 0.67378,
+          "orange_fraction": 0.202369,
+          "chromatic_fraction": 0.789839
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.801123,
+          "xyxy": [
+            674,
+            256,
+            825,
+            352
+          ],
+          "center": [
+            749.5,
+            304.0
+          ],
+          "aspect_ratio": 1.572917,
+          "red_fraction": 0.824837,
+          "orange_fraction": 0.016676,
+          "chromatic_fraction": 0.890821
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.154268,
+          "xyxy": [
+            721,
+            197,
+            836,
+            291
+          ],
+          "center": [
+            778.5,
+            244.0
+          ],
+          "aspect_ratio": 1.223404,
+          "red_fraction": 0.223662,
+          "orange_fraction": 0.747606,
+          "chromatic_fraction": 0.850096
+        }
+      ]
+    },
+    {
+      "frame": 2970,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.842527,
+          "xyxy": [
+            669,
+            190,
+            837,
+            356
+          ],
+          "center": [
+            753.0,
+            273.0
+          ],
+          "aspect_ratio": 1.012048,
+          "red_fraction": 0.562357,
+          "orange_fraction": 0.332148,
+          "chromatic_fraction": 0.732329
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.813045,
+          "xyxy": [
+            673,
+            246,
+            834,
+            355
+          ],
+          "center": [
+            753.5,
+            300.5
+          ],
+          "aspect_ratio": 1.477064,
+          "red_fraction": 0.764145,
+          "orange_fraction": 0.074545,
+          "chromatic_fraction": 0.801548
+        }
+      ]
+    },
+    {
+      "frame": 3000,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.842335,
+          "xyxy": [
+            672,
+            192,
+            835,
+            353
+          ],
+          "center": [
+            753.5,
+            272.5
+          ],
+          "aspect_ratio": 1.012422,
+          "red_fraction": 0.575687,
+          "orange_fraction": 0.326244,
+          "chromatic_fraction": 0.742746
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.829342,
+          "xyxy": [
+            675,
+            251,
+            832,
+            352
+          ],
+          "center": [
+            753.5,
+            301.5
+          ],
+          "aspect_ratio": 1.554455,
+          "red_fraction": 0.800696,
+          "orange_fraction": 0.040866,
+          "chromatic_fraction": 0.846557
+        }
+      ]
+    },
+    {
+      "frame": 3030,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.854279,
+          "xyxy": [
+            681,
+            195,
+            836,
+            353
+          ],
+          "center": [
+            758.5,
+            274.0
+          ],
+          "aspect_ratio": 0.981013,
+          "red_fraction": 0.567586,
+          "orange_fraction": 0.341655,
+          "chromatic_fraction": 0.736111
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.846695,
+          "xyxy": [
+            683,
+            254,
+            833,
+            353
+          ],
+          "center": [
+            758.0,
+            303.5
+          ],
+          "aspect_ratio": 1.515152,
+          "red_fraction": 0.813159,
+          "orange_fraction": 0.033751,
+          "chromatic_fraction": 0.821287
+        }
+      ]
+    },
+    {
+      "frame": 3060,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.846542,
+          "xyxy": [
+            681,
+            200,
+            835,
+            352
+          ],
+          "center": [
+            758.0,
+            276.0
+          ],
+          "aspect_ratio": 1.013158,
+          "red_fraction": 0.582047,
+          "orange_fraction": 0.325357,
+          "chromatic_fraction": 0.747954
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.830309,
+          "xyxy": [
+            682,
+            256,
+            830,
+            352
+          ],
+          "center": [
+            756.0,
+            304.0
+          ],
+          "aspect_ratio": 1.541667,
+          "red_fraction": 0.820711,
+          "orange_fraction": 0.029129,
+          "chromatic_fraction": 0.851438
+        }
+      ]
+    },
+    {
+      "frame": 3090,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.828741,
+          "xyxy": [
+            681,
+            207,
+            833,
+            351
+          ],
+          "center": [
+            757.0,
+            279.0
+          ],
+          "aspect_ratio": 1.055556,
+          "red_fraction": 0.617781,
+          "orange_fraction": 0.283622,
+          "chromatic_fraction": 0.759875
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.811285,
+          "xyxy": [
+            682,
+            256,
+            827,
+            351
+          ],
+          "center": [
+            754.5,
+            303.5
+          ],
+          "aspect_ratio": 1.526316,
+          "red_fraction": 0.827764,
+          "orange_fraction": 0.019217,
+          "chromatic_fraction": 0.860545
+        }
+      ]
+    },
+    {
+      "frame": 3120,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.798048,
+          "xyxy": [
+            683,
+            255,
+            831,
+            353
+          ],
+          "center": [
+            757.0,
+            304.0
+          ],
+          "aspect_ratio": 1.510204,
+          "red_fraction": 0.82416,
+          "orange_fraction": 0.023302,
+          "chromatic_fraction": 0.843991
+        },
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.779896,
+          "xyxy": [
+            682,
+            197,
+            835,
+            353
+          ],
+          "center": [
+            758.5,
+            275.0
+          ],
+          "aspect_ratio": 0.980769,
+          "red_fraction": 0.577336,
+          "orange_fraction": 0.329879,
+          "chromatic_fraction": 0.754889
+        }
+      ]
+    },
+    {
+      "frame": 3150,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.847674,
+          "xyxy": [
+            684,
+            196,
+            834,
+            353
+          ],
+          "center": [
+            759.0,
+            274.5
+          ],
+          "aspect_ratio": 0.955414,
+          "red_fraction": 0.586438,
+          "orange_fraction": 0.331296,
+          "chromatic_fraction": 0.759841
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.833937,
+          "xyxy": [
+            684,
+            250,
+            832,
+            353
+          ],
+          "center": [
+            758.0,
+            301.5
+          ],
+          "aspect_ratio": 1.436893,
+          "red_fraction": 0.817302,
+          "orange_fraction": 0.040216,
+          "chromatic_fraction": 0.817812
+        }
+      ]
+    },
+    {
+      "frame": 3180,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.840462,
+          "xyxy": [
+            683,
+            193,
+            836,
+            352
+          ],
+          "center": [
+            759.5,
+            272.5
+          ],
+          "aspect_ratio": 0.962264,
+          "red_fraction": 0.566368,
+          "orange_fraction": 0.350029,
+          "chromatic_fraction": 0.741824
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.799005,
+          "xyxy": [
+            683,
+            255,
+            831,
+            352
+          ],
+          "center": [
+            757.0,
+            303.5
+          ],
+          "aspect_ratio": 1.525773,
+          "red_fraction": 0.823184,
+          "orange_fraction": 0.027081,
+          "chromatic_fraction": 0.853596
+        }
+      ]
+    },
+    {
+      "frame": 3210,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.853184,
+          "xyxy": [
+            670,
+            194,
+            835,
+            355
+          ],
+          "center": [
+            752.5,
+            274.5
+          ],
+          "aspect_ratio": 1.024845,
+          "red_fraction": 0.59067,
+          "orange_fraction": 0.300105,
+          "chromatic_fraction": 0.743154
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.827967,
+          "xyxy": [
+            671,
+            250,
+            833,
+            355
+          ],
+          "center": [
+            752.0,
+            302.5
+          ],
+          "aspect_ratio": 1.542857,
+          "red_fraction": 0.791106,
+          "orange_fraction": 0.035578,
+          "chromatic_fraction": 0.826358
+        }
+      ]
+    },
+    {
+      "frame": 3240,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.883957,
+          "xyxy": [
+            670,
+            196,
+            834,
+            354
+          ],
+          "center": [
+            752.0,
+            275.0
+          ],
+          "aspect_ratio": 1.037975,
+          "red_fraction": 0.582021,
+          "orange_fraction": 0.312697,
+          "chromatic_fraction": 0.746841
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.832974,
+          "xyxy": [
+            673,
+            252,
+            830,
+            353
+          ],
+          "center": [
+            751.5,
+            302.5
+          ],
+          "aspect_ratio": 1.554455,
+          "red_fraction": 0.792656,
+          "orange_fraction": 0.044036,
+          "chromatic_fraction": 0.850049
+        }
+      ]
+    },
+    {
+      "frame": 3270,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.838098,
+          "xyxy": [
+            670,
+            191,
+            838,
+            357
+          ],
+          "center": [
+            754.0,
+            274.0
+          ],
+          "aspect_ratio": 1.012048,
+          "red_fraction": 0.566564,
+          "orange_fraction": 0.331113,
+          "chromatic_fraction": 0.74473
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.307171,
+          "xyxy": [
+            672,
+            240,
+            836,
+            357
+          ],
+          "center": [
+            754.0,
+            298.5
+          ],
+          "aspect_ratio": 1.401709,
+          "red_fraction": 0.737944,
+          "orange_fraction": 0.108477,
+          "chromatic_fraction": 0.783527
+        }
+      ]
+    },
+    {
+      "frame": 3300,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.868933,
+          "xyxy": [
+            670,
+            191,
+            838,
+            358
+          ],
+          "center": [
+            754.0,
+            274.5
+          ],
+          "aspect_ratio": 1.005988,
+          "red_fraction": 0.561129,
+          "orange_fraction": 0.333333,
+          "chromatic_fraction": 0.743172
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.427547,
+          "xyxy": [
+            672,
+            242,
+            835,
+            357
+          ],
+          "center": [
+            753.5,
+            299.5
+          ],
+          "aspect_ratio": 1.417391,
+          "red_fraction": 0.749438,
+          "orange_fraction": 0.09192,
+          "chromatic_fraction": 0.789926
+        }
+      ]
+    },
+    {
+      "frame": 3330,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.831551,
+          "xyxy": [
+            668,
+            190,
+            838,
+            356
+          ],
+          "center": [
+            753.0,
+            273.0
+          ],
+          "aspect_ratio": 1.024096,
+          "red_fraction": 0.554052,
+          "orange_fraction": 0.345437,
+          "chromatic_fraction": 0.739805
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.349183,
+          "xyxy": [
+            671,
+            245,
+            836,
+            357
+          ],
+          "center": [
+            753.5,
+            301.0
+          ],
+          "aspect_ratio": 1.473214,
+          "red_fraction": 0.752555,
+          "orange_fraction": 0.087354,
+          "chromatic_fraction": 0.782698
+        }
+      ]
+    },
+    {
+      "frame": 3360,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.837302,
+          "xyxy": [
+            669,
+            191,
+            839,
+            357
+          ],
+          "center": [
+            754.0,
+            274.0
+          ],
+          "aspect_ratio": 1.024096,
+          "red_fraction": 0.552937,
+          "orange_fraction": 0.344401,
+          "chromatic_fraction": 0.740965
+        }
+      ]
+    },
+    {
+      "frame": 3390,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.864748,
+          "xyxy": [
+            672,
+            191,
+            838,
+            356
+          ],
+          "center": [
+            755.0,
+            273.5
+          ],
+          "aspect_ratio": 1.006061,
+          "red_fraction": 0.55355,
+          "orange_fraction": 0.3485,
+          "chromatic_fraction": 0.749333
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.382836,
+          "xyxy": [
+            674,
+            238,
+            836,
+            357
+          ],
+          "center": [
+            755.0,
+            297.5
+          ],
+          "aspect_ratio": 1.361345,
+          "red_fraction": 0.723572,
+          "orange_fraction": 0.12567,
+          "chromatic_fraction": 0.777118
+        }
+      ]
+    },
+    {
+      "frame": 3420,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.828894,
+          "xyxy": [
+            670,
+            190,
+            838,
+            357
+          ],
+          "center": [
+            754.0,
+            273.5
+          ],
+          "aspect_ratio": 1.005988,
+          "red_fraction": 0.548964,
+          "orange_fraction": 0.350373,
+          "chromatic_fraction": 0.742495
+        }
+      ]
+    },
+    {
+      "frame": 3450,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.836387,
+          "xyxy": [
+            669,
+            190,
+            839,
+            357
+          ],
+          "center": [
+            754.0,
+            273.5
+          ],
+          "aspect_ratio": 1.017964,
+          "red_fraction": 0.567408,
+          "orange_fraction": 0.331173,
+          "chromatic_fraction": 0.738159
+        }
+      ]
+    },
+    {
+      "frame": 3480,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.848972,
+          "xyxy": [
+            669,
+            191,
+            838,
+            356
+          ],
+          "center": [
+            753.5,
+            273.5
+          ],
+          "aspect_ratio": 1.024242,
+          "red_fraction": 0.554816,
+          "orange_fraction": 0.34471,
+          "chromatic_fraction": 0.744992
+        }
+      ]
+    },
+    {
+      "frame": 3510,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.843183,
+          "xyxy": [
+            668,
+            189,
+            838,
+            357
+          ],
+          "center": [
+            753.0,
+            273.0
+          ],
+          "aspect_ratio": 1.011905,
+          "red_fraction": 0.553894,
+          "orange_fraction": 0.343875,
+          "chromatic_fraction": 0.735397
+        }
+      ]
+    },
+    {
+      "frame": 3540,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.833585,
+          "xyxy": [
+            667,
+            189,
+            839,
+            357
+          ],
+          "center": [
+            753.0,
+            273.0
+          ],
+          "aspect_ratio": 1.02381,
+          "red_fraction": 0.546685,
+          "orange_fraction": 0.347713,
+          "chromatic_fraction": 0.736959
+        }
+      ]
+    },
+    {
+      "frame": 3570,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.879009,
+          "xyxy": [
+            669,
+            192,
+            839,
+            359
+          ],
+          "center": [
+            754.0,
+            275.5
+          ],
+          "aspect_ratio": 1.017964,
+          "red_fraction": 0.553282,
+          "orange_fraction": 0.338026,
+          "chromatic_fraction": 0.740036
+        }
+      ]
+    },
+    {
+      "frame": 3600,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.869537,
+          "xyxy": [
+            668,
+            191,
+            839,
+            359
+          ],
+          "center": [
+            753.5,
+            275.0
+          ],
+          "aspect_ratio": 1.017857,
+          "red_fraction": 0.545209,
+          "orange_fraction": 0.348022,
+          "chromatic_fraction": 0.740795
+        }
+      ]
+    },
+    {
+      "frame": 3630,
+      "detections": [
+        {
+          "class_name": "orange_bridge",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": false,
+          "confidence": 0.60157,
+          "xyxy": [
+            684,
+            146,
+            824,
+            250
+          ],
+          "center": [
+            754.0,
+            198.0
+          ],
+          "aspect_ratio": 1.346154,
+          "red_fraction": 0.086653,
+          "orange_fraction": 0.853183,
+          "chromatic_fraction": 0.574292
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.549058,
+          "xyxy": [
+            659,
+            252,
+            824,
+            357
+          ],
+          "center": [
+            741.5,
+            304.5
+          ],
+          "aspect_ratio": 1.571429,
+          "red_fraction": 0.815526,
+          "orange_fraction": 0.006067,
+          "chromatic_fraction": 0.817924
+        }
+      ]
+    },
+    {
+      "frame": 3660,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.921267,
+          "xyxy": [
+            676,
+            249,
+            818,
+            354
+          ],
+          "center": [
+            747.0,
+            301.5
+          ],
+          "aspect_ratio": 1.352381,
+          "red_fraction": 0.841889,
+          "orange_fraction": 0.003111,
+          "chromatic_fraction": 0.828762
+        }
+      ]
+    },
+    {
+      "frame": 3720,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.926223,
+          "xyxy": [
+            669,
+            253,
+            818,
+            355
+          ],
+          "center": [
+            743.5,
+            304.0
+          ],
+          "aspect_ratio": 1.460784,
+          "red_fraction": 0.823745,
+          "orange_fraction": 0.003538,
+          "chromatic_fraction": 0.865782
+        }
+      ]
+    },
+    {
+      "frame": 3750,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.921674,
+          "xyxy": [
+            666,
+            250,
+            819,
+            355
+          ],
+          "center": [
+            742.5,
+            302.5
+          ],
+          "aspect_ratio": 1.457143,
+          "red_fraction": 0.835403,
+          "orange_fraction": 0.00192,
+          "chromatic_fraction": 0.845288
+        }
+      ]
+    },
+    {
+      "frame": 3780,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.908385,
+          "xyxy": [
+            662,
+            250,
+            819,
+            352
+          ],
+          "center": [
+            740.5,
+            301.0
+          ],
+          "aspect_ratio": 1.539216,
+          "red_fraction": 0.834542,
+          "orange_fraction": 0.002035,
+          "chromatic_fraction": 0.847123
+        }
+      ]
+    },
+    {
+      "frame": 3810,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.916213,
+          "xyxy": [
+            666,
+            251,
+            818,
+            354
+          ],
+          "center": [
+            742.0,
+            302.5
+          ],
+          "aspect_ratio": 1.475728,
+          "red_fraction": 0.835594,
+          "orange_fraction": 0.003838,
+          "chromatic_fraction": 0.852903
+        }
+      ]
+    },
+    {
+      "frame": 3840,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.918003,
+          "xyxy": [
+            663,
+            250,
+            820,
+            354
+          ],
+          "center": [
+            741.5,
+            302.0
+          ],
+          "aspect_ratio": 1.509615,
+          "red_fraction": 0.829404,
+          "orange_fraction": 0.001774,
+          "chromatic_fraction": 0.828782
+        }
+      ]
+    },
+    {
+      "frame": 3870,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.912977,
+          "xyxy": [
+            661,
+            250,
+            819,
+            352
+          ],
+          "center": [
+            740.0,
+            301.0
+          ],
+          "aspect_ratio": 1.54902,
+          "red_fraction": 0.828437,
+          "orange_fraction": 0.003943,
+          "chromatic_fraction": 0.840064
+        }
+      ]
+    },
+    {
+      "frame": 3900,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.917221,
+          "xyxy": [
+            662,
+            250,
+            821,
+            355
+          ],
+          "center": [
+            741.5,
+            302.5
+          ],
+          "aspect_ratio": 1.514286,
+          "red_fraction": 0.825681,
+          "orange_fraction": 0.003406,
+          "chromatic_fraction": 0.829375
+        }
+      ]
+    },
+    {
+      "frame": 3930,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.900772,
+          "xyxy": [
+            660,
+            250,
+            819,
+            352
+          ],
+          "center": [
+            739.5,
+            301.0
+          ],
+          "aspect_ratio": 1.558824,
+          "red_fraction": 0.830296,
+          "orange_fraction": 0.000886,
+          "chromatic_fraction": 0.837254
+        }
+      ]
+    },
+    {
+      "frame": 3960,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.915688,
+          "xyxy": [
+            660,
+            250,
+            819,
+            356
+          ],
+          "center": [
+            739.5,
+            303.0
+          ],
+          "aspect_ratio": 1.5,
+          "red_fraction": 0.826378,
+          "orange_fraction": 0.001513,
+          "chromatic_fraction": 0.819318
+        }
+      ]
+    },
+    {
+      "frame": 3990,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.915292,
+          "xyxy": [
+            662,
+            250,
+            820,
+            354
+          ],
+          "center": [
+            741.0,
+            302.0
+          ],
+          "aspect_ratio": 1.519231,
+          "red_fraction": 0.831817,
+          "orange_fraction": 0.001643,
+          "chromatic_fraction": 0.824375
+        }
+      ]
+    },
+    {
+      "frame": 4020,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.908894,
+          "xyxy": [
+            660,
+            250,
+            819,
+            352
+          ],
+          "center": [
+            739.5,
+            301.0
+          ],
+          "aspect_ratio": 1.558824,
+          "red_fraction": 0.832274,
+          "orange_fraction": 0.000762,
+          "chromatic_fraction": 0.833863
+        }
+      ]
+    },
+    {
+      "frame": 4050,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.916781,
+          "xyxy": [
+            661,
+            249,
+            821,
+            355
+          ],
+          "center": [
+            741.0,
+            302.0
+          ],
+          "aspect_ratio": 1.509434,
+          "red_fraction": 0.823426,
+          "orange_fraction": 0.002393,
+          "chromatic_fraction": 0.813525
+        }
+      ]
+    },
+    {
+      "frame": 4080,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.918341,
+          "xyxy": [
+            663,
+            250,
+            821,
+            355
+          ],
+          "center": [
+            742.0,
+            302.5
+          ],
+          "aspect_ratio": 1.504762,
+          "red_fraction": 0.829914,
+          "orange_fraction": 0.00228,
+          "chromatic_fraction": 0.832911
+        }
+      ]
+    },
+    {
+      "frame": 4110,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.922475,
+          "xyxy": [
+            665,
+            250,
+            819,
+            354
+          ],
+          "center": [
+            742.0,
+            302.0
+          ],
+          "aspect_ratio": 1.480769,
+          "red_fraction": 0.82231,
+          "orange_fraction": 0.003943,
+          "chromatic_fraction": 0.832839
+        }
+      ]
+    },
+    {
+      "frame": 4140,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.591176,
+          "xyxy": [
+            674,
+            259,
+            821,
+            355
+          ],
+          "center": [
+            747.5,
+            307.0
+          ],
+          "aspect_ratio": 1.53125,
+          "red_fraction": 0.808543,
+          "orange_fraction": 0.004577,
+          "chromatic_fraction": 0.820195
+        }
+      ]
+    },
+    {
+      "frame": 4170,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.905735,
+          "xyxy": [
+            685,
+            255,
+            818,
+            353
+          ],
+          "center": [
+            751.5,
+            304.0
+          ],
+          "aspect_ratio": 1.357143,
+          "red_fraction": 0.848188,
+          "orange_fraction": 0.003422,
+          "chromatic_fraction": 0.860182
+        }
+      ]
+    },
+    {
+      "frame": 4200,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.883555,
+          "xyxy": [
+            683,
+            255,
+            817,
+            353
+          ],
+          "center": [
+            750.0,
+            304.0
+          ],
+          "aspect_ratio": 1.367347,
+          "red_fraction": 0.842454,
+          "orange_fraction": 0.002004,
+          "chromatic_fraction": 0.859433
+        }
+      ]
+    },
+    {
+      "frame": 4230,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.90855,
+          "xyxy": [
+            683,
+            253,
+            819,
+            352
+          ],
+          "center": [
+            751.0,
+            302.5
+          ],
+          "aspect_ratio": 1.373737,
+          "red_fraction": 0.848729,
+          "orange_fraction": 0.001826,
+          "chromatic_fraction": 0.842436
+        }
+      ]
+    },
+    {
+      "frame": 4260,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.908063,
+          "xyxy": [
+            677,
+            252,
+            819,
+            354
+          ],
+          "center": [
+            748.0,
+            303.0
+          ],
+          "aspect_ratio": 1.392157,
+          "red_fraction": 0.839394,
+          "orange_fraction": 0.003896,
+          "chromatic_fraction": 0.82265
+        }
+      ]
+    },
+    {
+      "frame": 4290,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.902986,
+          "xyxy": [
+            680,
+            252,
+            819,
+            354
+          ],
+          "center": [
+            749.5,
+            303.0
+          ],
+          "aspect_ratio": 1.362745,
+          "red_fraction": 0.850639,
+          "orange_fraction": 0.00279,
+          "chromatic_fraction": 0.83138
+        }
+      ]
+    },
+    {
+      "frame": 4320,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.909447,
+          "xyxy": [
+            680,
+            252,
+            820,
+            354
+          ],
+          "center": [
+            750.0,
+            303.0
+          ],
+          "aspect_ratio": 1.372549,
+          "red_fraction": 0.847995,
+          "orange_fraction": 0.003525,
+          "chromatic_fraction": 0.823537
+        }
+      ]
+    },
+    {
+      "frame": 4350,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.910385,
+          "xyxy": [
+            678,
+            252,
+            819,
+            353
+          ],
+          "center": [
+            748.5,
+            302.5
+          ],
+          "aspect_ratio": 1.39604,
+          "red_fraction": 0.841051,
+          "orange_fraction": 0.001597,
+          "chromatic_fraction": 0.836145
+        }
+      ]
+    },
+    {
+      "frame": 4380,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.906554,
+          "xyxy": [
+            679,
+            253,
+            819,
+            353
+          ],
+          "center": [
+            749.0,
+            303.0
+          ],
+          "aspect_ratio": 1.4,
+          "red_fraction": 0.846693,
+          "orange_fraction": 0.001898,
+          "chromatic_fraction": 0.850174
+        }
+      ]
+    },
+    {
+      "frame": 4410,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.912011,
+          "xyxy": [
+            680,
+            253,
+            818,
+            353
+          ],
+          "center": [
+            749.0,
+            303.0
+          ],
+          "aspect_ratio": 1.38,
+          "red_fraction": 0.8468,
+          "orange_fraction": 0.003391,
+          "chromatic_fraction": 0.858047
+        }
+      ]
+    },
+    {
+      "frame": 4440,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.906859,
+          "xyxy": [
+            678,
+            252,
+            820,
+            354
+          ],
+          "center": [
+            749.0,
+            303.0
+          ],
+          "aspect_ratio": 1.392157,
+          "red_fraction": 0.844848,
+          "orange_fraction": 0.005515,
+          "chromatic_fraction": 0.817901
+        }
+      ]
+    },
+    {
+      "frame": 4470,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.90547,
+          "xyxy": [
+            678,
+            253,
+            819,
+            354
+          ],
+          "center": [
+            748.5,
+            303.5
+          ],
+          "aspect_ratio": 1.39604,
+          "red_fraction": 0.839265,
+          "orange_fraction": 0.003617,
+          "chromatic_fraction": 0.838937
+        }
+      ]
+    },
+    {
+      "frame": 4500,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.907495,
+          "xyxy": [
+            679,
+            252,
+            818,
+            352
+          ],
+          "center": [
+            748.5,
+            302.0
+          ],
+          "aspect_ratio": 1.39,
+          "red_fraction": 0.849662,
+          "orange_fraction": 0.002354,
+          "chromatic_fraction": 0.85188
+        }
+      ]
+    },
+    {
+      "frame": 4530,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.906668,
+          "xyxy": [
+            678,
+            253,
+            819,
+            353
+          ],
+          "center": [
+            748.5,
+            303.0
+          ],
+          "aspect_ratio": 1.41,
+          "red_fraction": 0.84411,
+          "orange_fraction": 0.002189,
+          "chromatic_fraction": 0.842474
+        }
+      ]
+    },
+    {
+      "frame": 4560,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.916864,
+          "xyxy": [
+            667,
+            250,
+            819,
+            354
+          ],
+          "center": [
+            743.0,
+            302.0
+          ],
+          "aspect_ratio": 1.461538,
+          "red_fraction": 0.833376,
+          "orange_fraction": 0.002975,
+          "chromatic_fraction": 0.832974
+        }
+      ]
+    },
+    {
+      "frame": 4590,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.914272,
+          "xyxy": [
+            671,
+            250,
+            817,
+            357
+          ],
+          "center": [
+            744.0,
+            303.5
+          ],
+          "aspect_ratio": 1.364486,
+          "red_fraction": 0.838227,
+          "orange_fraction": 0.004176,
+          "chromatic_fraction": 0.833221
+        }
+      ]
+    },
+    {
+      "frame": 4620,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.907422,
+          "xyxy": [
+            675,
+            254,
+            823,
+            361
+          ],
+          "center": [
+            749.0,
+            307.5
+          ],
+          "aspect_ratio": 1.383178,
+          "red_fraction": 0.783869,
+          "orange_fraction": 0.006497,
+          "chromatic_fraction": 0.695657
+        }
+      ]
+    },
+    {
+      "frame": 4650,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.781828,
+          "xyxy": [
+            677,
+            255,
+            823,
+            359
+          ],
+          "center": [
+            750.0,
+            307.0
+          ],
+          "aspect_ratio": 1.403846,
+          "red_fraction": 0.759793,
+          "orange_fraction": 0.004416,
+          "chromatic_fraction": 0.591818
+        }
+      ]
+    },
+    {
+      "frame": 4680,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.802407,
+          "xyxy": [
+            675,
+            255,
+            825,
+            359
+          ],
+          "center": [
+            750.0,
+            307.0
+          ],
+          "aspect_ratio": 1.442308,
+          "red_fraction": 0.745493,
+          "orange_fraction": 0.011507,
+          "chromatic_fraction": 0.571711
+        }
+      ]
+    },
+    {
+      "frame": 4710,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.794272,
+          "xyxy": [
+            689,
+            252,
+            794,
+            351
+          ],
+          "center": [
+            741.5,
+            301.5
+          ],
+          "aspect_ratio": 1.060606,
+          "red_fraction": 0.797428,
+          "orange_fraction": 0.009378,
+          "chromatic_fraction": 0.629873
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.19316,
+          "xyxy": [
+            657,
+            229,
+            795,
+            354
+          ],
+          "center": [
+            726.0,
+            291.5
+          ],
+          "aspect_ratio": 1.104,
+          "red_fraction": 0.753737,
+          "orange_fraction": 0.01169,
+          "chromatic_fraction": 0.528138
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.168203,
+          "xyxy": [
+            701,
+            258,
+            790,
+            340
+          ],
+          "center": [
+            745.5,
+            299.0
+          ],
+          "aspect_ratio": 1.085366,
+          "red_fraction": 0.882577,
+          "orange_fraction": 0.006347,
+          "chromatic_fraction": 0.758546
+        }
+      ]
+    },
+    {
+      "frame": 4740,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.888764,
+          "xyxy": [
+            608,
+            199,
+            760,
+            294
+          ],
+          "center": [
+            684.0,
+            246.5
+          ],
+          "aspect_ratio": 1.6,
+          "red_fraction": 0.968557,
+          "orange_fraction": 0.003494,
+          "chromatic_fraction": 0.574634
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.160974,
+          "xyxy": [
+            666,
+            203,
+            759,
+            294
+          ],
+          "center": [
+            712.5,
+            248.5
+          ],
+          "aspect_ratio": 1.021978,
+          "red_fraction": 0.953595,
+          "orange_fraction": 0.001146,
+          "chromatic_fraction": 0.712594
+        }
+      ]
+    },
+    {
+      "frame": 4770,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.88872,
+          "xyxy": [
+            607,
+            199,
+            759,
+            293
+          ],
+          "center": [
+            683.0,
+            246.0
+          ],
+          "aspect_ratio": 1.617021,
+          "red_fraction": 0.973394,
+          "orange_fraction": 0.001663,
+          "chromatic_fraction": 0.57603
+        }
+      ]
+    },
+    {
+      "frame": 4800,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.861283,
+          "xyxy": [
+            538,
+            179,
+            729,
+            320
+          ],
+          "center": [
+            633.5,
+            249.5
+          ],
+          "aspect_ratio": 1.35461,
+          "red_fraction": 0.961235,
+          "orange_fraction": 0.006684,
+          "chromatic_fraction": 0.482179
+        }
+      ]
+    },
+    {
+      "frame": 4830,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.336565,
+          "xyxy": [
+            524,
+            190,
+            653,
+            348
+          ],
+          "center": [
+            588.5,
+            269.0
+          ],
+          "aspect_ratio": 0.816456,
+          "red_fraction": 0.933203,
+          "orange_fraction": 0.002655,
+          "chromatic_fraction": 0.602357
+        },
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.188748,
+          "xyxy": [
+            556,
+            304,
+            717,
+            359
+          ],
+          "center": [
+            636.5,
+            331.5
+          ],
+          "aspect_ratio": 2.927273,
+          "red_fraction": 0.761741,
+          "orange_fraction": 0.012925,
+          "chromatic_fraction": 0.460242
+        }
+      ]
+    },
+    {
+      "frame": 5010,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.499669,
+          "xyxy": [
+            736,
+            108,
+            889,
+            229
+          ],
+          "center": [
+            812.5,
+            168.5
+          ],
+          "aspect_ratio": 1.264463,
+          "red_fraction": 0.979163,
+          "orange_fraction": 0.014358,
+          "chromatic_fraction": 0.536395
+        }
+      ]
+    },
+    {
+      "frame": 5070,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.933798,
+          "xyxy": [
+            743,
+            179,
+            858,
+            301
+          ],
+          "center": [
+            800.5,
+            240.0
+          ],
+          "aspect_ratio": 0.942623,
+          "red_fraction": 0.96009,
+          "orange_fraction": 0.011376,
+          "chromatic_fraction": 0.669915
+        }
+      ]
+    },
+    {
+      "frame": 5100,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.925721,
+          "xyxy": [
+            745,
+            194,
+            848,
+            306
+          ],
+          "center": [
+            796.5,
+            250.0
+          ],
+          "aspect_ratio": 0.919643,
+          "red_fraction": 0.966517,
+          "orange_fraction": 0.006533,
+          "chromatic_fraction": 0.72093
+        }
+      ]
+    },
+    {
+      "frame": 5130,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.912108,
+          "xyxy": [
+            733,
+            196,
+            849,
+            306
+          ],
+          "center": [
+            791.0,
+            251.0
+          ],
+          "aspect_ratio": 1.054545,
+          "red_fraction": 0.963195,
+          "orange_fraction": 0.004601,
+          "chromatic_fraction": 0.735119
+        }
+      ]
+    },
+    {
+      "frame": 5160,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.929289,
+          "xyxy": [
+            730,
+            195,
+            850,
+            306
+          ],
+          "center": [
+            790.0,
+            250.5
+          ],
+          "aspect_ratio": 1.081081,
+          "red_fraction": 0.965257,
+          "orange_fraction": 0.006714,
+          "chromatic_fraction": 0.761893
+        }
+      ]
+    },
+    {
+      "frame": 5190,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.922118,
+          "xyxy": [
+            728,
+            196,
+            851,
+            307
+          ],
+          "center": [
+            789.5,
+            251.5
+          ],
+          "aspect_ratio": 1.108108,
+          "red_fraction": 0.962431,
+          "orange_fraction": 0.004174,
+          "chromatic_fraction": 0.757622
+        }
+      ]
+    },
+    {
+      "frame": 5220,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.924263,
+          "xyxy": [
+            728,
+            196,
+            851,
+            309
+          ],
+          "center": [
+            789.5,
+            252.5
+          ],
+          "aspect_ratio": 1.088496,
+          "red_fraction": 0.960557,
+          "orange_fraction": 0.003021,
+          "chromatic_fraction": 0.7537
+        }
+      ]
+    },
+    {
+      "frame": 5250,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.921664,
+          "xyxy": [
+            730,
+            197,
+            851,
+            304
+          ],
+          "center": [
+            790.5,
+            250.5
+          ],
+          "aspect_ratio": 1.130841,
+          "red_fraction": 0.967099,
+          "orange_fraction": 0.00733,
+          "chromatic_fraction": 0.795821
+        }
+      ]
+    },
+    {
+      "frame": 5280,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.92761,
+          "xyxy": [
+            727,
+            195,
+            851,
+            312
+          ],
+          "center": [
+            789.0,
+            253.5
+          ],
+          "aspect_ratio": 1.059829,
+          "red_fraction": 0.963953,
+          "orange_fraction": 0.001993,
+          "chromatic_fraction": 0.719579
+        }
+      ]
+    },
+    {
+      "frame": 5310,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.913818,
+          "xyxy": [
+            727,
+            196,
+            852,
+            305
+          ],
+          "center": [
+            789.5,
+            250.5
+          ],
+          "aspect_ratio": 1.146789,
+          "red_fraction": 0.966578,
+          "orange_fraction": 0.004988,
+          "chromatic_fraction": 0.762714
+        }
+      ]
+    },
+    {
+      "frame": 5340,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.918287,
+          "xyxy": [
+            725,
+            194,
+            851,
+            314
+          ],
+          "center": [
+            788.0,
+            254.0
+          ],
+          "aspect_ratio": 1.05,
+          "red_fraction": 0.955651,
+          "orange_fraction": 0.006619,
+          "chromatic_fraction": 0.684216
+        }
+      ]
+    },
+    {
+      "frame": 5370,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.928061,
+          "xyxy": [
+            729,
+            195,
+            850,
+            303
+          ],
+          "center": [
+            789.5,
+            249.0
+          ],
+          "aspect_ratio": 1.12037,
+          "red_fraction": 0.970279,
+          "orange_fraction": 0.003057,
+          "chromatic_fraction": 0.789065
+        }
+      ]
+    },
+    {
+      "frame": 5400,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.925015,
+          "xyxy": [
+            725,
+            195,
+            850,
+            307
+          ],
+          "center": [
+            787.5,
+            251.0
+          ],
+          "aspect_ratio": 1.116071,
+          "red_fraction": 0.962264,
+          "orange_fraction": 0.002171,
+          "chromatic_fraction": 0.733048
+        }
+      ]
+    },
+    {
+      "frame": 5430,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.924454,
+          "xyxy": [
+            729,
+            195,
+            850,
+            304
+          ],
+          "center": [
+            789.5,
+            249.5
+          ],
+          "aspect_ratio": 1.110092,
+          "red_fraction": 0.968601,
+          "orange_fraction": 0.003734,
+          "chromatic_fraction": 0.780087
+        }
+      ]
+    },
+    {
+      "frame": 5460,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.928172,
+          "xyxy": [
+            729,
+            195,
+            850,
+            304
+          ],
+          "center": [
+            789.5,
+            249.5
+          ],
+          "aspect_ratio": 1.110092,
+          "red_fraction": 0.969682,
+          "orange_fraction": 0.00271,
+          "chromatic_fraction": 0.781676
+        }
+      ]
+    },
+    {
+      "frame": 5490,
+      "detections": [
+        {
+          "class_name": "red_cuboid",
+          "raw_class_name": "orange_bridge",
+          "color_corrected": true,
+          "confidence": 0.923889,
+          "xyxy": [
+            727,
+            194,
+            850,
+            304
+          ],
+          "center": [
+            788.5,
+            249.0
+          ],
+          "aspect_ratio": 1.118182,
+          "red_fraction": 0.966678,
+          "orange_fraction": 0.003871,
+          "chromatic_fraction": 0.760625
+        }
+      ]
+    }
+  ]
+}

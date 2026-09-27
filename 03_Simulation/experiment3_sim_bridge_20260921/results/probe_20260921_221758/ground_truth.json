@@ -1,0 +1,73 @@
+{
+  "scenario": "normal",
+  "seed": 42,
+  "objects": [
+    {
+      "grid": "1",
+      "name": "task3_object_1",
+      "class_id": "blue_cube",
+      "initial_xy": [
+        -0.065,
+        0.085
+      ],
+      "shape": "cube",
+      "fixture_yaw_rad": 1.8054186283164415
+    },
+    {
+      "grid": "2",
+      "name": "task3_object_2",
+      "class_id": "orange_bridge",
+      "initial_xy": [
+        0.0,
+        0.1
+      ],
+      "shape": "bridge",
+      "fixture_yaw_rad": 1.1525719972156674
+    },
+    {
+      "grid": "3",
+      "name": "task3_object_3",
+      "class_id": "red_cube",
+      "initial_xy": [
+        0.065,
+        0.085
+      ],
+      "shape": "cube",
+      "fixture_yaw_rad": 0.4997253661148932
+    },
+    {
+      "grid": "4",
+      "name": "task3_object_4",
+      "class_id": "orange_bridge",
+      "initial_xy": [
+        -0.065,
+        0.145
+      ],
+      "shape": "bridge",
+      "fixture_yaw_rad": 1.5739912041034716
+    },
+    {
+      "grid": "5",
+      "name": "task3_object_5",
+      "class_id": "red_cube",
+      "initial_xy": [
+        0.0,
+        0.16
+      ],
+      "shape": "cube",
+      "fixture_yaw_rad": 1.1525719972156674
+    },
+    {
+      "grid": "6",
+      "name": "task3_object_6",
+      "class_id": "blue_cube",
+      "initial_xy": [
+        0.065,
+        0.145
+      ],
+      "shape": "cube",
+      "fixture_yaw_rad": 0.7311527903278632
+    }
+  ],
+  "faults": {}
+}

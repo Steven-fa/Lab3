@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mecharm_task3</name><version>1.0.0</version>
+  <description>Image-driven six-grid sorting simulation with feedback, timeout and acceptance logging.</description>
+  <maintainer email="robot@example.com">robot</maintainer><license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>gazebo_ros</depend><depend>rclcpp</depend><depend>std_srvs</depend><depend>std_msgs</depend>
+  <exec_depend>mecharm_task2</exec_depend><exec_depend>rclpy</exec_depend>
+  <exec_depend>vision_msgs</exec_depend><exec_depend>sensor_msgs</exec_depend><exec_depend>cv_bridge</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend><exec_depend>python3-opencv</exec_depend><exec_depend>python3-yaml</exec_depend>
+  <exec_depend>gazebo_msgs</exec_depend><exec_depend>moveit_msgs</exec_depend><exec_depend>control_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend><exec_depend>shape_msgs</exec_depend><exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>ament_index_python</exec_depend><exec_depend>launch_ros</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

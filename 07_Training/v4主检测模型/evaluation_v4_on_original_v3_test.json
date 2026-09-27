@@ -1,0 +1,19 @@
+{
+  "model": "/home/nvidia/mecharm_tasks/experiment3/training/cube6_red_focus_v4_video_negative/runs/cube6_red_focus_v4_video_negative/weights/best.pt",
+  "data": "/home/nvidia/mecharm_tasks/experiment3/training/cube6_hard_negative_v3/dataset/dataset_hard_negative_v3.yaml",
+  "test_metrics": {
+    "metrics/precision(B)": 0.9292395101576361,
+    "metrics/recall(B)": 0.921426074361436,
+    "metrics/mAP50(B)": 0.9317454220971944,
+    "metrics/mAP50-95(B)": 0.8799968752192598,
+    "fitness": 0.8799968752192598
+  },
+  "per_class_map50_95": {
+    "blue_cube": 0.87775,
+    "green_cube": 0.9272461538461538,
+    "pink_cube": 0.7947891520244459,
+    "yellow_cube": 0.9775,
+    "red_cuboid": 0.8321262339064986,
+    "orange_bridge": 0.8705697115384616
+  }
+}

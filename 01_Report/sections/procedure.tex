@@ -1,0 +1,54 @@
+\section{Experimental Procedure and Configuration}
+\subsection{Preparation and calibration}
+The procedure connects the separately tested visual and movement parts. It begins with a fixed work area: the camera and robot base should not move after calibration, each source cell should contain at most one physical target, and the transfer and release areas should remain clear. A changed camera view changes the pixel polygons, while a changed robot or gripper setup changes the taught poses. These are separate reasons for recalibration.\src{calibration,teaching}
+
+The deployment scripts distinguish the current device data from the software package. They provide a synchronization step for preserving the original Jetson's regions and poses before deployment. This matters because an empty example file is not a usable calibration. The supplied \file{regions.example.yaml} contains no actual region coordinates. A correct setup must recover the working \file{regions.yaml} and pose file from the device or collect them again.
+
+For the visual module, the preparation sequence is:
+\begin{enumerate}
+\item Check that the six class names in the model and the controller have the same spelling and meaning.
+\item Fix the camera at the required view and use the $1280\times720$ image for region calibration.
+\item Mark four corners for each of the six source cells. Check the region IDs, polygon shape, area, and separation.
+\item Put known objects in the cells and review the preview. Check both the class result and the grid result; one can be correct while the other is wrong.
+\item Observe the empty scene and the backgrounds likely to appear during motion. Review false boxes on the table, cables, gripper, and nearby objects.
+\item Check the group states across several frames before enabling robot execution.
+\end{enumerate}
+
+These steps describe the operating procedure supported by the tools. They do not add new test outcomes to the recorded defense results.
+
+\subsection{Motion preparation and system startup}
+The motion part needs the 17 named poses and the matching gripper profile. The route should first pass the available data checks and read-only precheck. Low-speed motion checks then establish whether the cell and destination poses match the physical arrangement. A successful visual preview alone does not validate reachability or clearance.\src{motion,teaching}
+
+The complete physical launcher is \file{experiment3_real.launch.py}. Its default is \file{armed:=false}, which supports inspection before movement. The Windows \file{start_experiment3_ros2_auto.cmd} entry checks for an existing controller and asks for the initial \texttt{RUN AUTO} input. It then starts the complete ROS 2 Launch in armed mode. This initial enable step is distinct from manually selecting each object's class or route.\src{integration}
+
+\Needspace{3\baselineskip}
+During a normal cycle, the detector and controller choose the object, cell, and destination. The operator does not supply those decisions. The current launcher does, however, ask the operator to clear each released object during the five-second interval. The system supports automatic selection and transfer within this operating arrangement; it does not provide automatic stacking or management of a full destination area.
+
+\subsection{Current physical Launch settings}
+Table~\ref{tab:settings} records the supplied complete Launch configuration. The settings describe software inputs. They are not measured rates, motion accuracy, or a record of every value used during the earlier presentation run.\src{integration}
+
+\begin{table}[H]\tabstart
+\caption{Settings in the supplied complete physical Launch}\label{tab:settings}
+\begin{tabularx}{\textwidth}{@{}L{4.55cm}L{2.4cm}Y@{}}
+\toprule Setting & Value & Meaning\\\midrule
+Camera image size & $1280\times720$ & Must match the region calibration.\\
+Requested capture rate & 30 frames/s & Camera request, not measured inference speed.\\
+Detector input size & 640 & Input scale used by the detector.\\
+Detector confidence & 0.25 & Candidate detection threshold.\\
+NMS IoU threshold & 0.45 & Box-overlap threshold used in duplicate suppression.\\
+Red/pink correction threshold & 0.55 & Required specialist score for the implemented pink-to-red change.\\
+History and stable votes & 7 and 5 & Group/state voting settings.\\
+Inter-object interval & 5 s & Delay after a completed movement.\\
+Empty-scene completion wait & 5 s & Required stable idle time after work has occurred.\\
+Transfer timeout & 180 s & Maximum controller wait for one request.\\
+Arm speed setting & 8 & Device motion setting used by the worker.\\
+Maximum joint command step & $2^\circ$ & Bound used by joint interpolation.\\
+Command period & 0.20 s & Delay between streamed targets.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Records for analysis}
+The system can save an annotated video, JSONL task events, and a motion log for each transfer. The most useful record joins the request ID with the grid, predicted class, selected group, destination, worker result, and visible placement outcome. This makes it possible to trace an incorrect placement back to recognition, mapping, or movement.\src{integration,controller}
+
+For example, a correct label with a wrong grid suggests a spatial mapping problem. A correct grid with the wrong left/right choice suggests a class-to-group error. A correct request with an object still on the table suggests a physical execution problem. The present report uses this separation when interpreting results. New cycle times, per-object error values, and average frame rates are not estimated from isolated screenshots.

@@ -1,0 +1,19 @@
+{
+  "run_dir": "C:\\Users\\28717\\cube_detection\\runs\\cube6_yolo11n",
+  "best_model": "C:\\Users\\28717\\cube_detection\\models\\cube6_yolo11n_best.pt",
+  "validation": {
+    "metrics/precision(B)": 0.9612589899868104,
+    "metrics/recall(B)": 0.963394386720711,
+    "metrics/mAP50(B)": 0.9866795539704024,
+    "metrics/mAP50-95(B)": 0.9797735107646115,
+    "fitness": 0.9797735107646115
+  },
+  "test": {
+    "metrics/precision(B)": 0.9496228867302517,
+    "metrics/recall(B)": 0.9049051359119323,
+    "metrics/mAP50(B)": 0.9318277944877064,
+    "metrics/mAP50-95(B)": 0.8948793081534859,
+    "fitness": 0.8948793081534859
+  },
+  "onnx_model": "C:\\Users\\28717\\cube_detection\\models\\cube6_yolo11n_best.onnx"
+}

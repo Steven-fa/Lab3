@@ -1,0 +1,103 @@
+% !TeX program = xelatex
+% Compile main.tex with XeLaTeX twice or with Tectonic.
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=2.25cm,right=2.25cm,top=2.25cm,bottom=2.25cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,graphicx,booktabs,tabularx,longtable,array}
+\usepackage{float,subcaption,amsmath,amssymb,etoolbox}
+\usepackage[table]{xcolor}
+\usepackage{enumitem,fancyhdr,titlesec,tikz,listings,microtype}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage{hyperref,bookmark,needspace}
+\definecolor{Navy}{HTML}{16324F}
+\definecolor{Blue}{HTML}{1D6FA5}
+\definecolor{Teal}{HTML}{15847B}
+\definecolor{Muted}{HTML}{667784}
+\definecolor{PaleBlue}{HTML}{EDF6FA}
+\definecolor{PaleGray}{HTML}{F5F7F8}
+\hypersetup{colorlinks=true,linkcolor=Navy,citecolor=Teal,urlcolor=Blue,
+ pdfauthor={Group 15},pdftitle={Group 15 - Experiment 3 Desktop Object Classification and Sorting},
+ pdfsubject={HSV simulation workflow, YOLO11 physical sorting, and ROS 2 task control}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{Muted}Experiment 3: Desktop Object Sorting}
+\fancyhead[R]{\small\sffamily\color{Muted}Group 15}
+\fancyfoot[C]{\small\sffamily\color{Muted}\thepage}
+\renewcommand{\headrulewidth}{0.35pt}\setlength{\headheight}{15pt}
+\titleformat{\section}{\Large\bfseries\sffamily\color{Navy}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\bfseries\sffamily\color{Blue}}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\sffamily}{\thesubsubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{1.4em}{0.65em}
+\titlespacing*{\subsection}{0pt}{1.1em}{0.4em}
+\setlength{\parindent}{1.4em}\setlength{\parskip}{0.22em}
+\setlength{\emergencystretch}{3em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\setlist{leftmargin=2em,itemsep=0.16em,topsep=0.3em}
+\renewcommand{\arraystretch}{1.2}
+\captionsetup{font=small,labelfont=bf}
+\raggedbottom
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcommand{\file}[1]{\path{#1}}
+\newcommand{\src}[1]{~\cite{#1}}
+\newcommand{\lead}[1]{\par\smallskip\noindent\textbf{#1}\ }
+\newcommand{\tabstart}{\centering\small\setlength{\tabcolsep}{5pt}}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,
+ backgroundcolor=\color{PaleGray},frame=single,rulecolor=\color{Muted!35},
+ showstringspaces=false,xleftmargin=0.5em,xrightmargin=0.5em}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[Navy] (current page.north west) rectangle ([yshift=-10.6cm]current page.north east);
+\fill[PaleBlue!65!white] ([yshift=-10.6cm]current page.north west) rectangle (current page.south east);
+\fill[Teal] ([xshift=1.45cm,yshift=-10.25cm]current page.north west) rectangle ([xshift=7.45cm,yshift=-10.45cm]current page.north west);
+\end{tikzpicture}
+\vspace*{0.65cm}
+{\color{white}\sffamily\Large Group 15 Experiment Report\par}
+\vspace{0.55cm}
+{\color{white}\sffamily\fontsize{29}{35}\selectfont\bfseries
+Experiment 3\par Desktop Object\par Classification and Sorting\par}
+\vspace{0.5cm}
+{\color{white}\sffamily\large Simulation Workflow and Physical Sorting Verification\par}
+\vspace{2.3cm}
+\renewcommand{\arraystretch}{1.5}
+\noindent\begin{tabularx}{\textwidth}{@{}L{3.9cm}Y@{}}
+\textbf{\sffamily Course} & Robot Integration Group Project I\\
+\textbf{\sffamily University} & Ocean University of China\\
+\textbf{\sffamily Class / group} & Group 15\\
+\textbf{\sffamily Report type} & Group experiment report\\
+\textbf{\sffamily Platform} & Jetson, ROS 2, and mechArm 270\\
+\textbf{\sffamily Task} & Six source grids and two sorting areas
+\end{tabularx}
+\renewcommand{\arraystretch}{1.2}
+\vfill{\sffamily\color{Navy}\large\bfseries Revised September 22, 2026\par}
+\end{titlepage}
+\hypersetup{pageanchor=true}\pagenumbering{Roman}
+\input{sections/abstract}
+\clearpage\setcounter{tocdepth}{2}
+\begingroup
+\fontsize{10}{10.4}\selectfont\setlength{\parskip}{0pt}
+\makeatletter
+\patchcmd{\l@section}{\addvspace{1.0em \@plus\p@}}{\addvspace{0.20em \@plus\p@}}{}{}
+\makeatother
+\tableofcontents
+\endgroup
+\clearpage\pagenumbering{arabic}
+\input{sections/requirements}
+
+\input{sections/system}
+\input{sections/simulation}
+\input{sections/vision}
+\input{sections/motion}
+\input{sections/control}
+\input{sections/procedure}
+\input{sections/results}
+\input{sections/problems}
+\input{sections/conclusion}
+\clearpage\appendix
+\input{sections/appendix}
+\input{sections/references}
+\end{document}

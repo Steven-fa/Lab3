@@ -1,0 +1,19 @@
+验证日期：2026-09-14
+本机：Windows + WSL2 Ubuntu-22.04，ROS 2 Humble
+Python：3.10.12
+OpenCV：4.5.4
+Gazebo Classic：11.10.2
+
+编译：bash 01_build.sh
+mycobot_description、mecharm_270_m5_moveit_config、mecharm_task2、mecharm_task3
+结果：4 packages finished，BUILD_OK /home/robot/task3_ws_20260914
+
+图像接口回归检查（布局修正后）：
+python3 src/mecharm_task3/scripts/test_vision_contract.py
+Ran 5 tests in 0.087s
+OK
+
+包括 0°、30°、45°、65°、103° 方块识别置信度的回归检查。
+
+完整行为验证使用实际 Gazebo 运行，结果见实验要求核查与验收报告及 results。
+逆解探测、编译和单元检查均不单独作为自动整理任务通过的证据。

@@ -1,0 +1,245 @@
+{
+  "note": "Plan coordinates and actual joint telemetry are distinguished; full safety and correctness are in acceptance.json.",
+  "jobs": [
+    {
+      "grid_id": "2",
+      "class_id": "red_cube",
+      "bin_slot": 0,
+      "actual_samples_during_transfer": 24,
+      "actual_joint_ranges_deg": {
+        "joint1_to_base": [
+          87.028,
+          156.022
+        ],
+        "joint2_to_joint1": [
+          -5.949,
+          50.322
+        ],
+        "joint3_to_joint2": [
+          -62.825,
+          12.505
+        ],
+        "joint4_to_joint3": [
+          4.913,
+          5.021
+        ],
+        "joint5_to_joint4": [
+          80.924,
+          100.093
+        ],
+        "joint6_to_joint5": [
+          -69.695,
+          -66.674
+        ]
+      },
+      "planned_base_rotation_deg": 67.62,
+      "planned_max_adjacent_step_deg": 3.76,
+      "planned_front_y_min_m": 0.07,
+      "planned_z_range_m": [
+        0.065,
+        0.065
+      ],
+      "placed_xy_error_mm": 0.297
+    },
+    {
+      "grid_id": "6",
+      "class_id": "blue_cube",
+      "bin_slot": 2,
+      "actual_samples_during_transfer": 13,
+      "actual_joint_ranges_deg": {
+        "joint1_to_base": [
+          40.195,
+          61.425
+        ],
+        "joint2_to_joint1": [
+          31.041,
+          56.847
+        ],
+        "joint3_to_joint2": [
+          -74.445,
+          -31.801
+        ],
+        "joint4_to_joint3": [
+          4.913,
+          5.082
+        ],
+        "joint5_to_joint4": [
+          88.41,
+          105.165
+        ],
+        "joint6_to_joint5": [
+          -67.905,
+          -66.184
+        ]
+      },
+      "planned_base_rotation_deg": -24.094,
+      "planned_max_adjacent_step_deg": 6.019,
+      "planned_front_y_min_m": 0.125,
+      "planned_z_range_m": [
+        0.065,
+        0.065
+      ],
+      "placed_xy_error_mm": 0.278
+    },
+    {
+      "grid_id": "3",
+      "class_id": "red_cube",
+      "bin_slot": 1,
+      "actual_samples_during_transfer": 31,
+      "actual_joint_ranges_deg": {
+        "joint1_to_base": [
+          49.877,
+          155.658
+        ],
+        "joint2_to_joint1": [
+          -1.907,
+          5.921
+        ],
+        "joint3_to_joint2": [
+          0.632,
+          8.719
+        ],
+        "joint4_to_joint3": [
+          5.0,
+          5.016
+        ],
+        "joint5_to_joint4": [
+          80.916,
+          81.178
+        ],
+        "joint6_to_joint5": [
+          -69.518,
+          -69.174
+        ]
+      },
+      "planned_base_rotation_deg": 105.516,
+      "planned_max_adjacent_step_deg": 1.431,
+      "planned_front_y_min_m": 0.045,
+      "planned_z_range_m": [
+        0.065,
+        0.065
+      ],
+      "placed_xy_error_mm": 0.134
+    },
+    {
+      "grid_id": "1",
+      "class_id": "blue_cube",
+      "bin_slot": 0,
+      "actual_samples_during_transfer": 31,
+      "actual_joint_ranges_deg": {
+        "joint1_to_base": [
+          20.782,
+          124.135
+        ],
+        "joint2_to_joint1": [
+          -1.698,
+          50.323
+        ],
+        "joint3_to_joint2": [
+          -62.827,
+          8.514
+        ],
+        "joint4_to_joint3": [
+          4.913,
+          5.016
+        ],
+        "joint5_to_joint4": [
+          80.919,
+          100.093
+        ],
+        "joint6_to_joint5": [
+          -69.509,
+          -66.674
+        ]
+      },
+      "planned_base_rotation_deg": -105.025,
+      "planned_max_adjacent_step_deg": 2.299,
+      "planned_front_y_min_m": 0.07,
+      "planned_z_range_m": [
+        0.065,
+        0.065
+      ],
+      "placed_xy_error_mm": 0.306
+    },
+    {
+      "grid_id": "5",
+      "class_id": "red_cube",
+      "bin_slot": 2,
+      "actual_samples_during_transfer": 13,
+      "actual_joint_ranges_deg": {
+        "joint1_to_base": [
+          90.727,
+          136.675
+        ],
+        "joint2_to_joint1": [
+          30.653,
+          56.865
+        ],
+        "joint3_to_joint2": [
+          -74.481,
+          -31.227
+        ],
+        "joint4_to_joint3": [
+          4.913,
+          5.083
+        ],
+        "joint5_to_joint4": [
+          88.226,
+          105.182
+        ],
+        "joint6_to_joint5": [
+          -67.928,
+          -66.182
+        ]
+      },
+      "planned_base_rotation_deg": 48.24,
+      "planned_max_adjacent_step_deg": 3.195,
+      "planned_front_y_min_m": 0.125,
+      "planned_z_range_m": [
+        0.065,
+        0.065
+      ],
+      "placed_xy_error_mm": 0.273
+    },
+    {
+      "grid_id": "4",
+      "class_id": "blue_cube",
+      "bin_slot": 1,
+      "actual_samples_during_transfer": 23,
+      "actual_joint_ranges_deg": {
+        "joint1_to_base": [
+          19.438,
+          111.455
+        ],
+        "joint2_to_joint1": [
+          5.921,
+          28.683
+        ],
+        "joint3_to_joint2": [
+          -28.352,
+          0.632
+        ],
+        "joint4_to_joint3": [
+          4.922,
+          5.0
+        ],
+        "joint5_to_joint4": [
+          81.178,
+          87.328
+        ],
+        "joint6_to_joint5": [
+          -69.174,
+          -68.039
+        ]
+      },
+      "planned_base_rotation_deg": -92.256,
+      "planned_max_adjacent_step_deg": 1.431,
+      "planned_front_y_min_m": 0.045,
+      "planned_z_range_m": [
+        0.065,
+        0.065
+      ],
+      "placed_xy_error_mm": 0.072
+    }
+  ]
+}

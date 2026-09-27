@@ -1,0 +1,352 @@
+format: mecharm_experiment3_fixed_poses/v1
+updated_at: '2026-09-07T19:21:11'
+robot: mechArm 270 Pi
+connection:
+  host: 192.168.100.2
+  port: 9000
+grid_count: 6
+expected_pose_count: 17
+recorded_pose_count: 17
+complete: true
+classification:
+  cube:
+    source_classes:
+    - blue_cube
+    - green_cube
+    - pink_cube
+    - yellow_cube
+    destination: right
+  other:
+    source_classes:
+    - red_cuboid
+    - orange_bridge
+    destination: left
+gripper:
+  open: 100
+  close: 62
+  speed: 30
+pose_order:
+- safe
+- grid_1_approach
+- grid_1_grasp
+- grid_2_approach
+- grid_2_grasp
+- grid_3_approach
+- grid_3_grasp
+- grid_4_approach
+- grid_4_grasp
+- grid_5_approach
+- grid_5_grasp
+- grid_6_approach
+- grid_6_grasp
+- left_approach
+- left_release
+- right_approach
+- right_release
+poses:
+  safe:
+    index: 1
+    name: safe
+    captured_at: '2026-09-07T19:15:11.993'
+    joint_angles_deg:
+    - 7.03
+    - 30.14
+    - -30.84
+    - 151.17
+    - -96.32
+    - 134.2
+    tcp_coords_mm_deg:
+    - 142.7
+    - -9.6
+    - 162.3
+    - -162.45
+    - -23.85
+    - -132.72
+  grid_1_approach:
+    index: 2
+    name: grid_1_approach
+    captured_at: '2026-09-07T19:15:37.577'
+    joint_angles_deg:
+    - -45.08
+    - 9.58
+    - -3.77
+    - 146.51
+    - -88.41
+    - 134.2
+    tcp_coords_mm_deg:
+    - 55.5
+    - -99.8
+    - 165.8
+    - -158.56
+    - -26.61
+    - 177.79
+  grid_1_grasp:
+    index: 3
+    name: grid_1_grasp
+    captured_at: '2026-09-07T19:15:52.212'
+    joint_angles_deg:
+    - -44.29
+    - 32.08
+    - -3.69
+    - 145.01
+    - -71.01
+    - 134.2
+    tcp_coords_mm_deg:
+    - 77.1
+    - -118.0
+    - 114.6
+    - -166.71
+    - -30.76
+    - -167.69
+  grid_2_approach:
+    index: 4
+    name: grid_2_approach
+    captured_at: '2026-09-07T19:16:14.246'
+    joint_angles_deg:
+    - 1.4
+    - -10.45
+    - 34.27
+    - 149.5
+    - -74.44
+    - 134.2
+    tcp_coords_mm_deg:
+    - 69.2
+    - -25.9
+    - 133.7
+    - -167.3
+    - -27.23
+    - -125.39
+  grid_2_grasp:
+    index: 5
+    name: grid_2_grasp
+    captured_at: '2026-09-07T19:16:21.021'
+    joint_angles_deg:
+    - 1.49
+    - 1.93
+    - 35.41
+    - 149.41
+    - -50.09
+    - 134.2
+    tcp_coords_mm_deg:
+    - 92.4
+    - -19.6
+    - 111.9
+    - -163.94
+    - -17.96
+    - -115.88
+  grid_3_approach:
+    index: 6
+    name: grid_3_approach
+    captured_at: '2026-09-07T19:16:37.615'
+    joint_angles_deg:
+    - 52.55
+    - 12.39
+    - -12.48
+    - 148.09
+    - -90.26
+    - 134.2
+    tcp_coords_mm_deg:
+    - 94.9
+    - 74.9
+    - 173.8
+    - -156.63
+    - -22.36
+    - -86.43
+  grid_3_grasp:
+    index: 7
+    name: grid_3_grasp
+    captured_at: '2026-09-07T19:16:48.170'
+    joint_angles_deg:
+    - 52.99
+    - 17.22
+    - 16.61
+    - 149.67
+    - -52.55
+    - 134.2
+    tcp_coords_mm_deg:
+    - 91.4
+    - 83.7
+    - 113.0
+    - -162.4
+    - -17.75
+    - -66.02
+  grid_4_approach:
+    index: 8
+    name: grid_4_approach
+    captured_at: '2026-09-07T19:17:15.655'
+    joint_angles_deg:
+    - -24.78
+    - 55.72
+    - -57.3
+    - 146.68
+    - -93.51
+    - 134.2
+    tcp_coords_mm_deg:
+    - 146.9
+    - -101.9
+    - 135.7
+    - -156.35
+    - -24.2
+    - -165.65
+  grid_4_grasp:
+    index: 9
+    name: grid_4_grasp
+    captured_at: '2026-09-07T19:17:19.800'
+    joint_angles_deg:
+    - -24.96
+    - 66.35
+    - -57.3
+    - 147.04
+    - -86.48
+    - 134.2
+    tcp_coords_mm_deg:
+    - 153.8
+    - -105.4
+    - 101.6
+    - -160.36
+    - -27.33
+    - -160.27
+  grid_5_approach:
+    index: 10
+    name: grid_5_approach
+    captured_at: '2026-09-07T19:17:59.549'
+    joint_angles_deg:
+    - -1.93
+    - 33.13
+    - -31.72
+    - 150.11
+    - -91.49
+    - 134.2
+    tcp_coords_mm_deg:
+    - 147.1
+    - -33.1
+    - 156.4
+    - -160.09
+    - -22.94
+    - -140.24
+  grid_5_grasp:
+    index: 11
+    name: grid_5_grasp
+    captured_at: '2026-09-07T19:18:04.314'
+    joint_angles_deg:
+    - -1.31
+    - 52.2
+    - -31.72
+    - 151.08
+    - -77.87
+    - 134.2
+    tcp_coords_mm_deg:
+    - 166.0
+    - -30.5
+    - 101.6
+    - -167.49
+    - -26.29
+    - -130.15
+  grid_6_approach:
+    index: 12
+    name: grid_6_approach
+    captured_at: '2026-09-07T19:19:06.377'
+    joint_angles_deg:
+    - 25.22
+    - 60.99
+    - -76.99
+    - 154.07
+    - -99.31
+    - 134.2
+    tcp_coords_mm_deg:
+    - 174.9
+    - 55.4
+    - 147.8
+    - -156.7
+    - -12.13
+    - -117.29
+  grid_6_grasp:
+    index: 13
+    name: grid_6_grasp
+    captured_at: '2026-09-07T19:19:13.552'
+    joint_angles_deg:
+    - 25.48
+    - 73.21
+    - -76.99
+    - 153.36
+    - -90.96
+    - 134.2
+    tcp_coords_mm_deg:
+    - 185.3
+    - 60.3
+    - 108.7
+    - -158.69
+    - -16.56
+    - -112.98
+  left_approach:
+    index: 14
+    name: left_approach
+    captured_at: '2026-09-07T19:20:09.646'
+    joint_angles_deg:
+    - -51.85
+    - 64.16
+    - -73.38
+    - 152.92
+    - -99.66
+    - 134.2
+    tcp_coords_mm_deg:
+    - 92.3
+    - -158.5
+    - 132.3
+    - -160.25
+    - -18.34
+    - 166.19
+  left_release:
+    index: 15
+    name: left_release
+    captured_at: '2026-09-07T19:20:14.181'
+    joint_angles_deg:
+    - -52.2
+    - 73.82
+    - -73.38
+    - 152.75
+    - -88.94
+    - 134.2
+    tcp_coords_mm_deg:
+    - 97.6
+    - -168.1
+    - 100.8
+    - -159.89
+    - -18.78
+    - 170.58
+  right_approach:
+    index: 16
+    name: right_approach
+    captured_at: '2026-09-07T19:20:59.825'
+    joint_angles_deg:
+    - 63.1
+    - 50.09
+    - -50.0
+    - 150.2
+    - -86.22
+    - 134.2
+    tcp_coords_mm_deg:
+    - 104.7
+    - 144.6
+    - 139.0
+    - -155.95
+    - -18.5
+    - -74.04
+  right_release:
+    index: 17
+    name: right_release
+    captured_at: '2026-09-07T19:21:05.829'
+    joint_angles_deg:
+    - 62.92
+    - 60.9
+    - -50.0
+    - 150.46
+    - -79.27
+    - 134.2
+    tcp_coords_mm_deg:
+    - 108.4
+    - 152.0
+    - 104.8
+    - -160.0
+    - -21.44
+    - -69.44

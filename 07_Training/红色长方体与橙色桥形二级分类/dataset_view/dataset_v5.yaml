@@ -1,0 +1,11 @@
+path: F:/PycharmProjects/robomaster/artifacts/experiment3_hard_negative_20260912_140758/dataset_v3
+train: F:/PycharmProjects/robomaster/artifacts/experiment3_v5_red_orange_20260914/dataset_view/train_red_orange_focus.txt
+val: images/val
+test: images/test
+names:
+  0: blue_cube
+  1: green_cube
+  2: pink_cube
+  3: yellow_cube
+  4: red_cuboid
+  5: orange_bridge

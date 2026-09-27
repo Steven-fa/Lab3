@@ -1,0 +1,7 @@
+numpy
+PyYAML
+scipy
+opencv-python
+ultralytics
+pymycobot
+
